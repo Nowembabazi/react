@@ -31,7 +31,7 @@ const Index2 = () => {
                     <div className="hero-content text-white text-center">
                       <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Uganda Tourism &amp; Expo 2024
+                        Utalii Tourism &amp; Expo 2024
                       </h1>
                       <div
                         className="hero-button"
@@ -65,7 +65,7 @@ const Index2 = () => {
                     <div className="hero-content text-white text-center">
                       <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                       Uganda Tourism &amp; Expo 2024
+                       Utalii Tourism &amp; Expo 2024
                       </h1>
                       <div
                         className="hero-button"

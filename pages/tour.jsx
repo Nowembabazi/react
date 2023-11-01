@@ -5,7 +5,7 @@ import Link from "next/link";
 const Tour = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Explore Tour Place"} />
+      <PageBanner pageTitle={"Explore Uganda With us"} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section pb-100">
         <div className="container-fluid">
@@ -69,10 +69,10 @@ const Tour = () => {
       {/*====== End Booking Section ======*/}
       {/*====== Start Places Section ======*/}
       <section className="places-section pb-100">
-        <div className="container">
+        {/* <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+            
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -138,7 +138,7 @@ const Tour = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+            
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -204,7 +204,7 @@ const Tour = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+             
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -270,7 +270,7 @@ const Tour = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+              
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -336,7 +336,7 @@ const Tour = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+             
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -402,7 +402,7 @@ const Tour = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+            
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -468,7 +468,7 @@ const Tour = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+             
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -534,7 +534,7 @@ const Tour = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+             
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -600,7 +600,7 @@ const Tour = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-              {/*=== Single Place Item ===*/}
+              
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
@@ -668,7 +668,7 @@ const Tour = () => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              {/*=== Gowilds Pagination ===*/}
+             
               <ul className="gowilds-pagination wow fadeInUp text-center">
                 <li>
                   <a href="#">
@@ -697,11 +697,12 @@ const Tour = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
+        <h1>about us content to go here.</h1>
       </section>
       {/*====== End Places Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
     </Layout>
   );

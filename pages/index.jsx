@@ -30,7 +30,7 @@ const Index = () => {
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Uganda Tourism &amp; Expo 2024
+                        Utalii Tourism &amp; Expo 2024
                       </h1>
                       <div className="text-button d-flex align-items-center">
                         <p data-animation="fadeInLeft" data-delay=".5s">
@@ -72,7 +72,7 @@ const Index = () => {
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Uganda Tourism &amp; Expo 2024
+                        Utalii Tourism &amp; Expo 2024
                       </h1>
                       <div className="text-button d-flex align-items-center">
                         <p data-animation="fadeInLeft" data-delay=".5s">
