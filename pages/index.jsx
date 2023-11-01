@@ -29,9 +29,9 @@ const Index = () => {
                   <div className="col-xl-6">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Travel &amp; Adventure Camping
-                      </h1>
+                      <h2 data-animation="fadeInDown" data-delay=".4s">
+                        Uganda Tourism &amp; Expo 2024
+                      </h2>
                       <div className="text-button d-flex align-items-center">
                         <p data-animation="fadeInLeft" data-delay=".5s">
                           Nunc et dui nullam aliquam eget velit. Consectetur
@@ -72,7 +72,7 @@ const Index = () => {
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Travel &amp; Adventure Tour
+                        Uganda Tourism &amp; Expo 2024
                       </h1>
                       <div className="text-button d-flex align-items-center">
                         <p data-animation="fadeInLeft" data-delay=".5s">

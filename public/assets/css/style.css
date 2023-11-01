@@ -417,6 +417,7 @@ button {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+
 .main-btn i {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -427,6 +428,7 @@ button {
   border-radius: 50%;
   font-size: 18px;
 }
+
 .main-btn.filled-btn {
   padding: 2px 3px 2px 40px;
   background-color: transparent;

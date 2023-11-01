@@ -13,8 +13,8 @@ const Header2 = () => {
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
-                    src="assets/images/logo/logo-white.png"
-                    alt="Site Logo"
+                    // src="assets/images/logo/logo-white.png"
+                    // alt="Site Logo"
                   />
                 </a>
               </Link>

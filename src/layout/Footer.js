@@ -17,7 +17,7 @@ const Footer = ({ bg, extraClass }) => {
                 </div>
                 <div className="content">
                   <h3 className="title">
-                    Need Any Support For Tour &amp; Travels ?
+                    Need Any Support For Tour &amp; Tourism Expo ?
                   </h3>
                   <a href="#" className="icon-btn">
                     <i className="far fa-long-arrow-right" />
@@ -56,14 +56,14 @@ const Footer = ({ bg, extraClass }) => {
                     physica exercise except obsome
                   </p>
                   <a href="#" className="footer-logo">
-                    <img
+                    {/* <img
                       src={
                         bg === "gray"
                           ? "assets/images/logo/logo-black.png"
                           : "assets/images/logo/logo-white.png"
                       }
                       alt="Site Logo"
-                    />
+                    /> */}
                   </a>
                 </div>
               </div>
@@ -75,19 +75,19 @@ const Footer = ({ bg, extraClass }) => {
                 <div className="footer-content">
                   <ul className="footer-widget-nav">
                     <li>
-                      <a href="#">Caravan Soler Tent</a>
+                      <a href="#">Expo</a>
                     </li>
                     <li>
-                      <a href="#">Family Tent Camping</a>
+                      <a href="#">Expo</a>
                     </li>
                     <li>
-                      <a href="#">Classic Tent Camping</a>
+                      <a href="#">Expo</a>
                     </li>
                     <li>
-                      <a href="#">Wild Tent Camping</a>
+                      <a href="#">Expo</a>
                     </li>
                     <li>
-                      <a href="#">Small Cabin Wood</a>
+                      <a href="#">Expo</a>
                     </li>
                   </ul>
                   <ul className="footer-widget-nav">
