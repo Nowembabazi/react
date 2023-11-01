@@ -17,7 +17,7 @@ const Footer = ({ bg, extraClass }) => {
                 </div>
                 <div className="content">
                   <h3 className="title">
-                    Need Any Support For Tour &amp; Tourism Expo ?
+                    Need Any Support For The &amp; Tourism Expo ?
                   </h3>
                   <a href="#" className="icon-btn">
                     <i className="far fa-long-arrow-right" />
@@ -52,8 +52,7 @@ const Footer = ({ bg, extraClass }) => {
                 <h4 className="widget-title">About</h4>
                 <div className="footer-content">
                   <p>
-                    To take trivial example which us ever undertakes laborious
-                    physica exercise except obsome
+                   More text will be typed in here
                   </p>
                   <a href="#" className="footer-logo">
                     {/* <img
@@ -113,8 +112,7 @@ const Footer = ({ bg, extraClass }) => {
                 <h4 className="widget-title">Newsletter</h4>
                 <div className="footer-content">
                   <p>
-                    Which of us ever undertake laborious physical exercise
-                    except obtain
+                  WE WILL HAVE TEXT IN HERE.
                   </p>
                   <form>
                     <div className="form_group">
@@ -142,7 +140,7 @@ const Footer = ({ bg, extraClass }) => {
               {/*=== Footer Text ===*/}
               <div className="footer-text">
                 <p>
-                  Copy@ 2023 <span style={{ color: "#F7921E" }}>GoWilds</span>,
+                  Copy@ 2024 <span style={{ color: "#F7921E" }}>UATE</span>,
                   All Right Reserved
                 </p>
               </div>
@@ -154,9 +152,7 @@ const Footer = ({ bg, extraClass }) => {
                   <li>
                     <a href="#">Setting &amp; privacy</a>
                   </li>
-                  <li>
-                    <a href="#">Faqs</a>
-                  </li>
+                 
                   <li>
                     <a href="#">Support</a>
                   </li>

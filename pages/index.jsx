@@ -111,12 +111,12 @@ const Index = () => {
       </section>
       {/*====== End Hero Section ======*/}
       {/*====== Start About Section ======*/}
-      <section className="about-section pt-100">
+      {/* <section className="about-section pt-100">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-9">
               {/*=== About Content Box ===*/}
-              <div className="about-content-box text-center mb-55 wow fadeInDown">
+              {/* <div className="about-content-box text-center mb-55 wow fadeInDown">
                 <div className="section-title mb-30">
                   <span className="sub-title">About Company</span>
                   <h2>We Are Most Funning Company About Travel &amp; Tours</h2>
@@ -134,9 +134,9 @@ const Index = () => {
           <Slider
             {...sliderActive4Item}
             className="slider-active-4-item wow fadeInUp"
-          >
+          > */} */
             {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
+            {/* <div className="single-features-item mb-40">
               <div className="img-holder">
                 <img
                   src="assets/images/features/feat-1.jpg"
@@ -152,9 +152,9 @@ const Index = () => {
                   <p>Set unde omnis estenatus voluptatem aperiae.</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
+            {/* <div className="single-features-item mb-40">
               <div className="img-holder">
                 <img
                   src="assets/images/features/feat-2.jpg"
@@ -170,9 +170,9 @@ const Index = () => {
                   <p>Set unde omnis estenatus voluptatem aperiae.</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
+            {/* <div className="single-features-item mb-40">
               <div className="img-holder">
                 <img
                   src="assets/images/features/feat-3.jpg"
@@ -188,9 +188,9 @@ const Index = () => {
                   <p>Set unde omnis estenatus voluptatem aperiae.</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
+            {/* <div className="single-features-item mb-40">
               <div className="img-holder">
                 <img
                   src="assets/images/features/feat-4.jpg"
@@ -206,9 +206,9 @@ const Index = () => {
                   <p>Set unde omnis estenatus voluptatem aperiae.</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
+            {/* <div className="single-features-item mb-40">
               <div className="img-holder">
                 <img
                   src="assets/images/features/feat-1.jpg"
@@ -224,9 +224,9 @@ const Index = () => {
                   <p>Set unde omnis estenatus voluptatem aperiae.</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
+            {/* <div className="single-features-item mb-40">
               <div className="img-holder">
                 <img
                   src="assets/images/features/feat-2.jpg"
@@ -241,10 +241,10 @@ const Index = () => {
                   </div>
                   <p>Set unde omnis estenatus voluptatem aperiae.</p>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
             {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
+            {/* <div className="single-features-item mb-40">
               <div className="img-holder">
                 <img
                   src="assets/images/features/feat-3.jpg"
@@ -260,9 +260,9 @@ const Index = () => {
                   <p>Set unde omnis estenatus voluptatem aperiae.</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
+            {/* <div className="single-features-item mb-40">
               <div className="img-holder">
                 <img
                   src="assets/images/features/feat-4.jpg"
@@ -281,15 +281,15 @@ const Index = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
       {/*====== End Hero Section ======*/}
       {/*====== Start Booking Section ======*/}
-      <section className="booking-section pt-60 pb-50">
+      {/* <section className="booking-section pt-60 pb-50">
         <div className="container">
           <div className="row align-items-xl-center">
             <div className="col-lg-6">
               {/*=== Booking Content Box ===*/}
-              <div className="booking-content-box mb-50 wow fadeInLeft">
+              {/* <div className="booking-content-box mb-50 wow fadeInLeft">
                 <div className="section-title mb-50">
                   <span className="sub-title">Availability</span>
                   <h2>Booking Your Best Tour Camping Availability</h2>
@@ -370,9 +370,9 @@ const Index = () => {
                 </form>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6"> */} 
               {/*=== Booking Image Box ===*/}
-              <div className="booking-image-box mb-50 ml-lg-45 wow fadeInRight">
+              {/* <div className="booking-image-box mb-50 ml-lg-45 wow fadeInRight">
                 <img
                   src="assets/images/contact/contact-1.jpg"
                   className="radius-60"
@@ -382,10 +382,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Hero Section ======*/}
       {/*====== Start Activity Section ======*/}
-      <section className="activity-section">
+      {/* <section className="activity-section">
         <div className="activity-wrapper-bgc  text-white black-bg">
           <div className="container">
             <div className="row justify-content-center">
@@ -398,9 +398,9 @@ const Index = () => {
             </div>
             <Tab.Container defaultActiveKey={"tab1"}>
               <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4"> */}
                   {/*=== Activity Nav Tab ===*/}
-                  <div className="activity-nav-tab mb-50 wow fadeInLeft">
+                  {/* <div className="activity-nav-tab mb-50 wow fadeInLeft">
                     <Nav as="ul" className="nav nav-tabs">
                       <Nav.Item as="li">
                         <Nav.Link
@@ -465,15 +465,15 @@ const Index = () => {
                     </Nav>
                   </div>
                 </div>
-                <div className="col-lg-8">
+                <div className="col-lg-8"> */}
                   {/*=== Tab Content ===*/}
-                  <Tab.Content className="tab-content mb-50 wow fadeInRight">
+                  {/* <Tab.Content className="tab-content mb-50 wow fadeInRight">
                     {/*=== Tab Pane ===*/}
-                    <Tab.Pane className="tab-pane fade" eventKey="tab1">
+                    {/* <Tab.Pane className="tab-pane fade" eventKey="tab1">
                       <div className="row align-items-center">
-                        <div className="col-md-6">
+                        <div className="col-md-6"> */}
                           {/*=== Activity Content Box ===*/}
-                          <div className="activity-content-box pl-lg-40">
+                          {/* <div className="activity-content-box pl-lg-40">
                             <div className="icon">
                               <i className="flaticon-camp" />
                             </div>
@@ -501,9 +501,9 @@ const Index = () => {
                             </ul>
                           </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6"> */} 
                           {/*=== Activity Image Box ===*/}
-                          <div className="activity-image-box">
+                          {/* <div className="activity-image-box">
                             <img
                               src="assets/images/gallery/activity.jpg"
                               className="radius-12"
@@ -512,13 +512,13 @@ const Index = () => {
                           </div>
                         </div>
                       </div>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                     {/*=== Tab Pane ===*/}
-                    <Tab.Pane className="tab-pane fade" eventKey="tab2">
+                    {/* <Tab.Pane className="tab-pane fade" eventKey="tab2">
                       <div className="row align-items-center">
-                        <div className="col-md-6">
+                        <div className="col-md-6"> */}
                           {/*=== Activity Content Box ===*/}
-                          <div className="activity-content-box pl-lg-40">
+                          {/* <div className="activity-content-box pl-lg-40">
                             <div className="icon">
                               <i className="flaticon-camp" />
                             </div>
@@ -546,9 +546,9 @@ const Index = () => {
                             </ul>
                           </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6"> */}
                           {/*=== Acctivity Image Box ===*/}
-                          <div className="activity-image-box">
+                          {/* <div className="activity-image-box">
                             <img
                               src="assets/images/gallery/activity.jpg"
                               className="radius-12"
@@ -559,11 +559,11 @@ const Index = () => {
                       </div>
                     </Tab.Pane>
                     {/*=== Tab Pane ===*/}
-                    <Tab.Pane className="tab-pane fade" eventKey="tab3">
+                    {/* <Tab.Pane className="tab-pane fade" eventKey="tab3">
                       <div className="row align-items-center">
-                        <div className="col-md-6">
+                        <div className="col-md-6"> */} *
                           {/*=== Activity Content Box ===*/}
-                          <div className="activity-content-box pl-lg-40">
+                          {/* <div className="activity-content-box pl-lg-40">
                             <div className="icon">
                               <i className="flaticon-camp" />
                             </div>
@@ -593,7 +593,7 @@ const Index = () => {
                         </div>
                         <div className="col-lg-6">
                           {/*=== Activity Image Box ===*/}
-                          <div className="activity-image-box">
+                          {/* <div className="activity-image-box">
                             <img
                               src="assets/images/gallery/activity.jpg"
                               className="radius-12"
@@ -601,14 +601,14 @@ const Index = () => {
                             />
                           </div>
                         </div>
-                      </div>
-                    </Tab.Pane>
+                      </div> */}
+                    {/* </Tab.Pane>  */}
                     {/*=== Tab Pane ===*/}
-                    <Tab.Pane className="tab-pane fade" eventKey="tab4">
+                    {/* <Tab.Pane className="tab-pane fade" eventKey="tab4">
                       <div className="row align-items-center">
                         <div className="col-md-6">
                           {/*=== Activity Content Box ===*/}
-                          <div className="activity-content-box pl-lg-40">
+                          {/* <div className="activity-content-box pl-lg-40">
                             <div className="icon">
                               <i className="flaticon-camp" />
                             </div>
@@ -636,10 +636,10 @@ const Index = () => {
                             </ul>
                           </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6"> */} 
                           {/*=== Activity Image Box ===*/}
-                          <div className="activity-image-box">
-                            <img
+                          {/* <div className="activity-image-box"> */}
+                            {/* <img
                               src="assets/images/gallery/activity.jpg"
                               className="radius-12"
                               alt="Image"
@@ -647,13 +647,13 @@ const Index = () => {
                           </div>
                         </div>
                       </div>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                     {/*=== Tab Pane ===*/}
-                    <Tab.Pane className="tab-pane fade" eventKey="tab5">
+                    {/* <Tab.Pane className="tab-pane fade" eventKey="tab5">
                       <div className="row align-items-center">
-                        <div className="col-md-6">
+                        <div className="col-md-6"> */}
                           {/*=== Activity Content Box ===*/}
-                          <div className="activity-content-box pl-lg-40">
+                          {/* <div className="activity-content-box pl-lg-40">
                             <div className="icon">
                               <i className="flaticon-camp" />
                             </div>
@@ -681,9 +681,9 @@ const Index = () => {
                             </ul>
                           </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6"> */}
                           {/*=== Activity Image Box ===*/}
-                          <div className="activity-image-box">
+                          {/* <div className="activity-image-box">
                             <img
                               src="assets/images/gallery/activity.jpg"
                               className="radius-12"
@@ -692,13 +692,13 @@ const Index = () => {
                           </div>
                         </div>
                       </div>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                     {/*=== Tab Pane ===*/}
-                    <Tab.Pane className="tab-pane fade" eventKey="tab6">
+                    {/* <Tab.Pane className="tab-pane fade" eventKey="tab6">
                       <div className="row align-items-center">
-                        <div className="col-md-6">
+                        <div className="col-md-6"> */}
                           {/*=== Activity Cotent Box ===*/}
-                          <div className="activity-content-box pl-lg-40">
+                          {/* <div className="activity-content-box pl-lg-40">
                             <div className="icon">
                               <i className="flaticon-camp" />
                             </div>
@@ -726,9 +726,9 @@ const Index = () => {
                             </ul>
                           </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6"> */}
                           {/*=== Activity Image ===*/}
-                          <div className="activity-image-box">
+                          {/* <div className="activity-image-box">
                             <img
                               src="assets/images/gallery/activity.jpg"
                               className="radius-12"
@@ -744,14 +744,14 @@ const Index = () => {
             </Tab.Container>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Activity Section ======*/}
       {/*====== Start Services Section ======*/}
-      <section className="services-seciton pt-100">
+      {/* <section className="services-seciton pt-100">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
-              {/*=== Section Title ===*/}
+            
               <div className="section-title text-center mb-60 wow fadeInDown">
                 <span className="sub-title">Popular Services</span>
                 <h2>Amazing Adventure Camping Services for Enjoyed</h2>
@@ -762,7 +762,7 @@ const Index = () => {
             {...sliderActive3Item}
             className="slider-active-3-item wow fadeInUp"
           >
-            {/*=== Single Service Item ===*/}
+            
             <div className="single-service-item mb-40">
               <div className="content">
                 <h3 className="title">
@@ -799,7 +799,7 @@ const Index = () => {
                 />
               </div>
             </div>
-            {/*=== Single Service Item ===*/}
+            
             <div className="single-service-item mb-40">
               <div className="content">
                 <h3 className="title">
@@ -836,7 +836,7 @@ const Index = () => {
                 />
               </div>
             </div>
-            {/*=== Single Service Item ===*/}
+            
             <div className="single-service-item mb-40">
               <div className="content">
                 <h3 className="title">
@@ -873,7 +873,7 @@ const Index = () => {
                 />
               </div>
             </div>
-            {/*=== Single Service Item ===*/}
+            
             <div className="single-service-item mb-40">
               <div className="content">
                 <h3 className="title">
@@ -913,13 +913,12 @@ const Index = () => {
           </Slider>
         </div>
       </section>
-      {/*====== End Services Section ======*/}
-      {/*====== Start Features Section ======*/}
+    
       <section className="features-section pb-60">
         <div className="container">
           <div className="row">
             <div className="col-xl-4 col-lg-6 col-md-12">
-              {/*=== Fancy Icon Box ===*/}
+            
               <div className="fancy-icon-box mb-30 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-rabbit" />
@@ -934,7 +933,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-6 col-md-12">
-              {/*=== Fancy Icon Box ===*/}
+             
               <div className="fancy-icon-box mb-30 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-wifi-router" />
@@ -949,7 +948,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-6 col-md-12">
-              {/*=== Fancy Icon Box ===*/}
+             
               <div className="fancy-icon-box mb-30 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-solar-energy" />
@@ -964,7 +963,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-6 col-md-12">
-              {/*=== Fancy Icon Box ===*/}
+           
               <div className="fancy-icon-box mb-30 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-cycling" />
@@ -979,7 +978,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-6 col-md-12">
-              {/*=== Fancy Icon Box ===*/}
+          
               <div className="fancy-icon-box mb-30 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-fishing" />
@@ -994,7 +993,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-6 col-md-12">
-              {/*=== Fancy Icon Box ===*/}
+              
               <div className="fancy-icon-box mb-30 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-gym" />
@@ -1011,8 +1010,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/*====== End Features Section ======*/}
-      {/*====== Start CTA Section ======*/}
+     
       <section
         className="cta-bg overlay bg_cover pt-140 pb-150"
         style={{ backgroundImage: "url(assets/images/bg/cta-bg.jpg)" }}
@@ -1020,7 +1018,7 @@ const Index = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8">
-              {/*=== CTA Content Box ===*/}
+            
               <div className="cta-content-box text-center text-white wow fadeInDown">
                 <h2 className="mb-35">
                   Ready to Travel With Real Adventure and Enjoy Natural
@@ -1036,13 +1034,12 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/*====== End CTA Section ======*/}
-      {/*====== Start Fact Section ======*/}
+     
       <section className="fact-section pt-100">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-sm-6">
-              {/*=== Counter Item ===*/}
+           
               <div className="single-counter-item text-center mb-40 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-journey" />
@@ -1054,7 +1051,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              {/*=== Counter Item ===*/}
+             
               <div className="single-counter-item text-center mb-40 wow fadeInDown">
                 <div className="icon">
                   <i className="flaticon-tent-1" />
@@ -1066,7 +1063,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
-              {/*=== Counter Item ===*/}
+            
               <div className="single-counter-item text-center mb-40 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-reviews" />
@@ -1079,7 +1076,7 @@ const Index = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               {/*=== Counter Item ===*/}
-              <div className="single-counter-item text-center mb-40 wow fadeInDown">
+              {/* <div className="single-counter-item text-center mb-40 wow fadeInDown">
                 <div className="icon">
                   <i className="flaticon-award" />
                 </div>
@@ -1091,14 +1088,13 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
-      {/*====== End Fact Section ======*/}
-      {/*====== Start Testimonial Section ======*/}
-      <section className="testimonial-section pt-60">
+      </section> */}
+     
+      {/* <section className="testimonial-section pt-60">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8">
-              {/*=== Section Title ===*/}
+             
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">Testimonials</span>
                 <h2>What Our Traveler Say About Our Tour Services</h2>
@@ -1107,7 +1103,7 @@ const Index = () => {
           </div>
           <div className="row align-items-xl-center">
             <div className="col-xl-5 col-lg-12 order-2 order-xl-1">
-              {/*=== Testimonial Image ===*/}
+             
               <div className="testimonial-one_image-box mb-40 wow fadeInLeft">
                 <img
                   src="assets/images/testimonial/testimonial-1.jpg"
@@ -1116,12 +1112,12 @@ const Index = () => {
               </div>
             </div>
             <div className="col-xl-7 col-lg-12 order-1 order-xl-2">
-              {/*=== Testimonial Slider ===*/}
+             
               <Slider
                 {...testimonialSliderOne}
                 className="testimonial-slider-one pl-lg-55 mb-40 wow fadeInRight"
               >
-                {/*=== Testimonial Item ===*/}
+                
                 <div className="gw-testimonial-item">
                   <div className="testimonial-inner-content">
                     <div className="quote-rating-box">
@@ -1171,7 +1167,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                {/*=== Testimonial Item ===*/}
+               
                 <div className="gw-testimonial-item">
                   <div className="testimonial-inner-content">
                     <div className="quote-rating-box">
@@ -1221,7 +1217,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                {/*=== Testimonial Item ===*/}
+              
                 <div className="gw-testimonial-item">
                   <div className="testimonial-inner-content">
                     <div className="quote-rating-box">
@@ -1276,13 +1272,12 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/*====== End Testimonial Section ======*/}
-      {/*====== Start Blog Section ======*/}
+    
       <section className="blog-section pt-60 pb-60">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6">
-              {/*=== Section Title ===*/}
+            
               <div className="section-title text-center mb-45 wow fadeInDown">
                 <span className="sub-title">News &amp; Blog</span>
                 <h2>Amazing News &amp; Blog For Every Single Update</h2>
@@ -1291,7 +1286,7 @@ const Index = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*=== Single Blog Post ===*/}
+             
               <div className="single-blog-post mb-40 wow fadeInUp">
                 <div className="post-thumbnail">
                   <img src="assets/images/blog/blog-1.jpg" alt="Post Image" />
@@ -1321,7 +1316,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*=== Single Blog Post ===*/}
+             
               <div className="single-blog-post mb-40 wow fadeInUp">
                 <div className="post-thumbnail">
                   <img src="assets/images/blog/blog-2.jpg" alt="Post Image" />
@@ -1351,7 +1346,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*=== Single Blog Post ===*/}
+             
               <div className="single-blog-post mb-40 wow fadeInUp">
                 <div className="post-thumbnail">
                   <img src="assets/images/blog/blog-3.jpg" alt="Post Image" />
@@ -1382,10 +1377,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */} 
       {/*====== End Blog Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
       <footer className="main-footer black-bg pt-230">
         <div className="container">
@@ -1400,7 +1395,7 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <p>55 Main Street, Australia</p>
+                    <p>Kampala, Uganda</p>
                   </div>
                 </div>
               </div>
@@ -1413,7 +1408,7 @@ const Index = () => {
                   <div className="info">
                     <span className="title">Email</span>
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:support@gmail.com">contact@africatourismexpo.com</a>
                     </p>
                   </div>
                 </div>
@@ -1427,7 +1422,7 @@ const Index = () => {
                   <div className="info">
                     <span className="title">Hotline</span>
                     <p>
-                      <a href="tel:+000(123)456898">+000 (123) 456 898</a>
+                      <a href="tel:+000(123)456898">+000 (000) 000000</a>
                     </p>
                   </div>
                 </div>
@@ -1470,14 +1465,16 @@ const Index = () => {
                   <h4 className="widget-title">About</h4>
                   <div className="footer-content">
                     <p>
-                      To take trivial example which us ever undertakes laborious
-                      physica exercise except obsome
+                      We will have text here. text of your choice.
                     </p>
                     <a href="#" className="footer-logo">
-                      <img
+
+                      <h2>logo goes here</h2>
+                      {/* <img
+                    
                         src="assets/images/logo/logo-white.png"
                         alt="Site Logo"
-                      />
+                      /> */}
                     </a>
                   </div>
                 </div>
@@ -1489,19 +1486,19 @@ const Index = () => {
                   <div className="footer-content">
                     <ul className="footer-widget-nav">
                       <li>
-                        <a href="#">Caravan Soler Tent</a>
+                        <a href="#">Expo</a>
                       </li>
                       <li>
-                        <a href="#">Family Tent Camping</a>
+                        <a href="#"> Camping</a>
                       </li>
                       <li>
-                        <a href="#">Classic Tent Camping</a>
+                        <a href="#"> Camping</a>
                       </li>
                       <li>
-                        <a href="#">Wild Tent Camping</a>
+                        <a href="#">Wild  Camping</a>
                       </li>
                       <li>
-                        <a href="#">Small Cabin Wood</a>
+                        <a href="#"> Wood</a>
                       </li>
                     </ul>
                     <ul className="footer-widget-nav">
@@ -1527,8 +1524,7 @@ const Index = () => {
                   <h4 className="widget-title">Newsletter</h4>
                   <div className="footer-content">
                     <p>
-                      Which of us ever undertake laborious physical exercise
-                      except obtain
+                     Come and experience the beauty of tourism in Uganda.
                     </p>
                     <form>
                       <div className="form_group">
@@ -1556,7 +1552,7 @@ const Index = () => {
                 {/*=== Footer Text ===*/}
                 <div className="footer-text">
                   <p>
-                    Copy@ 2023 <span style={{ color: "#F7921E" }}>GoWilds</span>
+                    Copy@ 2024 <span style={{ color: "#F7921E" }}>UATE</span>
                     , All Right Reserved
                   </p>
                 </div>
@@ -1568,9 +1564,7 @@ const Index = () => {
                     <li>
                       <a href="#">Setting &amp; privacy</a>
                     </li>
-                    <li>
-                      <a href="#">Faqs</a>
-                    </li>
+                   
                     <li>
                       <a href="#">Support</a>
                     </li>

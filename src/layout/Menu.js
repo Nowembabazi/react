@@ -51,14 +51,14 @@ const DeskTopMenu = () => {
                 <i className="far fa-angle-down" />
               </span>
             </a>
-            <ul className="sub-menu">
+            {/* <ul className="sub-menu">
               <li>
                 <Link href="tour">About UATE</Link>
               </li>
               <li>
                 <Link href="tour-details">UATE Details</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="menu-item has-children">
             <a href="#">
@@ -67,14 +67,14 @@ const DeskTopMenu = () => {
                 <i className="far fa-angle-down" />
               </span>
             </a>
-            <ul className="sub-menu">
+            {/* <ul className="sub-menu">
               <li>
                 <Link href="destination">Destination</Link>
               </li>
               <li>
                 <Link href="destination-details">Destination Details</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="menu-item has-children">
             <a href="#">
@@ -84,12 +84,12 @@ const DeskTopMenu = () => {
               </span>
             </a>
             <ul className="sub-menu">
-              <li>
+              {/* <li>
                 <Link href="blog-list">Blog List</Link>
               </li>
               <li>
                 <Link href="blog-details">Blog Details</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="menu-item has-children">
@@ -100,7 +100,7 @@ const DeskTopMenu = () => {
               </span>
             </a>
             <ul className="sub-menu">
-              <li>
+              {/* <li>
                 <Link href="about">About Us</Link>
               </li>
               <li>
@@ -117,7 +117,7 @@ const DeskTopMenu = () => {
               </li>
               <li>
                 <Link href="contact">Contact</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="menu-item search-item">
@@ -169,18 +169,18 @@ const MobileMenu = () => {
         </li>
         <li className="menu-item has-children">
           <a href="#">
-            Tours
+            About UATE
             <span className="dd-trigger" onClick={() => activeMenuSet("Tours")}>
               <i className="far fa-angle-down" />
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("Tours")}>
-            <li>
+            {/* <li>
               <Link href="tour">About UATE</Link>
             </li>
             <li>
               <Link href="tour-details">UATE Details</Link>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li className="menu-item has-children">
@@ -194,12 +194,12 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("Destination")}>
-            <li>
+            {/* <li>
               <Link href="destination">Destination</Link>
             </li>
             <li>
               <Link href="destination-details">Destination Details</Link>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li className="menu-item has-children">
@@ -210,12 +210,12 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("Blog")}>
-            <li>
+            {/* <li>
               <Link href="blog-list">Blog List</Link>
             </li>
             <li>
               <Link href="blog-details">Blog Details</Link>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li className="menu-item has-children">
@@ -226,7 +226,7 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("Pages")}>
-            <li>
+            {/* <li>
               <Link href="about">About Us</Link>
             </li>
             <li>
@@ -243,7 +243,7 @@ const MobileMenu = () => {
             </li>
             <li>
               <Link href="contact">Contact</Link>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li className="menu-item search-item">

@@ -85,79 +85,14 @@ const Index2 = () => {
               </div>
             </div>
             {/*=== Single Slider ===*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-3.jpg)",
-                }}
-              />
-              <div className="container-fluid">
-                <div className="row justify-content-center">
-                  <div className="col-xl-9">
-                    {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Uganda Tourism &amp; Expo 2024
-                      </h1>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
             {/*=== Single Slider ===*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-4.jpg)",
-                }}
-              />
-              <div className="container-fluid">
-                <div className="row justify-content-center">
-                  <div className="col-xl-9">
-                    {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Uganda Tourism &amp; Expo 2024
-                      </h1>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </Slider>
         </div>
       </section>
-      {/*====== End Hero Section ======*/}
-      {/*====== Start Booking Section ======*/}
-      <section className="booking-form-section">
+    
+      {/* <section className="booking-form-section">
         <div className="container-fluid">
           <div className="booking-form-wrapper">
             <form className="booking-form-two">
@@ -216,13 +151,12 @@ const Index2 = () => {
           </div>
         </div>
       </section>
-      {/*====== End Booking Section ======*/}
-      {/*====== Start Features Section ======*/}
+    
       <section className="features-section pt-100">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8">
-              {/*=== Section Title ===*/}
+            
               <div className="section-title text-center mb-45 wow fadeInDown">
                 <span className="sub-title">Popular Activities</span>
                 <h2>Explore Real Adventure</h2>
@@ -231,7 +165,7 @@ const Index2 = () => {
           </div>
           <div className="row">
             <div className="col-xl-3 col-md-6 col-sm-12">
-              {/*=== Features Image Item ===*/}
+              
               <div className="single-features-item-two mb-40 wow fadeInUp">
                 <div className="img-holder">
                   <img
@@ -247,7 +181,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-3 col-md-6 col-sm-12">
-              {/*=== Features Image Item ===*/}
+             
               <div className="single-features-item-two mb-40 wow fadeInDown">
                 <div className="img-holder">
                   <img
@@ -263,7 +197,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-3 col-md-6 col-sm-12">
-              {/*=== Features Image Item ===*/}
+             
               <div className="single-features-item-two mb-40 wow fadeInUp">
                 <div className="img-holder">
                   <img
@@ -279,7 +213,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-3 col-md-6 col-sm-12">
-              {/*=== Features Image Item ===*/}
+            
               <div className="single-features-item-two mb-40 wow fadeInDown">
                 <div className="img-holder">
                   <img
@@ -297,13 +231,12 @@ const Index2 = () => {
           </div>
         </div>
       </section>
-      {/*====== End Features Section ======*/}
-      {/*====== Start About Section ======*/}
+    
       <section className="about-section pt-100 pb-50">
         <div className="container">
           <div className="row align-items-xl-center">
             <div className="col-lg-6">
-              {/*=== About Content Box ===*/}
+             
               <div className="about-two_content-box mb-35 wow fadeInLeft">
                 <div className="section-title mb-30">
                   <span className="sub-title">About Company</span>
@@ -346,7 +279,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              {/*=== About Image Box ===*/}
+            
               <div className="about-one_image-box mb-50 wow fadeInRight">
                 <img
                   src="assets/images/about/about-1.jpg"
@@ -358,13 +291,12 @@ const Index2 = () => {
           </div>
         </div>
       </section>
-      {/*====== End About Section ======*/}
-      {/*====== Start We Section ======*/}
+     
       <section className="who-we-section">
         <div className="container">
           <div className="row align-items-xl-center">
             <div className="col-lg-6 order-2 order-lg-1">
-              {/*=== We Image Box ===*/}
+             
               <div className="we-image-box text-center text-lg-left wow fadeInLeft">
                 <img
                   src="assets/images/gallery/we-1.jpg"
@@ -374,7 +306,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-lg-6 order-1 order-lg-2">
-              {/*=== We Content Box ===*/}
+            
               <div className="we-one_content-box wow fadeInRight">
                 <div className="section-title mb-30">
                   <span className="sub-title">Who We Are</span>
@@ -407,25 +339,24 @@ const Index2 = () => {
           </div>
         </div>
       </section>
-      {/*====== End We Section ======*/}
-      {/*====== Start Services Section ======*/}
+   
       <section className="services-section black-bg pt-100 pb-100">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-7">
-              {/*=== Section Title ===*/}
+            
               <div className="section-title text-center text-white mb-50 wow fadeInDown">
                 <span className="sub-title">Popular Services</span>
                 <h2>Amazing Adventure Camping Services for Enjoyed</h2>
               </div>
             </div>
           </div>
-          {/*=== Service Slider One ===*/}
+         
           <Slider
             {...sliderActive4Item}
             className="slider-active-4-item wow fadeInUp"
           >
-            {/*=== Single Service Item ===*/}
+        
             <div className="single-service-item-two">
               <div
                 className="hover-bg bg_cover"
@@ -449,7 +380,7 @@ const Index2 = () => {
                 </a>
               </div>
             </div>
-            {/*=== Single Service Item ===*/}
+           
             <div className="single-service-item-two">
               <div
                 className="hover-bg bg_cover"
@@ -473,7 +404,7 @@ const Index2 = () => {
                 </a>
               </div>
             </div>
-            {/*=== Single Service Item ===*/}
+           
             <div className="single-service-item-two">
               <div
                 className="hover-bg bg_cover"
@@ -497,7 +428,7 @@ const Index2 = () => {
                 </a>
               </div>
             </div>
-            {/*=== Single Service Item ===*/}
+        
             <div className="single-service-item-two">
               <div
                 className="hover-bg bg_cover"
@@ -521,7 +452,7 @@ const Index2 = () => {
                 </a>
               </div>
             </div>
-            {/*=== Single Service Item ===*/}
+           
             <div className="single-service-item-two">
               <div
                 className="hover-bg bg_cover"
@@ -548,13 +479,12 @@ const Index2 = () => {
           </Slider>
         </div>
       </section>
-      {/*====== End Services Section ======*/}
-      {/*====== Start Team Section ======*/}
+   
       <section className="team-section pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7">
-              {/*====== Section Title ======*/}
+           
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">Team Member</span>
                 <h2>We’ve Expert Team Members Meet With Team</h2>
@@ -563,7 +493,7 @@ const Index2 = () => {
           </div>
           <div className="row">
             <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+            
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-1.jpg" alt="Team Image" />
@@ -597,7 +527,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+              
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-2.jpg" alt="Team Image" />
@@ -631,7 +561,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+             
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-3.jpg" alt="Team Image" />
@@ -665,7 +595,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+             
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-4.jpg" alt="Team Image" />
@@ -699,7 +629,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+            
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-5.jpg" alt="Team Image" />
@@ -733,7 +663,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+            
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-6.jpg" alt="Team Image" />
@@ -769,16 +699,15 @@ const Index2 = () => {
           </div>
         </div>
       </section>
-      {/*====== End Team Section ======*/}
-      {/*====== Start Activity Section ======*/}
+     
       <section className="activity-section pb-60">
         <div className="container-fluid">
-          {/*=== Slider Active Item ===*/}
+         
           <Slider
             {...sliderActive3Item}
             className="slider-active-3-item wow fadeInUp"
           >
-            {/*====== Activity Item ======*/}
+            
             <div className="single-activity-item mb-40">
               <div className="img-holder">
                 <img src="assets/images/gallery/act-1.jpg" alt="Image" />
@@ -823,7 +752,7 @@ const Index2 = () => {
                 </a>
               </div>
             </div>
-            {/*====== Activity Item ======*/}
+          
             <div className="single-activity-item mb-40">
               <div className="img-holder">
                 <img src="assets/images/gallery/act-2.jpg" alt="Image" />
@@ -868,7 +797,7 @@ const Index2 = () => {
                 </a>
               </div>
             </div>
-            {/*====== Activity Item ======*/}
+           
             <div className="single-activity-item mb-40">
               <div className="img-holder">
                 <img src="assets/images/gallery/act-3.jpg" alt="Image" />
@@ -916,8 +845,7 @@ const Index2 = () => {
           </Slider>
         </div>
       </section>
-      {/*====== End Activity Section ======*/}
-      {/*====== Start CTA Section ======*/}
+    
       <section
         className="cta-bg overlay bg_cover pt-150 pb-150"
         style={{ backgroundImage: "url(assets/images/bg/cta-bg.jpg)" }}
@@ -925,7 +853,7 @@ const Index2 = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8">
-              {/*=== CTA Content Box ===*/}
+            
               <div className="cta-content-box text-center text-white wow fadeInUp">
                 <h2 className="mb-35">
                   Ready to Travel With Real Adventure and Enjoy Natural
@@ -941,15 +869,14 @@ const Index2 = () => {
           </div>
         </div>
       </section>
-      {/*====== End CTA Section ======*/}
-      {/*====== Start Blog Section ======*/}
+     
       <section className="blog-section pt-100 pb-60">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-6">
-              {/*=== Blog Content Box ===*/}
+            
               <div className="blog-content-box mb-40 wow fadeInLeft">
-                {/*=== Section Title ===*/}
+              
                 <div className="section-title mb-30">
                   <span className="sub-title">News &amp; Blog</span>
                   <h2>
@@ -971,7 +898,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-xl-6">
-              {/*=== Single Blog Post ===*/}
+             
               <div className="single-blog-post-two mb-40 wow fadeInUp">
                 <div className="post-thumbnail">
                   <img src="assets/images/blog/blog-4.jpg" alt="Blog Image" />
@@ -996,7 +923,7 @@ const Index2 = () => {
                   </div>
                 </div>
               </div>
-              {/*=== Single Blog Post ===*/}
+            
               <div className="single-blog-post-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
                   <img src="assets/images/blog/blog-5.jpg" alt="Blog Image" />
@@ -1024,10 +951,10 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Blog Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
     </Layout>
   );
