@@ -1,5 +1,6 @@
 import GallerySection from "@/src/components/GallerySection";
 import Layout from "@/src/layout/Layout";
+import CounterTimer from "@/src/components/CounterTimer"; // Add your CSS file here
 import {
   home2Slider,
   sliderActive3Item,
@@ -29,10 +30,13 @@ const Index2 = () => {
                   <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
+                 
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Utalii Tourism &amp; Expo 2024
+                        Utalii Tourism  Expo 2024
                       </h1>
+                      <span className="ribbon"> 27TH - 29TH JUNE 2024</span>
+                      <br/>
+                      <span className="ribbon"> Kololo Independence Grounds, Kampala, Uganda</span>
                       <div
                         className="hero-button"
                         data-animation="fadeInRight"
@@ -65,7 +69,7 @@ const Index2 = () => {
                     <div className="hero-content text-white text-center">
                       <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                       Utalii Tourism &amp; Expo 2024
+                       Utalii Tourism  Expo 2024
                       </h1>
                       <div
                         className="hero-button"
@@ -91,9 +95,31 @@ const Index2 = () => {
           </Slider>
         </div>
       </section>
-    
-      {/* <section className="booking-form-section">
-        <div className="container-fluid">
+
+      <section className="features-section pt-100">
+        <div className="container">
+          <div className="row justify-content-center mb-4">
+            <div className="col-xl-8">
+        
+              <div className="section-title text-center mb-45 wow fadeInDown">
+                <span className="sub-title">About the Expo</span>
+                <h2>Utalii Tourism Expo 2024.</h2>
+               
+              </div>
+            </div>
+            <GallerySection/>
+          </div>
+          <div className="row">
+            
+          </div>
+        </div>
+      </section>
+      
+      <section className="booking-form-section">
+     
+      
+      {/* <CounterTimer /> */}
+        {/* <div className="container-fluid">
           <div className="booking-form-wrapper">
             <form className="booking-form-two">
               <div className="form_group">
@@ -149,90 +175,12 @@ const Index2 = () => {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
       </section>
     
-      <section className="features-section pt-100">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-8">
-            
-              <div className="section-title text-center mb-45 wow fadeInDown">
-                <span className="sub-title">Popular Activities</span>
-                <h2>Explore Real Adventure</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xl-3 col-md-6 col-sm-12">
-              
-              <div className="single-features-item-two mb-40 wow fadeInUp">
-                <div className="img-holder">
-                  <img
-                    src="assets/images/features/feat-5.jpg"
-                    alt="Features Image"
-                  />
-                  <div className="item-overlay">
-                    <div className="content">
-                      <h3 className="title">Tent Camping</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6 col-sm-12">
-             
-              <div className="single-features-item-two mb-40 wow fadeInDown">
-                <div className="img-holder">
-                  <img
-                    src="assets/images/features/feat-6.jpg"
-                    alt="Features Image"
-                  />
-                  <div className="item-overlay">
-                    <div className="content">
-                      <h3 className="title">Mountain Biking</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6 col-sm-12">
-             
-              <div className="single-features-item-two mb-40 wow fadeInUp">
-                <div className="img-holder">
-                  <img
-                    src="assets/images/features/feat-7.jpg"
-                    alt="Features Image"
-                  />
-                  <div className="item-overlay">
-                    <div className="content">
-                      <h3 className="title">Fishing</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6 col-sm-12">
-            
-              <div className="single-features-item-two mb-40 wow fadeInDown">
-                <div className="img-holder">
-                  <img
-                    src="assets/images/features/feat-8.jpg"
-                    alt="Features Image"
-                  />
-                  <div className="item-overlay">
-                    <div className="content">
-                      <h3 className="title">Kayaking</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
     
-      <section className="about-section pt-100 pb-50">
+      <section className="about-section pt-100 pb-50 mt-4">
         <div className="container">
           <div className="row align-items-xl-center">
             <div className="col-lg-6">
@@ -241,39 +189,46 @@ const Index2 = () => {
                 <div className="section-title mb-30">
                   <span className="sub-title">About Company</span>
                   <h2>
-                    We Are Most Funning Company About Travel and Adventure
+                   About Utalii Tourism Expo 2024
                   </h2>
                 </div>
-                <p>
-                  Sit amet consectetur. Velit integer tincidunt sceleries
-                  nodalesry volutpat neque fermentum malesuada sceleris quecy
-                  massa lacus Ultrices eget leo cras odio blandit rhoncus eues
-                  feugiat
-                </p>
-                <div className="card-list">
+                <h3>
+                Utalii Tourism Expo is a three-day event that shall be held on: Thursday 27th, Friday 28th and Saturday
+                 29 th June 2024, Kololo Independence Grounds (Kololo Airstrip), Kampala-
+                Uganda.
+                </h3>
+                <div className="card-list mt-4">
                   <div className="card-item">
                     <i className="fas fa-badge-check" />
-                    Family Camping
+                    Exhibitors
                   </div>
                   <div className="card-item">
                     <i className="fas fa-badge-check" />
-                    Wild Camping
+                    Workshops
                   </div>
                   <div className="card-item">
                     <i className="fas fa-badge-check" />
-                    Fishing
+                    Great speakers
                   </div>
                   <div className="card-item">
                     <i className="fas fa-badge-check" />
-                    Mountain Biking
+                    Deal closing
                   </div>
                   <div className="card-item">
                     <i className="fas fa-badge-check" />
-                    Luxury Cabin
+                    New Partnerships
                   </div>
                   <div className="card-item">
                     <i className="fas fa-badge-check" />
-                    Couple Camping
+                    Fam Trips
+                  </div>
+                  <div className="card-item">
+                    <i className="fas fa-badge-check" />
+                    B2C Engagements
+                  </div>
+                  <div className="card-item">
+                    <i className="fas fa-badge-check" />
+                    Seminars
                   </div>
                 </div>
               </div>
@@ -288,6 +243,7 @@ const Index2 = () => {
                 />
               </div>
             </div>
+            
           </div>
         </div>
       </section>
@@ -295,7 +251,7 @@ const Index2 = () => {
       <section className="who-we-section">
         <div className="container">
           <div className="row align-items-xl-center">
-            <div className="col-lg-6 order-2 order-lg-1">
+            {/* <div className="col-lg-6 order-2 order-lg-1">
              
               <div className="we-image-box text-center text-lg-left wow fadeInLeft">
                 <img
@@ -304,19 +260,18 @@ const Index2 = () => {
                   alt="Image"
                 />
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-6 order-1 order-lg-2">
             
               <div className="we-one_content-box wow fadeInRight">
                 <div className="section-title mb-30">
                   <span className="sub-title">Who We Are</span>
-                  <h2>Great Opportunity For Adventure &amp; Travels</h2>
+                  <h2>this will talk about the sponsors &amp; and more</h2>
                 </div>
                 <p>
-                  Set perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremue laudantium totam rem aperiam eaque quae
-                  abillo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, erat sit amet
+                eleifend scelerisque, purus turpis malesuada urna, et euismod justo quam nec justo.
+                Suspendisse potenti. Nullam tristique auctor est, et volutpat ex dignissim eget.
                 </p>
                 <div className="skill-wrapper">
                   <div className="single-skill-circle text-center">
@@ -336,6 +291,36 @@ const Index2 = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-6 order-1 order-lg-2">
+            
+            <div className="we-one_content-box wow fadeInRight">
+              <div className="section-title mb-30">
+                <span className="sub-title">Who We Are</span>
+                <h2>this will have more text about the expo</h2>
+              </div>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, erat sit amet
+              eleifend scelerisque, purus turpis malesuada urna, et euismod justo quam nec justo.
+             Suspendisse potenti. Nullam tristique auctor est, et volutpat ex dignissim eget.
+              </p>
+              <div className="skill-wrapper">
+                <div className="single-skill-circle text-center">
+                  <div className="inner-circle">
+                    <div className="line" />
+                    <span className="number">60%</span>
+                  </div>
+                  <h5>Saticfied Clients</h5>
+                </div>
+                <div className="single-skill-circle text-center">
+                  <div className="inner-circle">
+                    <div className="line" />
+                    <span className="number">93%</span>
+                  </div>
+                  <h5>Success Rate</h5>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -346,8 +331,8 @@ const Index2 = () => {
             <div className="col-xl-7">
             
               <div className="section-title text-center text-white mb-50 wow fadeInDown">
-                <span className="sub-title">Popular Services</span>
-                <h2>Amazing Adventure Camping Services for Enjoyed</h2>
+                <span className="sub-title">Exibitors</span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ti.</h2>
               </div>
             </div>
           </div>
@@ -369,7 +354,7 @@ const Index2 = () => {
                   <i className="flaticon-camping" />
                 </div>
                 <h3 className="title">
-                  <a href="#">Tent Camping</a>
+                  <a href="#">Lorem, ipsum dolor </a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -393,7 +378,7 @@ const Index2 = () => {
                   <i className="flaticon-cable-car" />
                 </div>
                 <h3 className="title">
-                  <a href="#">Glamping Cabin</a>
+                  <a href="#">Lorem, ipsum dolor </a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -417,7 +402,7 @@ const Index2 = () => {
                   <i className="flaticon-trailer" />
                 </div>
                 <h3 className="title">
-                  <a href="#">RV Caravan Trailers</a>
+                  <a href="#">Lorem, ipsum dolor </a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -441,7 +426,7 @@ const Index2 = () => {
                   <i className="flaticon-firewood" />
                 </div>
                 <h3 className="title">
-                  <a href="#">Woodfire &amp; BBQ Party</a>
+                  <a href="#"> Lorem, ipsum dolor</a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -465,7 +450,7 @@ const Index2 = () => {
                   <i className="flaticon-cable-car" />
                 </div>
                 <h3 className="title">
-                  <a href="#">Glamping Cabin</a>
+                  <a href="#">Lorem, ipsum dolor </a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -480,7 +465,7 @@ const Index2 = () => {
         </div>
       </section>
    
-      <section className="team-section pt-100 pb-70">
+      {/* <section className="team-section pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7">
@@ -698,9 +683,9 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
      
-      <section className="activity-section pb-60">
+      {/* <section className="activity-section pb-60">
         <div className="container-fluid">
          
           <Slider
@@ -844,7 +829,7 @@ const Index2 = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
     
       <section
         className="cta-bg overlay bg_cover pt-150 pb-150"
@@ -880,15 +865,14 @@ const Index2 = () => {
                 <div className="section-title mb-30">
                   <span className="sub-title">News &amp; Blog</span>
                   <h2>
-                    Amazing News &amp; Blog For Every Single Update Articles
+                    Amazing News &amp; Lorem ipsum dolor sit amet, 
                     &amp; Tips
                   </h2>
                 </div>
                 <p className="mb-20">
-                  Sit amet consectetur. Velit integer tincidunt sceleries
-                  nodalesry volutpat neque fermentum malesuada sceleris quecy
-                  massa lacus Ultrices eget leo cras odio blandit rhoncus eues
-                  feugiat
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, erat sit amet
+        eleifend scelerisque, purus turpis malesuada urna, et euismod justo quam nec justo.
+        Suspendisse potenti.
                 </p>
                 <Link legacyBehavior href="/blog-list">
                   <a className="btn-link">
@@ -907,11 +891,11 @@ const Index2 = () => {
                   <div className="post-meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">November 15, 2022</a>
+                      <a href="#">November 15, 2023</a>
                     </span>
                     <h3 className="title">
                       <Link legacyBehavior href="/blog-details">
-                        <a>Meet Skeleton Svelte Taile Sind For Reactive UIs</a>
+                        <a>Lorem ipsum dolor sit amet, consectetur adip</a>
                       </Link>
                     </h3>
                     <Link legacyBehavior href="/blog-details">
@@ -932,11 +916,11 @@ const Index2 = () => {
                   <div className="post-meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">November 15, 2022</a>
+                      <a href="#">November 4, 2023</a>
                     </span>
                     <h3 className="title">
                       <Link legacyBehavior href="/blog-details">
-                        <a>Meet Skeleton Svelte Taile Sind For Reactive UIs</a>
+                        <a>Meet the brains behind the expo</a>
                       </Link>
                     </h3>
                     <Link legacyBehavior href="/blog-details">
@@ -951,11 +935,11 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section> */}
-      {/*====== End Blog Section ======*/}
-      {/*====== Start Gallery Section ======*/}
-      {/* <GallerySection /> */}
-      {/*====== End Gallery Section ======*/}
+      </section> 
+      {/* ====== End Blog Section ======
+      ====== Start Gallery Section ======
+      <GallerySection />
+      /*====== End Gallery Section ====== */}
     </Layout>
   );
 };

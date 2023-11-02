@@ -55,14 +55,14 @@ const Footer = ({ bg, extraClass }) => {
                    More text will be typed in here
                   </p>
                   <a href="#" className="footer-logo">
-                    {/* <img
+                    <img
                       src={
                         bg === "gray"
                           ? "assets/images/logo/logo-black.png"
                           : "assets/images/logo/logo-white.png"
                       }
                       alt="Site Logo"
-                    /> */}
+                    />
                   </a>
                 </div>
               </div>
