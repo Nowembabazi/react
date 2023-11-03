@@ -60,6 +60,7 @@ const Index2 = () => {
                 className="image-layer bg_cover"
                 style={{
                   backgroundImage: "url(assets/images/hero/hero-two_img-2.jpg)",
+                 
                 }}
               />
               <div className="container-fluid">
@@ -67,10 +68,13 @@ const Index2 = () => {
                   <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
+                      
                       <h1 data-animation="fadeInDown" data-delay=".4s">
                        Utalii Tourism  Expo 2024
                       </h1>
+                      <span className="ribbon"> 27TH - 29TH JUNE 2024</span>
+                      <br/>
+                      <span className="ribbon"> Kololo Independence Grounds, Kampala, Uganda</span>
                       <div
                         className="hero-button"
                         data-animation="fadeInRight"

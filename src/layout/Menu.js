@@ -36,12 +36,12 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="index-2">Home 02</Link>
               </li>
-              {/* <li>
+              <li>
                 <Link href="index-3">Home 03</Link>
               </li>
               <li>
                 <Link href="index-4">Home 04</Link>
-              </li> */}
+              </li>
             </ul>
           </li>
           <li className="menu-item has-children">
@@ -52,12 +52,12 @@ const DeskTopMenu = () => {
               </span>
             </a>
             <ul className="sub-menu">
-              <li>
-                <Link href="tour">About UATE</Link>
-              </li>
               {/* <li>
-                <Link href="tour-details">UATE Details</Link>
+                <Link href="tour">About UATE</Link>
               </li> */}
+              <li>
+                <Link href="tour-details">UATE Details</Link>
+              </li>
             </ul>
           </li>
           <li className="menu-item has-children">
@@ -67,31 +67,48 @@ const DeskTopMenu = () => {
                 <i className="far fa-angle-down" />
               </span>
             </a>
-            {/* <ul className="sub-menu">
+            <ul className="sub-menu">
               <li>
                 <Link href="destination">Destination</Link>
               </li>
               <li>
                 <Link href="destination-details">Destination Details</Link>
               </li>
-            </ul> */}
+            </ul>
           </li>
           <li className="menu-item has-children">
             <a href="#">
-              Blog
+              Sponsors
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
               </span>
             </a>
             <ul className="sub-menu">
-              {/* <li>
-                <Link href="blog-list">Blog List</Link>
+              <li>
+                <Link href="destination">Destination</Link>
               </li>
               <li>
-                <Link href="blog-details">Blog Details</Link>
-              </li> */}
+                <Link href="destination-details">Destination Details</Link>
+              </li>
             </ul>
           </li>
+          <li className="menu-item has-children">
+            <a href="#">
+              Traders
+              <span className="dd-trigger">
+                <i className="far fa-angle-down" />
+              </span>
+            </a>
+            <ul className="sub-menu">
+              <li>
+                <Link href="destination">Destination</Link>
+              </li>
+              <li>
+                <Link href="destination-details">Destination Details</Link>
+              </li>
+            </ul>
+          </li>
+          
           <li className="menu-item has-children">
             <a href="#">
               Pages
@@ -102,13 +119,13 @@ const DeskTopMenu = () => {
             <ul className="sub-menu">
               {/* <li>
                 <Link href="about">About Us</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="gallery">Our Gallery</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="events">Our Events</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="shop">Our Shop</Link>
               </li>
@@ -117,19 +134,10 @@ const DeskTopMenu = () => {
               </li>
               <li>
                 <Link href="contact">Contact</Link>
-              </li> */}
+              </li>
             </ul>
           </li>
-          <li className="menu-item search-item">
-            <div
-              className="search-btn"
-              data-bs-toggle="modal"
-              data-bs-target="#search-modal"
-              onClick={() => setSearchModal(true)}
-            >
-              <i className="far fa-search" />
-            </div>
-          </li>
+        
         </ul>
       </nav>
     </Fragment>
@@ -177,10 +185,10 @@ const MobileMenu = () => {
           <ul className="sub-menu" style={activeLi("Tours")}>
             {/* <li>
               <Link href="tour">About UATE</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="tour-details">UATE Details</Link>
-            </li> */}
+            </li>
           </ul>
         </li>
         <li className="menu-item has-children">
@@ -194,12 +202,12 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("Destination")}>
-            {/* <li>
+            <li>
               <Link href="destination">Destination</Link>
             </li>
             <li>
               <Link href="destination-details">Destination Details</Link>
-            </li> */}
+            </li>
           </ul>
         </li>
         <li className="menu-item has-children">
@@ -226,15 +234,15 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("Pages")}>
-            {/* <li>
+            <li>
               <Link href="about">About Us</Link>
             </li>
             <li>
               <Link href="gallery">Our Gallery</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="events">Our Events</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="shop">Our Shop</Link>
             </li>
@@ -243,10 +251,10 @@ const MobileMenu = () => {
             </li>
             <li>
               <Link href="contact">Contact</Link>
-            </li> */}
+            </li>
           </ul>
         </li>
-        <li className="menu-item search-item">
+        {/* <li className="menu-item search-item">
           <div
             className="search-btn"
             data-bs-toggle="modal"
@@ -254,7 +262,7 @@ const MobileMenu = () => {
           >
             <i className="far fa-search" />
           </div>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
