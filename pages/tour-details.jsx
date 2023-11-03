@@ -3,6 +3,7 @@ import RelatedTours from "@/src/components/sliders/RelatedTours";
 import Layout from "@/src/layout/Layout";
 import { placeSlider } from "@/src/sliderProps";
 import Link from "next/link";
+import PageBanner from "@/src/components/PageBanner";
 import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 const TourDetails = () => {
@@ -11,42 +12,7 @@ const TourDetails = () => {
       {/*====== Start Place Details Section ======*/}
       <section className="place-details-section">
         {/*=== Place Slider ===*/}
-        <div className="place-slider-area overflow-hidden wow fadeInUp">
-          <Slider {...placeSlider} className="place-slider">
-            <div className="place-slider-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-1.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
-            <div className="place-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-2.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
-            <div className="place-slider-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-3.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
-            <div className="place-slider-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-2.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
-          </Slider>
-        </div>
+        <PageBanner pageTitle={"About Us"} />
         <div className="container">
           {/*=== Tour Details Wrapper ===*/}
           <div className="tour-details-wrapper pt-80">
@@ -55,10 +21,10 @@ const TourDetails = () => {
               <div className="row">
                 <div className="col-xl-6">
                   <div className="tour-title mb-20">
-                    <h3 className="title">Boat Traveling on Made River</h3>
+                    <h3 className="title">About the Expo</h3>
                     <p>
                       <i className="far fa-map-marker-alt" />
-                      Tambon Khlong Sok, Thailand
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -80,7 +46,7 @@ const TourDetails = () => {
                       </div>
                       <div className="info">
                         <h4>
-                          <span>Durations</span>7 Days
+                          <span>Durations</span>3 Days
                         </h4>
                       </div>
                     </div>
@@ -147,7 +113,7 @@ const TourDetails = () => {
               <div className="col-xl-8">
                 {/*=== Place Content Wrap ===*/}
                 <div className="place-content-wrap pt-45 wow fadeInUp">
-                  <h3 className="title">Explore Tours</h3>
+                  <h3 className="title">Explore The Expo.</h3>
                   <p>
                     Sed ut perspiciatis unde omniste natus error sit voluptatem
                     accusantium doloremque laudantium totam rem aperiam, eaque

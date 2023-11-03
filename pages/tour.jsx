@@ -8,7 +8,7 @@ const Tour = () => {
       <PageBanner pageTitle={"Explore Uganda With us"} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section pb-100">
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className="booking-form-wrapper p-r z-2">
             <form className="booking-form-two">
               <div className="form_group">
@@ -64,7 +64,7 @@ const Tour = () => {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
       </section>
       {/*====== End Booking Section ======*/}
       {/*====== Start Places Section ======*/}
