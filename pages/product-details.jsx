@@ -9,6 +9,7 @@ const ProductDetails = () => {
   return (
     <Layout extraClass={"pt-160"}>
       <PageBanner pageTitle={"Product Details"} />
+      
       {/*====== Start Shop Details Section ======*/}
       <section className="shop-details-section pt-100 pb-50">
         <div className="container">

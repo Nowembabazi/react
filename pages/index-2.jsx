@@ -3,6 +3,7 @@ import Layout from "@/src/layout/Layout";
 import CounterTimer from "@/src/components/CounterTimer"; // Add your CSS file here
 import {
   home2Slider,
+  partnerSliderOne,
   sliderActive3Item,
   sliderActive4Item,
 } from "@/src/sliderProps";
@@ -31,9 +32,9 @@ const Index2 = () => {
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
                  
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
+                      <h2 data-animation="fadeInDown" data-delay=".4s">
                         Utalii Tourism  Expo 2024
-                      </h1>
+                      </h2>
                       <span className="ribbon"> 27TH - 29TH JUNE 2024</span>
                       <br/>
                       <span className="ribbon"> Kololo Independence Grounds, Kampala, Uganda</span>
@@ -69,9 +70,9 @@ const Index2 = () => {
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
                       
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
+                      <h2 data-animation="fadeInDown" data-delay=".4s">
                        Utalii Tourism  Expo 2024
-                      </h1>
+                      </h2>
                       <span className="ribbon"> 27TH - 29TH JUNE 2024</span>
                       <br/>
                       <span className="ribbon"> Kololo Independence Grounds, Kampala, Uganda</span>
@@ -940,6 +941,82 @@ const Index2 = () => {
           </div>
         </div>
       </section> 
+      <section className="partners-section black-dark-bg">
+        <div className="container">
+          {/*=== Partners Slider ===*/}
+          <Slider
+            {...partnerSliderOne}
+            className="partner-slider-one pt-80 pb-50 wow fadeInUp"
+          >
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-6.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-7.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-8.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-9.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-10.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-7.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+          </Slider>
+        </div>
+      </section>
       {/* ====== End Blog Section ======
       ====== Start Gallery Section ======
       <GallerySection />

@@ -130,7 +130,7 @@ const DeskTopMenu = () => {
                 <Link href="shop">Our Shop</Link>
               </li>
               <li>
-                <Link href="product-details">Product Details</Link>
+                <Link href="product-details">Media</Link>
               </li>
               <li>
                 <Link href="contact">Contact</Link>

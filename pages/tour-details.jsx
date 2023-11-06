@@ -1,7 +1,9 @@
 import GallerySection from "@/src/components/GallerySection";
 import RelatedTours from "@/src/components/sliders/RelatedTours";
 import Layout from "@/src/layout/Layout";
-import { placeSlider } from "@/src/sliderProps";
+import { placeSlider,
+       partnerSliderOne,
+      } from "@/src/sliderProps";
 import Link from "next/link";
 import PageBanner from "@/src/components/PageBanner";
 import { Nav, Tab } from "react-bootstrap";
@@ -13,6 +15,7 @@ const TourDetails = () => {
       <section className="place-details-section">
         {/*=== Place Slider ===*/}
         <PageBanner pageTitle={"About Us"} />
+        
         <div className="container">
           {/*=== Tour Details Wrapper ===*/}
           <div className="tour-details-wrapper pt-80">
