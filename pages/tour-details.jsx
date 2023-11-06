@@ -30,16 +30,7 @@ const TourDetails = () => {
                 </div>
                 <div className="col-xl-6">
                   <div className="tour-widget-info">
-                    <div className="info-box mb-20">
-                      <div className="icon">
-                        <i className="fal fa-box-usd" />
-                      </div>
-                      <div className="info">
-                        <h4>
-                          <span>From</span>$96.54
-                        </h4>
-                      </div>
-                    </div>
+                   
                     <div className="info-box mb-20">
                       <div className="icon">
                         <i className="fal fa-clock" />
@@ -115,21 +106,8 @@ const TourDetails = () => {
                 <div className="place-content-wrap pt-45 wow fadeInUp">
                   <h3 className="title">Explore The Expo.</h3>
                   <p>
-                    Sed ut perspiciatis unde omniste natus error sit voluptatem
-                    accusantium doloremque laudantium totam rem aperiam, eaque
-                    ip quae abillo inventore veritatis et quasi architecto
-                    beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                    dolorem ipsum quia dolor si amet consectetur adipisci velit
-                    sed quian numquam eius modi tempora incidunt ut labore
-                    dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                    veniam qunostrum exercitationem ullam corporis suscipit
-                    laboriosaey nisi ut aliquid ex ea commodi consequatur? Quis
-                    autem vel eum iure reprehenderit qui in ea voluptate velit
-                    esse quam nihil molestiae consequatur veillum qui dolorem
-                    voluptas nulla pariatur
+                  Utalii Africa Tourism Expo™ (UATE), is Africa’s biggest Expo that brings together all the 54 African countries and the global tourism stakeholders to showcase their tourism products and services and close business deals. Never before has the continent of Africa experienced such a big event where tourism professionals, entrepreneurs, academia, artists, among others, meet to close businesses and chart a way forward for tourism in Africa.
+UATE 2024 inaugural event will take place on Thursday 27th, Friday 28th & Saturday 29th June 2024 at Kololo Independence Grounds. Kampala, Uganda!
                   </p>
                   <h4>Advance Facilities</h4>
                   <p>
@@ -142,30 +120,37 @@ const TourDetails = () => {
                       <ul className="check-list">
                         <li>
                           <i className="fas fa-badge-check" />
-                          Parking in the Camp
+                         Lorem ipsum dolor sit amet
+                          
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Pick and Drop Services
+                          Lorem ipsum dolor sit amet
+                         
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Washing Machines
+                          Lorem ipsum dolor sit amet
+                         
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Cruise Dinner &amp; Music Event
+                          lorem 
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Visit 5 Best Places With Group
+                         Lorem ipsum dolor sit amet
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Motorhome service
+                          Lorem ipsum dolor sit amet
+                        
                         </li>
                         <li>
-                          <i className="fas fa-badge-check" />1 Meal Per Day
+                         
+                          <i className="fas fa-badge-check" />
+                         Lorem ipsum dolor sit amet
+
                         </li>
                       </ul>
                     </div>
@@ -177,7 +162,11 @@ const TourDetails = () => {
                       />
                     </div>
                   </div>
-                  <h4>Tour Plan</h4>
+                 
+                  <h4>
+                  Lorem ipsum dolor sit amet
+
+                  </h4>
                   <p>
                     Quis autem vel eum iure reprehenderit qui in ea voluptate
                     velit esse quam nihil molestiae consequatur vel eillum qui
@@ -215,24 +204,7 @@ const TourDetails = () => {
                           Day 3rd
                         </Nav.Link>
                       </Nav.Item>
-                      <Nav.Item as={"li"} className="nav-item">
-                        <Nav.Link
-                          as="button"
-                          className="nav-link"
-                          eventKey="day4"
-                        >
-                          Day 4th
-                        </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item as={"li"} className="nav-item">
-                        <Nav.Link
-                          as="button"
-                          className="nav-link"
-                          eventKey="day5"
-                        >
-                          Day 5th
-                        </Nav.Link>
-                      </Nav.Item>
+                      
                     </Nav>
                     <Tab.Content className="tab-content">
                       <Tab.Pane className="tab-pane fade" eventKey="day1">
@@ -248,15 +220,18 @@ const TourDetails = () => {
                           <ul className="check-list">
                             <li>
                               <i className="fas fa-badge-check" />
-                              Parking in the Camp
+                              Lorem ipsum dolor sit amet
+                            
                             </li>
                             <li>
                               <i className="fas fa-badge-check" />
-                              kayaking Sport
+                              Lorem ipsum dolor sit amet
+                               
                             </li>
                             <li>
                               <i className="fas fa-badge-check" />
-                              Mountain Hiking
+                                Lorem ipsum dolor sit amet
+                              
                             </li>
                           </ul>
                         </div>
@@ -274,15 +249,18 @@ const TourDetails = () => {
                           <ul className="check-list">
                             <li>
                               <i className="fas fa-badge-check" />
-                              Parking in the Camp
+                         Lorem ipsum dolor sit amet
+                               
                             </li>
                             <li>
                               <i className="fas fa-badge-check" />
-                              kayaking Sport
+                         Lorem ipsum dolor sit amet
+                              
                             </li>
                             <li>
                               <i className="fas fa-badge-check" />
-                              Mountain Hiking
+                         Lorem ipsum dolor sit amet
+                              
                             </li>
                           </ul>
                         </div>
@@ -300,86 +278,38 @@ const TourDetails = () => {
                           <ul className="check-list">
                             <li>
                               <i className="fas fa-badge-check" />
-                              Parking in the Camp
+                         Lorem ipsum dolor sit amet
+                               
                             </li>
                             <li>
                               <i className="fas fa-badge-check" />
-                              kayaking Sport
+                         Lorem ipsum dolor sit amet
+                               
                             </li>
                             <li>
                               <i className="fas fa-badge-check" />
-                              Mountain Hiking
+                         Lorem ipsum dolor sit amet
+                            
                             </li>
                           </ul>
                         </div>
                       </Tab.Pane>
-                      <Tab.Pane className="tab-pane fade" eventKey="day4">
-                        <div className="content-box">
-                          <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit sed quia consequuntur
-                            magne doloreseos qui ratione voluptatem sequi
-                            nesciunt. Neque porro quisquam est, qui dolorem
-                            ipsum quia dolor si amet consectetur adipisci velit
-                            sed quian numquam eius modi tempora incidunt
-                          </p>
-                          <ul className="check-list">
-                            <li>
-                              <i className="fas fa-badge-check" />
-                              Parking in the Camp
-                            </li>
-                            <li>
-                              <i className="fas fa-badge-check" />
-                              kayaking Sport
-                            </li>
-                            <li>
-                              <i className="fas fa-badge-check" />
-                              Mountain Hiking
-                            </li>
-                          </ul>
-                        </div>
-                      </Tab.Pane>
-                      <Tab.Pane className="tab-pane fade" eventKey="day5">
-                        <div className="content-box">
-                          <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit sed quia consequuntur
-                            magne doloreseos qui ratione voluptatem sequi
-                            nesciunt. Neque porro quisquam est, qui dolorem
-                            ipsum quia dolor si amet consectetur adipisci velit
-                            sed quian numquam eius modi tempora incidunt
-                          </p>
-                          <ul className="check-list">
-                            <li>
-                              <i className="fas fa-badge-check" />
-                              Parking in the Camp
-                            </li>
-                            <li>
-                              <i className="fas fa-badge-check" />
-                              kayaking Sport
-                            </li>
-                            <li>
-                              <i className="fas fa-badge-check" />
-                              Mountain Hiking
-                            </li>
-                          </ul>
-                        </div>
-                      </Tab.Pane>
+                      
                     </Tab.Content>
                   </div>
                 </Tab.Container>
                 {/*=== Map Box ===*/}
-                <div className="map-box mb-60 wow fadeInUp">
+                {/* <div className="map-box mb-60 wow fadeInUp">
                   <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
-                </div>
+                </div> */}
                 {/*=== Calendar Box ===*/}
-                <div className="calendar-wrapper wow fadeInUp">
+                {/* <div className="calendar-wrapper wow fadeInUp">
                   <div className="calendar-container mb-45" />
-                </div>
+                </div> */}
                 {/*=== Releted Tour Place ===*/}
-                <RelatedTours />
+                {/* <RelatedTours /> */}
                 {/*=== Reviews Area ===*/}
-                <div className="reviews-wrapper mb-60 wow fadeInUp">
+                {/* <div className="reviews-wrapper mb-60 wow fadeInUp">
                   <div className="reviews-inner-box">
                     <div className="rating-value">
                       <h4>Clients Reviews</h4>
@@ -461,9 +391,9 @@ const TourDetails = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/*=== Comments Area ===*/}
-                <div className="comments-area wow fadeInUp">
+                {/* <div className="comments-area wow fadeInUp">
                   <ul className="comment-list">
                     <li>
                       <div className="comment">
@@ -839,7 +769,7 @@ const TourDetails = () => {
                       </div>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 {/*===  Comments Form  ===*/}
                 <div className="comments-respond mb-30 wow fadeInUp">
                   <h3 className="comments-heading" style={{ marginBottom: 15 }}>
@@ -992,7 +922,7 @@ const TourDetails = () => {
                 <div className="sidebar-widget-area pt-60 pl-lg-30">
                   {/*=== Booking Widget ===*/}
                   <div className="sidebar-widget booking-form-widget wow fadeInUp mb-40">
-                    <h4 className="widget-title">Booking Tour</h4>
+                    <h4 className="widget-title">Booking a stoll</h4>
                     <form
                       onSubmit={(e) => e.preventDefault()}
                       className="sidebar-booking-form"
@@ -1032,9 +962,9 @@ const TourDetails = () => {
                         </div>
                       </div>
                       <div className="booking-guest-box mb-20">
-                        <h6 className="mb-20">Tickets</h6>
+                        <h6 className="mb-20">Rates for stolls</h6>
                         <div className="booking-item">
-                          <label>Adult (18+ years) $43</label>
+                          <label>Nationals $43</label>
                           <div className="bk-item booking-user">
                             <i className="far fa-user" />
                             <select className="wide">
@@ -1047,7 +977,7 @@ const TourDetails = () => {
                           </div>
                         </div>
                         <div className="booking-item">
-                          <label>Youth (13-17 years) $29</label>
+                          <label>Foreign Traders $29</label>
                           <div className="bk-item booking-user">
                             <i className="far fa-user" />
                             <select className="wide">
@@ -1059,19 +989,7 @@ const TourDetails = () => {
                             </select>
                           </div>
                         </div>
-                        <div className="booking-item">
-                          <label>Child (0-12 years) $0</label>
-                          <div className="bk-item booking-user">
-                            <i className="far fa-user" />
-                            <select className="wide">
-                              <option value={1}>1</option>
-                              <option value={2}>2</option>
-                              <option value={3}>3</option>
-                              <option value={4}>4</option>
-                              <option value={5}>5</option>
-                            </select>
-                          </div>
-                        </div>
+                       
                       </div>
                       <div className="booking-extra mb-15 wow fadeInUp">
                         <h6 className="mb-10">Aditional Services</h6>
@@ -1137,7 +1055,7 @@ const TourDetails = () => {
                     </ul>
                   </div>
                   {/*=== Recent Place Widget ===*/}
-                  <div className="sidebar-widget recent-place-widget mb-40 wow fadeInUp">
+                  {/* <div className="sidebar-widget recent-place-widget mb-40 wow fadeInUp">
                     <h4 className="widget-title">Last Minute Deals</h4>
                     <ul className="recent-place-list">
                       <li className="place-thumbnail-content">
@@ -1243,9 +1161,9 @@ const TourDetails = () => {
                         </div>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   {/*=== Banner Widget ===*/}
-                  <div className="sidebar-widget sidebar-banner-widget wow fadeInUp mb-40">
+                  {/* <div className="sidebar-widget sidebar-banner-widget wow fadeInUp mb-40">
                     <div className="banner-widget-content">
                       <div className="banner-img">
                         <img
@@ -1265,7 +1183,7 @@ const TourDetails = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
