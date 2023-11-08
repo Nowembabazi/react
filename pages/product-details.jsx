@@ -40,16 +40,7 @@ const ProductDetails = () => {
                             Additional Information
                           </Nav.Link>
                         </Nav.Item>
-                        <Nav.Item as={"li"} className="nav-item">
-                          <Nav.Link
-                            as={"a"}
-                            className="nav-link"
-                            href="#reviews"
-                            eventKey="reviews"
-                          >
-                            Reviews (2)
-                          </Nav.Link>
-                        </Nav.Item>
+                        
                       </Nav>
                     </div>
                     <Tab.Content className="tab-content wow fadeInUp">
@@ -113,33 +104,7 @@ const ProductDetails = () => {
                           </p>
                         </div>
                       </Tab.Pane>
-                      <Tab.Pane className="tab-pane fade" eventKey="reviews">
-                        <div className="content-box">
-                          <p>
-                            Sorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Tortor nulla id sit neque scelerisque
-                            pulvinar. amet interdum turpis consequat adipiscing.
-                            Elementum feugiat sed duis consectetur varius et
-                            cras mattis. Lobortis auctor sit in eu nisl fusce
-                            augue venenatis, dui. Phasellus eget sagittis
-                            mauris, nibh augue cursus Tristique amet
-                            sollicitudin sit nulla aliquam, imperdiet sed ut
-                            diam. Suspendisse ipsum rhoncus nulla lectus. Id
-                            neque in urna neque non amet. Tortor sed aliquam in
-                            faucibus enim, posuere. Sed etaccumsan neque posuere
-                            tempus in cras. Ornare lectus pretium est eget
-                            purus, enim quam purus netus.
-                          </p>
-                          <p>
-                            Dictum ultrices et suspendisse amet mattis in
-                            pellentesque. Vulputate arcu, consectetur odio donec
-                            nec duis ultrices facilisi. Mauris cursus elit diam,
-                            urna suspendisse et, amet. Vitae ligula ultrices
-                            nulla justo, enim lorem duis. Volutpat sit et neque
-                            aliquam diam at at neque acus augue
-                          </p>
-                        </div>
-                      </Tab.Pane>
+                     
                     </Tab.Content>
                     {/*=== Review Form ===*/}
                     <div className="review-form-area wow fadeInUp mt-50 mb-40">
@@ -212,14 +177,14 @@ const ProductDetails = () => {
                   {/*=== Banner Widget ===*/}
                   <div className="sidebar-widget widget-product-banner mb-40 wow fadeInUp">
                     <div className="banner-content text-center">
-                      <h4 className="title">Black Winter T-shirt</h4>
+                      <h4 className="title">Apply Now</h4>
                       <img
                         src="assets/images/shop/mockup.png"
                         alt="Banner Image"
                       />
                       <Link legacyBehavior href="/contact">
                         <a className="main-btn secondary-btn">
-                          Shop Now
+                          Book Now
                           <i className="far fa-paper-plane" />
                         </a>
                       </Link>
