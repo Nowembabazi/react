@@ -143,7 +143,7 @@ const ProductDetails = () => {
                       </Tab.Pane> */}
                     </Tab.Content>
                     {/*=== Review Form ===*/}
-                    <div className="review-form-area wow fadeInUp mt-50 mb-40">
+                    {/* <div className="review-form-area wow fadeInUp mt-50 mb-40">
                       <h3 className="title">Send Us Reviews</h3>
                       <p>
                         We have 3k+ 5star Reviews
@@ -204,7 +204,7 @@ const ProductDetails = () => {
                           </div>
                         </div>
                       </form>
-                    </div>
+                    </div> */}
                   </div>
                 </Tab.Container>
               </div>
@@ -218,12 +218,12 @@ const ProductDetails = () => {
                         src="assets/images/shop/mockup.png"
                         alt="Banner Image"
                       />
-                      <Link legacyBehavior href="/contact">
+                      <a legacyBehavior href="/UTALI EXPO.docx">
                         <a className="main-btn secondary-btn">
-                          Book Now
+                          More Information
                           <i className="far fa-paper-plane" />
                         </a>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -237,13 +237,13 @@ const ProductDetails = () => {
       
       {/*====== End Recent Product Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <section className="gallery-section mbm-150">
+      {/* <section className="gallery-section mbm-150">
         <div className="container-fluid">
           <Slider
             {...sliderActive5Item}
             className="slider-active-5-item fadeInUp"
           >
-            {/*=== Single Gallery Item ===*/}
+        
             <div className="single-gallery-item">
               <div className="gallery-img">
                 <img src="assets/images/gallery/gl-1.jpg" alt="Gallery Image" />
@@ -257,7 +257,7 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            {/*=== Single Gallery Item ===*/}
+           
             <div className="single-gallery-item">
               <div className="gallery-img">
                 <img src="assets/images/gallery/gl-2.jpg" alt="Gallery Image" />
@@ -271,7 +271,7 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            {/*=== Single Gallery Item ===*/}
+  
             <div className="single-gallery-item">
               <div className="gallery-img">
                 <img src="assets/images/gallery/gl-3.jpg" alt="Gallery Image" />
@@ -285,7 +285,7 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            {/*=== Single Gallery Item ===*/}
+   
             <div className="single-gallery-item">
               <div className="gallery-img">
                 <img src="assets/images/gallery/gl-4.jpg" alt="Gallery Image" />
@@ -299,7 +299,7 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            {/*=== Single Gallery Item ===*/}
+    
             <div className="single-gallery-item">
               <div className="gallery-img">
                 <img src="assets/images/gallery/gl-5.jpg" alt="Gallery Image" />
@@ -313,7 +313,7 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            {/*=== Single Gallery Item ===*/}
+          
             <div className="single-gallery-item">
               <div className="gallery-img">
                 <img src="assets/images/gallery/gl-3.jpg" alt="Gallery Image" />
@@ -329,7 +329,7 @@ const ProductDetails = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
       {/*====== End Gallery Section ======*/}
     </Layout>
   );

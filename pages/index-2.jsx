@@ -1,5 +1,6 @@
 import GallerySection from "@/src/components/GallerySection";
 import Layout from "@/src/layout/Layout";
+import Home3Slider from "@/src/components/sliders/Home3";
 import CounterTimer from "@/src/components/CounterTimer"; // Add your CSS file here
 import {
   home2Slider,
@@ -13,112 +14,8 @@ const Index2 = () => {
   return (
     <Layout header={2} extraClass={"pt-160"}>
       {/*====== Start Hero Section ======*/}
-      <section className="hero-section">
-        {/*=== Hero Wrapper ===*/}
-        <div className="hero-wrapper-two">
-          {/*=== Hero Slider ===*/}
-          <Slider {...home2Slider} className="hero-slider-two">
-            {/*=== Single Slider ===*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-1.jpg)",
-                }}
-              />
-              <div className="container-fluid">
-                <div className="row justify-content-center">
-                  <div className="col-xl-9">
-                    {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white text-center">
-                 
-                      <h2 data-animation="fadeInDown" data-delay=".4s">
-                        Utalii Tourism  Expo 2024
-                      </h2>
-                      <span className="ribbon"> 27TH - 29TH JUNE 2024</span>
-                      <br/>
-                      <span className="ribbon"> Kololo Independence Grounds, Kampala, Uganda</span>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*=== Single Slider ===*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-2.jpg)",
-                 
-                }}
-              />
-              <div className="container-fluid">
-                <div className="row justify-content-center">
-                  <div className="col-xl-9">
-                    {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white text-center">
-                      
-                      <h2 data-animation="fadeInDown" data-delay=".4s">
-                       Utalii Tourism  Expo 2024
-                      </h2>
-                      <span className="ribbon"> 27TH - 29TH JUNE 2024</span>
-                      <br/>
-                      <span className="ribbon"> Kololo Independence Grounds, Kampala, Uganda</span>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*=== Single Slider ===*/}
-          
-            {/*=== Single Slider ===*/}
-          
-          </Slider>
-        </div>
-      </section>
-
-      <section className="features-section pt-100">
-        <div className="container">
-          <div className="row justify-content-center mb-4">
-            <div className="col-xl-8">
-        
-              <div className="section-title text-center mb-45 wow fadeInDown">
-                <span className="sub-title">About the Expo</span>
-                <h2>Utalii Tourism Expo 2024.</h2>
-               
-              </div>
-            </div>
-            <GallerySection/>
-          </div>
-          <div className="row">
-            
-          </div>
-        </div>
-      </section>
+      <Home3Slider />
+     
       
       <section className="booking-form-section">
      

@@ -870,54 +870,7 @@ UATE 2024 inaugural event will take place on Thursday 27th, Friday 28th & Saturd
                       </span>
                     </li>
                   </ul>
-                  <form
-                    onSubmit={(e) => e.preventDefault()}
-                    className="comment-form"
-                  >
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <div className="form_group">
-                          <input
-                            type="email"
-                            className="form_control"
-                            placeholder="Email Address"
-                            name="name"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="form_group">
-                          <input
-                            type="text"
-                            className="form_control"
-                            placeholder="Enter Name"
-                            name="email"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form_group">
-                          <textarea
-                            name="message"
-                            className="form_control"
-                            rows={4}
-                            placeholder="Write Comments"
-                            defaultValue={""}
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form_group">
-                          <button className="main-btn primary-btn">
-                            Send comments
-                            <i className="fas fa-angle-double-right" />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+                  
                 </div>
               </div>
               <div className="col-xl-4">
@@ -1195,7 +1148,7 @@ UATE 2024 inaugural event will take place on Thursday 27th, Friday 28th & Saturd
       </section>
       {/*====== End Place Details Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
     </Layout>
   );
