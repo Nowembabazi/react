@@ -5,7 +5,7 @@ const Header1 = () => {
   return (
     <header className="header-area header-one transparent-header">
       {/*====== Header Navigation ======*/}
-      <div className="header-navigation navigation-white">
+      <div className="header-navigation navigation-white" style={{ backgroundColor: '#D2691E', color: 'grey' }}>
         <div className="nav-overlay" />
         <div className="container-fluid">
           <div className="primary-menu">

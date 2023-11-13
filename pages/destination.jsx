@@ -5,10 +5,10 @@ import Link from "next/link";
 const Destination = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Destination"} />
+      <PageBanner pageTitle={"About Us"} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section pb-100">
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className="booking-form-wrapper p-r z-2">
             <form
               onSubmit={(e) => e.preventDefault()}
@@ -67,7 +67,7 @@ const Destination = () => {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
       </section>
       {/*====== End Booking Section ======*/}
       {/*====== Start Destination Section ======*/}

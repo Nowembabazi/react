@@ -30,18 +30,18 @@ const DeskTopMenu = () => {
               </span>
             </a>
             <ul className="sub-menu">
-              <li>
+              {/* <li>
                 <Link href="/">Home 01</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="index-2">Home 02</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="index-3">Home 03</Link>
               </li>
               <li>
                 <Link href="index-4">Home 04</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="menu-item has-children">
@@ -61,51 +61,49 @@ const DeskTopMenu = () => {
             </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="exhibitors">
               Exhibitors
-              <span className="dd-trigger">
+              {/* <span className="dd-trigger">
                 <i className="far fa-angle-down" />
-              </span>
+              </span> */}
             </a>
-            <ul className="sub-menu">
+            {/* <ul className="sub-menu">
               <li>
                 <Link href="destination">Destination</Link>
               </li>
               <li>
                 <Link href="destination-details">Destination Details</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="sponsors">
               Sponsors
-              <span className="dd-trigger">
+              {/* <span className="dd-trigger">
                 <i className="far fa-angle-down" />
-              </span>
+              </span> */}
             </a>
             <ul className="sub-menu">
-              <li>
+              {/* <li>
                 <Link href="destination">Destination</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="destination-details">Destination Details</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="traders">
               Traders
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
               </span>
             </a>
             <ul className="sub-menu">
-              <li>
+              {/* <li>
                 <Link href="destination">Destination</Link>
-              </li>
-              <li>
-                <Link href="destination-details">Destination Details</Link>
-              </li>
+              </li> */}
+             
             </ul>
           </li>
           
@@ -120,17 +118,17 @@ const DeskTopMenu = () => {
               {/* <li>
                 <Link href="about">About Us</Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link href="gallery">Our Gallery</Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link href="events">Our Events</Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link href="shop">Our Shop</Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="product-details">Product Details</Link>
+                <Link href="product-details">Media</Link>
               </li>
               <li>
                 <Link href="contact">Contact</Link>
@@ -161,9 +159,9 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("home")}>
-            <li>
+            {/* <li>
               <Link href="/">Home 01</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="index-2">Home 02</Link>
             </li>
@@ -192,7 +190,7 @@ const MobileMenu = () => {
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a href="exhibitors">
             Exhibitors
             <span
               className="dd-trigger"
@@ -201,18 +199,18 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Destination")}>
+          {/* <ul className="sub-menu" style={activeLi("Destination")}>
             <li>
               <Link href="destination">Destination</Link>
             </li>
             <li>
               <Link href="destination-details">Destination Details</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item has-children">
-          <a href="#">
-            Blog
+          <a href="product-details">
+            Sponsors
             <span className="dd-trigger" onClick={() => activeMenuSet("Blog")}>
               <i className="far fa-angle-down" />
             </span>
@@ -235,20 +233,20 @@ const MobileMenu = () => {
           </a>
           <ul className="sub-menu" style={activeLi("Pages")}>
             <li>
-              <Link href="about">About Us</Link>
+              <Link href="product-details">Media</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="gallery">Our Gallery</Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link href="events">Our Events</Link>
             </li> */}
-            <li>
+            {/* <li>
               <Link href="shop">Our Shop</Link>
             </li>
             <li>
               <Link href="product-details">Product Details</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="contact">Contact</Link>
             </li>

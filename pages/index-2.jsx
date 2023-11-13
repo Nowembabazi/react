@@ -1,8 +1,10 @@
 import GallerySection from "@/src/components/GallerySection";
 import Layout from "@/src/layout/Layout";
+import Home3Slider from "@/src/components/sliders/Home3";
 import CounterTimer from "@/src/components/CounterTimer"; // Add your CSS file here
 import {
   home2Slider,
+  partnerSliderOne,
   sliderActive3Item,
   sliderActive4Item,
 } from "@/src/sliderProps";
@@ -12,112 +14,8 @@ const Index2 = () => {
   return (
     <Layout header={2} extraClass={"pt-160"}>
       {/*====== Start Hero Section ======*/}
-      <section className="hero-section">
-        {/*=== Hero Wrapper ===*/}
-        <div className="hero-wrapper-two">
-          {/*=== Hero Slider ===*/}
-          <Slider {...home2Slider} className="hero-slider-two">
-            {/*=== Single Slider ===*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-1.jpg)",
-                }}
-              />
-              <div className="container-fluid">
-                <div className="row justify-content-center">
-                  <div className="col-xl-9">
-                    {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white text-center">
-                 
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Utalii Tourism  Expo 2024
-                      </h1>
-                      <span className="ribbon"> 27TH - 29TH JUNE 2024</span>
-                      <br/>
-                      <span className="ribbon"> Kololo Independence Grounds, Kampala, Uganda</span>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*=== Single Slider ===*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-2.jpg)",
-                 
-                }}
-              />
-              <div className="container-fluid">
-                <div className="row justify-content-center">
-                  <div className="col-xl-9">
-                    {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white text-center">
-                      
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                       Utalii Tourism  Expo 2024
-                      </h1>
-                      <span className="ribbon"> 27TH - 29TH JUNE 2024</span>
-                      <br/>
-                      <span className="ribbon"> Kololo Independence Grounds, Kampala, Uganda</span>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*=== Single Slider ===*/}
-          
-            {/*=== Single Slider ===*/}
-          
-          </Slider>
-        </div>
-      </section>
-
-      <section className="features-section pt-100">
-        <div className="container">
-          <div className="row justify-content-center mb-4">
-            <div className="col-xl-8">
-        
-              <div className="section-title text-center mb-45 wow fadeInDown">
-                <span className="sub-title">About the Expo</span>
-                <h2>Utalii Tourism Expo 2024.</h2>
-               
-              </div>
-            </div>
-            <GallerySection/>
-          </div>
-          <div className="row">
-            
-          </div>
-        </div>
-      </section>
+      <Home3Slider />
+     
       
       <section className="booking-form-section">
      
@@ -336,7 +234,7 @@ const Index2 = () => {
             
               <div className="section-title text-center text-white mb-50 wow fadeInDown">
                 <span className="sub-title">Exibitors</span>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ti.</h2>
+                <h2>Daily Events as they happen.</h2>
               </div>
             </div>
           </div>
@@ -358,7 +256,7 @@ const Index2 = () => {
                   <i className="flaticon-camping" />
                 </div>
                 <h3 className="title">
-                  <a href="#">Lorem, ipsum dolor </a>
+                  <a href="#">Day 1 </a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -382,7 +280,7 @@ const Index2 = () => {
                   <i className="flaticon-cable-car" />
                 </div>
                 <h3 className="title">
-                  <a href="#">Lorem, ipsum dolor </a>
+                  <a href="#">Day 2 </a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -406,7 +304,7 @@ const Index2 = () => {
                   <i className="flaticon-trailer" />
                 </div>
                 <h3 className="title">
-                  <a href="#">Lorem, ipsum dolor </a>
+                  <a href="#">Day 3 </a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -430,7 +328,7 @@ const Index2 = () => {
                   <i className="flaticon-firewood" />
                 </div>
                 <h3 className="title">
-                  <a href="#"> Lorem, ipsum dolor</a>
+                  <a href="#"> Presentations</a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -454,7 +352,7 @@ const Index2 = () => {
                   <i className="flaticon-cable-car" />
                 </div>
                 <h3 className="title">
-                  <a href="#">Lorem, ipsum dolor </a>
+                  <a href="#">News Corner </a>
                 </h3>
                 <p>
                   Sit amet consectetur integer tincidunt nodalesry volutpat
@@ -469,14 +367,14 @@ const Index2 = () => {
         </div>
       </section>
    
-      {/* <section className="team-section pt-100 pb-70">
+      <section className="team-section pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7">
            
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">Team Member</span>
-                <h2>We’ve Expert Team Members Meet With Team</h2>
+                <h2>A word from the keynote speakers</h2>
               </div>
             </div>
           </div>
@@ -485,11 +383,15 @@ const Index2 = () => {
             
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
-                  <img src="assets/images/team/team-1.jpg" alt="Team Image" />
+                  <img src="assets/images/team/team-1.jg" alt="Team Image" />
                 </div>
                 <div className="member-info">
-                  <h4 className="title">Donald D. Schafer</h4>
+                  <h4 className="title">Mr Nickson</h4>
                   <p className="position">CEO &amp; Founder</p>
+                  <p>
+                  Sit amet consectetur integer tincidunt nodalesry volutpat
+                  neque ferme malesua da sceleris quecy massa lacus
+                </p>
                   <ul className="social-link">
                     <li>
                       <a href="#">
@@ -519,11 +421,15 @@ const Index2 = () => {
               
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
-                  <img src="assets/images/team/team-2.jpg" alt="Team Image" />
+                  <img src="assets/images/team/team-2.jg" alt="Team Image" />
                 </div>
                 <div className="member-info">
-                  <h4 className="title">William E. Combs</h4>
+                  <h4 className="title">Mr Henry Mugabe</h4>
                   <p className="position">Web Designer</p>
+                  <p>
+                  Sit amet consectetur integer tincidunt nodalesry volutpat
+                  neque ferme malesua da sceleris quecy massa lacus
+                </p>
                   <ul className="social-link">
                     <li>
                       <a href="#">
@@ -553,11 +459,15 @@ const Index2 = () => {
              
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
-                  <img src="assets/images/team/team-3.jpg" alt="Team Image" />
+                  <img src="assets/images/team/team-3.jg" alt="Team Image" />
                 </div>
                 <div className="member-info">
-                  <h4 className="title">Daniel G. Santana</h4>
+                  <h4 className="title">Mr Francis</h4>
                   <p className="position">Senior Manager</p>
+                  <p>
+                  Sit amet consectetur integer tincidunt nodalesry volutpat
+                  neque ferme malesua da sceleris quecy massa lacus
+                </p>
                   <ul className="social-link">
                     <li>
                       <a href="#">
@@ -583,111 +493,10 @@ const Index2 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-md-6 col-sm-12">
-             
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-4.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Mario M. Troutman</h4>
-                  <p className="position">Web Developer</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-12">
-            
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-5.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Don O. Vaillancourt</h4>
-                  <p className="position">Junior Marketer</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-12">
-            
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-6.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Eugene J. Gilliam</h4>
-                  <p className="position">Graphics Designer</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
-      </section> */}
+      </section>
      
       {/* <section className="activity-section pb-60">
         <div className="container-fluid">
@@ -940,6 +749,82 @@ const Index2 = () => {
           </div>
         </div>
       </section> 
+      <section className="partners-section black-dark-bg">
+        <div className="container">
+          {/*=== Partners Slider ===*/}
+          <Slider
+            {...partnerSliderOne}
+            className="partner-slider-one pt-80 pb-50 wow fadeInUp"
+          >
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-6.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-7.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-8.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-9.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-10.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-7.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+          </Slider>
+        </div>
+      </section>
       {/* ====== End Blog Section ======
       ====== Start Gallery Section ======
       <GallerySection />
