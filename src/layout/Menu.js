@@ -50,30 +50,30 @@ const DeskTopMenu = () => {
           <li className="menu-item has-children">
             <a href="exhibitors">
               Exhibitors
-              {/* <span className="dd-trigger">
+              <span className="dd-trigger">
                 <i className="far fa-angle-down" />
-              </span> */}
+              </span>
             </a>
-            {/* <ul className="sub-menu">
+            <ul className="sub-menu">
               <li>
-                <Link href="destination">Destination</Link>
+                <Link href="contact">Registration</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="destination-details">Destination Details</Link>
-              </li>
-            </ul> */}
+              </li> */}
+            </ul>
           </li>
           <li className="menu-item has-children">
             <a href="sponsors">
               Sponsors
-              {/* <span className="dd-trigger">
+              <span className="dd-trigger">
                 <i className="far fa-angle-down" />
-              </span> */}
+              </span>
             </a>
             <ul className="sub-menu">
-              {/* <li>
-                <Link href="destination">Destination</Link>
-              </li> */}
+              <li>
+                <Link href="contact">Registration</Link>
+              </li>
               {/* <li>
                 <Link href="destination-details">Destination Details</Link>
               </li> */}
@@ -87,16 +87,16 @@ const DeskTopMenu = () => {
               </span>
             </a>
             <ul className="sub-menu">
-              {/* <li>
-                <Link href="destination">Destination</Link>
-              </li> */}
+              <li>
+                <Link href="contact">Registration</Link>
+              </li>
              
             </ul>
           </li>
           
           <li className="menu-item has-children">
-            <a href="#">
-              Pages
+            <a href="product-details">
+              Media
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
               </span>
@@ -114,11 +114,9 @@ const DeskTopMenu = () => {
               {/* <li>
                 <Link href="shop">Our Shop</Link>
               </li> */}
+             
               <li>
-                <Link href="product-details">Media</Link>
-              </li>
-              <li>
-                <Link href="contact">Contact</Link>
+                <Link href="contact">Registration</Link>
               </li>
             </ul>
           </li>

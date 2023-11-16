@@ -27,6 +27,11 @@ const Footer = ({ bg, extraClass }) => {
                           : "assets/images/logo/logo-white.png"
                       }
                       alt="Site Logo"
+                      style={{
+                        width: '120px', // Set the desired width
+                        height: 'auto', // To maintain aspect ratio
+                        borderRadius: '28px' // Set the curved border radius
+                      }}
                     />
                   </a>
                 </div>

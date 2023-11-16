@@ -12,7 +12,16 @@ const DefaultHeader = () => {
               <div className="site-brading">
                 <Link legacyBehavior href="/index-3">
                   <a className="brand-logo">
-                    {/* <img src="assets/images/logo/logo-black.png" alt="Logo" /> */}
+                  <img
+                    src="assets/images/logo/logo-white.png"
+                    alt="Site Logo"
+                    style={{
+                      marginLeft: '34px',
+                      width: '120px', // Set the desired width
+                      height: 'auto', // To maintain aspect ratio
+                      borderRadius: '28px' // Set the curved border radius
+                    }}
+                  />
                   </a>
                 </Link>
               </div>
@@ -43,8 +52,8 @@ const DefaultHeader = () => {
                         <div className="info">
                           <span className="title">Email Address</span>
                           <h5>
-                            <a href="mailto:support@gmail.com">
-                              support@gmail.com
+                            <a href="mailto:support@utalii.com">
+                              support@utalii.com
                             </a>
                           </h5>
                         </div>
@@ -60,7 +69,7 @@ const DefaultHeader = () => {
                         <div className="info">
                           <span className="title">Drop a Line</span>
                           <h5>
-                            <a href="tel:+000(123)45688">+ (123) 456 88</a>
+                            <a href="tel:+000(123)45688">+ (256) 00456 88</a>
                           </h5>
                         </div>
                       </div>
@@ -81,7 +90,15 @@ const DefaultHeader = () => {
             <div className="site-brading d-block d-xl-none">
               <Link legacyBehavior href="/index-3">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-black.png" alt="Logo" />
+                <img
+                    src="assets/images/logo/logo-white.png"
+                    alt="Site Logo"
+                    style={{
+                      width: '120px', // Set the desired width
+                      height: 'auto', // To maintain aspect ratio
+                      borderRadius: '28px' // Set the curved border radius
+                    }}
+                  />
                 </a>
               </Link>
             </div>
@@ -91,10 +108,15 @@ const DefaultHeader = () => {
               <div className="mobile-logo mb-30 d-block d-xl-none">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img
-                      src="assets/images/logo/logo-black.png"
-                      alt="Site Logo"
-                    />
+                  <img
+                    src="assets/images/logo/logo-white.png"
+                    alt="Site Logo"
+                    style={{
+                      width: '120px', // Set the desired width
+                      height: 'auto', // To maintain aspect ratio
+                      borderRadius: '28px' // Set the curved border radius
+                    }}
+                  />
                   </a>
                 </Link>
               </div>
