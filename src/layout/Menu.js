@@ -23,26 +23,13 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">
-            <a href="#">
-              Home
+            <a href="index-2">
+              Home 
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
               </span>
             </a>
-            <ul className="sub-menu">
-              {/* <li>
-                <Link href="/">Home 01</Link>
-              </li> */}
-              <li>
-                <Link href="index-2">Home 02</Link>
-              </li>
-              {/* <li>
-                <Link href="index-3">Home 03</Link>
-              </li>
-              <li>
-                <Link href="index-4">Home 04</Link>
-              </li> */}
-            </ul>
+            
           </li>
           <li className="menu-item has-children">
             <a href="#">
@@ -52,9 +39,9 @@ const DeskTopMenu = () => {
               </span>
             </a>
             <ul className="sub-menu">
-              {/* <li>
-                <Link href="tour">About UATE</Link>
-              </li> */}
+              <li>
+                <Link href="tour">About Utalii</Link>
+              </li>
               <li>
                 <Link href="tour-details">UATE Details</Link>
               </li>
@@ -94,7 +81,7 @@ const DeskTopMenu = () => {
           </li>
           <li className="menu-item has-children">
             <a href="traders">
-              Traders
+              Trader Visitors
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
               </span>
@@ -181,9 +168,9 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("Tours")}>
-            {/* <li>
-              <Link href="tour">About UATE</Link>
-            </li> */}
+            <li>
+              <Link href="tour">About Utalii</Link>
+            </li>
             <li>
               <Link href="tour-details">UATE Details</Link>
             </li>
@@ -224,6 +211,21 @@ const MobileMenu = () => {
             </li> */}
           </ul>
         </li>
+        <li className="menu-item has-children">
+            <a href="traders">
+              Trader Visitors
+              <span className="dd-trigger">
+                <i className="far fa-angle-down" />
+              </span>
+            </a>
+            <ul className="sub-menu">
+              {/* <li>
+                <Link href="destination">Destination</Link>
+              </li> */}
+             
+            </ul>
+          </li>
+          
         <li className="menu-item has-children">
           <a href="#">
             Pages

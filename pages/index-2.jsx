@@ -94,45 +94,12 @@ const Index2 = () => {
                    About Utalii Tourism Expo 2024
                   </h2>
                 </div>
-                <h3>
+                <h3 style={{ fontWeight: 'lighter', fontSize: '24px' }}>
                 Utalii Tourism Expo is a three-day event that shall be held on: Thursday 27th, Friday 28th and Saturday
                  29 th June 2024, Kololo Independence Grounds (Kololo Airstrip), Kampala-
                 Uganda.
                 </h3>
-                <div className="card-list mt-4">
-                  <div className="card-item">
-                    <i className="fas fa-badge-check" />
-                    Exhibitors
-                  </div>
-                  <div className="card-item">
-                    <i className="fas fa-badge-check" />
-                    Workshops
-                  </div>
-                  <div className="card-item">
-                    <i className="fas fa-badge-check" />
-                    Great speakers
-                  </div>
-                  <div className="card-item">
-                    <i className="fas fa-badge-check" />
-                    Deal closing
-                  </div>
-                  <div className="card-item">
-                    <i className="fas fa-badge-check" />
-                    New Partnerships
-                  </div>
-                  <div className="card-item">
-                    <i className="fas fa-badge-check" />
-                    Fam Trips
-                  </div>
-                  <div className="card-item">
-                    <i className="fas fa-badge-check" />
-                    B2C Engagements
-                  </div>
-                  <div className="card-item">
-                    <i className="fas fa-badge-check" />
-                    Seminars
-                  </div>
-                </div>
+                
               </div>
             </div>
             <div className="col-lg-6">
@@ -149,7 +116,82 @@ const Index2 = () => {
           </div>
         </div>
       </section>
-     
+      <section className="partners-section black-dark-bg">
+        <div className="container">
+          {/*=== Partners Slider ===*/}
+          <Slider
+            {...partnerSliderOne}
+            className="partner-slider-one pt-80 pb-50 wow fadeInUp"
+          >
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-6.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-7.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-8.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-9.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-10.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+            {/*=== Partner Item ===*/}
+            <div className="single-partner-item">
+              <div className="partner-img">
+                <a href="#">
+                  <img
+                    src="assets/images/partner/partner-7.png"
+                    alt="Partner Image"
+                  />
+                </a>
+              </div>
+            </div>
+          </Slider>
+        </div>
+      </section>
       <section className="who-we-section">
         <div className="container">
           <div className="row align-items-xl-center">
@@ -163,19 +205,32 @@ const Index2 = () => {
                 />
               </div>
             </div> */}
+
             <div className="col-lg-6 order-1 order-lg-2">
             
               <div className="we-one_content-box wow fadeInRight">
                 <div className="section-title mb-30">
+                  <br/>
+                  
                   <span className="sub-title">Who We Are</span>
-                  <h2>this will talk about the sponsors &amp; and more</h2>
+                  
+                  {/* <h2>this will talk about the sponsors &amp; and more</h2> */}
                 </div>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, erat sit amet
-                eleifend scelerisque, purus turpis malesuada urna, et euismod justo quam nec justo.
-                Suspendisse potenti. Nullam tristique auctor est, et volutpat ex dignissim eget.
-                </p>
-                <div className="skill-wrapper">
+        
+        <h5 style={{ marginTop: '-24px', marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>Utalii Africa Tourism Expo is a one-of-a kind event scheduled to take place in June 2024 in
+the Ugandan capital, Kampala. <br/>
+<br/>
+            Africa’s mega inaugural expo will, over the course of three days, provide a unique platform
+              for African countries and global tourism stakeholders to showcase their products and
+           services, build crucial networks with other players in the market, learn from one another
+           and close lucrative business deals.
+<br/>
+<br/>
+           Participants will have the collective opportunity to harness Africa’s rich, authentic, cultural
+           and natural heritage and hold crucial conversations, with the goal of reigniting the tourism
+          business in Africa and promoting inter-Africa travel and trade.</h5>
+<br/>
+                {/* <div className="skill-wrapper">
                   <div className="single-skill-circle text-center">
                     <div className="inner-circle">
                       <div className="line" />
@@ -190,22 +245,58 @@ const Index2 = () => {
                     </div>
                     <h5>Success Rate</h5>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="col-lg-6 order-1 order-lg-2">
+            <hr/>
+            <div className="col-lg-6 order-1 order-lg-2" style={{ backgroundColor: '' }}>
             
-            <div className="we-one_content-box wow fadeInRight">
+            <div className="we-one_content-box wow fadeInRight" >
               <div className="section-title mb-30">
-                <span className="sub-title">Who We Are</span>
-                <h2>this will have more text about the expo</h2>
+                <span className="sub-title">Activities</span>
+                
               </div>
-              <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, erat sit amet
-              eleifend scelerisque, purus turpis malesuada urna, et euismod justo quam nec justo.
-             Suspendisse potenti. Nullam tristique auctor est, et volutpat ex dignissim eget.
-              </p>
-              <div className="skill-wrapper">
+              <div className="col-lg-5">
+                      <ul className="check-list">
+                        <li>
+                          <i className="fas fa-badge-check" />
+                         B2B Meetings
+                          
+                        </li>
+                        <li>
+                          <i className="fas fa-badge-check" />
+                          Seminars
+                         
+                        </li>
+                        <li>
+                          <i className="fas fa-badge-check" />
+                          Exhibitions
+                         
+                        </li>
+                        <li>
+                          <i className="fas fa-badge-check" />
+                          Workshops 
+                        </li>
+                        <li>
+                          <i className="fas fa-badge-check" />
+                         Deal closing
+                        </li>
+                        <li>
+                          <i className="fas fa-badge-check" />
+                          FAM Trips
+                        
+                        </li>
+                        <li>
+                         
+                          <i className="fas fa-badge-check" />
+                         Scheduled Media Interviews
+
+                        </li>
+                      </ul>
+                      <br/>
+                    </div>
+             
+              {/* <div className="skill-wrapper">
                 <div className="single-skill-circle text-center">
                   <div className="inner-circle">
                     <div className="line" />
@@ -220,7 +311,7 @@ const Index2 = () => {
                   </div>
                   <h5>Success Rate</h5>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           </div>

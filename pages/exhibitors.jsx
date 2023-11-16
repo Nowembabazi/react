@@ -59,29 +59,32 @@ const ProductDetails = () => {
                         eventKey="descrptions"
                       >
                         <div className="content-box">
-                          <p>
-                            Sorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Tortor nulla id sit neque scelerisque
-                            pulvinar. amet interdum turpis consequat adipiscing.
-                            Elementum feugiat sed duis consectetur varius et
-                            cras mattis. Lobortis auctor sit in eu nisl fusce
-                            augue venenatis, dui. Phasellus eget sagittis
-                            mauris, nibh augue cursus Tristique amet
-                            sollicitudin sit nulla aliquam, imperdiet sed ut
-                            diam. Suspendisse ipsum rhoncus nulla lectus. Id
-                            neque in urna neque non amet. Tortor sed aliquam in
-                            faucibus enim, posuere. Sed etaccumsan neque posuere
-                            tempus in cras. Ornare lectus pretium est eget
-                            purus, enim quam purus netus.
+                          <p style={{ fontWeight: 'lighter', fontSize: '21px' }}>
+                          The expo will attract buyers from all over the world, providing you with an unimaginable
+                          market, right at your doorstep. At UATE, you will have the opportunity to explore industry
+                          trends, establish leadership and credibility in your field, make on-the-spot sales and interact
+                          with key policy makers. By participating in the expo you will be able to build strategic
+                          partnerships, tap into new markets and leverage the available media exposure – both local
+                           and global – in order to drive sustainable business.
                           </p>
-                          <p>
-                            Dictum ultrices et suspendisse amet mattis in
-                            pellentesque. Vulputate arcu, consectetur odio donec
-                            nec duis ultrices facilisi. Mauris cursus elit diam,
-                            urna suspendisse et, amet. Vitae ligula ultrices
-                            nulla justo, enim lorem duis. Volutpat sit et neque
-                            aliquam diam at at neque acus augue
-                          </p>
+
+                          <h4>how to Exhibit</h4>
+                          <hr />
+                          <h5>Get the facts</h5>
+                          <hr />
+                          <br />
+
+                          <h6>
+                          Before submitting your application, please take some time to familiarise yourself with the following:
+                          </h6>
+                          <ul>
+                            <li>*Criteria to Exhibit are set by Ugandan Tourism to ensure that products showcased at the exhibition are of the highest quality and broadly represented.</li>
+                            <li>*If you are considering sharing your space with other complimentary products, be sure to read through Managing Sharing Exhibitors. It is the responsibility of main stand holder to ensure that all requirements are met for those products on their stand.</li>
+                            <li>*Rates Schedule and Options available – we have some exciting booth options for Africa’s Travel Indaba to maximise your participation.</li>
+                            <li>*Floor Plans - the floor plans are available for you to view and accept your stand placement upon confirmation of exhibitor applications.</li>
+                            <li>*To maximize your participation, please clearly specify your stand request on your application.</li>
+                            <li></li>
+                          </ul>
                         </div>
                       </Tab.Pane>
                       <Tab.Pane

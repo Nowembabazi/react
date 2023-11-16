@@ -698,7 +698,43 @@ const Tour = () => {
             </div>
           </div>
         </div> */}
-        <h1>about us content to go here.</h1>
+        <h2  style={{ marginLeft: '20px', marginRight: '20px' }}>About Utalii.</h2>
+        <hr/>
+        <h5 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>Utalii Africa Tourism Expo is a one-of-a kind event scheduled to take place in June 2024 in
+                 the Ugandan capital, Kampala. <br/>
+           <br/>
+                 Africa’s mega inaugural expo will, over the course of three days, provide a unique platform
+                for African countries and global tourism stakeholders to showcase their products and
+                services, build crucial networks with other players in the market, learn from one another
+                  and close lucrative business deals.
+          <br/>
+         <br/>
+              Participants will have the collective opportunity to harness Africa’s rich, authentic, cultural
+              and natural heritage and hold crucial conversations, with the goal of reigniting the tourism
+                business in Africa and promoting inter-Africa travel and trade.</h5>
+
+       <br />
+          <hr />
+           <br />
+          <h2  style={{ marginLeft: '20px', marginRight: '20px' }}>About The Hosting Country.</h2>
+        <hr/>
+        <h5 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>
+          UATE will be hosted in the bustling East Africa city of Kampala, where vibrant colour, a
+            cacophony of sound, a diverse population, rich past, strong cultural traditions and promise
+          for the future combine in an unforgettable visitor experience.
+         <br/>
+         <br/>
+         The host venue, the historically significant Kololo Ceremonial Grounds, located in the heart
+           of the city, will provide guests with easy access to accommodation suited to every taste as
+           well as to essential social amenities.
+           <br />
+           <br />
+           When the expo ends, you will want to linger, and with Uganda’s lush forests, national parks,
+           mountain gorillas, scenic sites, thrilling water activities, abundant bird life and colourful
+           cultural life, among many others, there will be no shortage of activities to keep you
+          engaged.
+           
+           </h5>
       </section>
       {/*====== End Places Section ======*/}
       {/*====== Start Gallery Section ======*/}
