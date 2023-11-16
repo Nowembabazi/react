@@ -118,78 +118,17 @@ const Index2 = () => {
       </section>
       <section className="partners-section black-dark-bg">
         <div className="container">
-          {/*=== Partners Slider ===*/}
-          <Slider
-            {...partnerSliderOne}
-            className="partner-slider-one pt-80 pb-50 wow fadeInUp"
-          >
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-6.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-7.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-8.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-9.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-10.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-7.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-          </Slider>
+        <img
+                  src="assets/images/about/about-3.jpg"
+                  alt="About image"
+                  style={{
+                    width: '120%', // Set the desired width
+                    height: 'auto', // To maintain aspect ratio
+                    borderRadius: '10px',
+                    marginLeft: '-44px',
+                    marginRight: '84px'// Set the curved border radius
+                  }}
+                />
         </div>
       </section>
       <section className="who-we-section">
@@ -474,7 +413,7 @@ the Ugandan capital, Kampala. <br/>
             
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
-                  <img src="assets/images/team/team-1.jg" alt="Team Image" />
+                  <img src="assets/images/team/team-1.jpg" alt="Team Image" />
                 </div>
                 <div className="member-info">
                   <h4 className="title">Mr Nickson</h4>
@@ -512,7 +451,7 @@ the Ugandan capital, Kampala. <br/>
               
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
-                  <img src="assets/images/team/team-2.jg" alt="Team Image" />
+                  <img src="assets/images/team/team-2.jpg" alt="Team Image" />
                 </div>
                 <div className="member-info">
                   <h4 className="title">Mr Henry Mugabe</h4>
@@ -550,7 +489,7 @@ the Ugandan capital, Kampala. <br/>
              
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
-                  <img src="assets/images/team/team-3.jg" alt="Team Image" />
+                  <img src="assets/images/team/team-3.jpg" alt="Team Image" />
                 </div>
                 <div className="member-info">
                   <h4 className="title">Mr Francis</h4>
@@ -840,7 +779,7 @@ the Ugandan capital, Kampala. <br/>
           </div>
         </div>
       </section> 
-      <section className="partners-section black-dark-bg">
+      <section className="partners-section black-dark-bg" style={{ marginBottom: '-180px', color: 'lightgreen' }}>
         <div className="container">
           {/*=== Partners Slider ===*/}
           <Slider

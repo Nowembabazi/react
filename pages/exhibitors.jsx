@@ -67,22 +67,22 @@ const ProductDetails = () => {
                           partnerships, tap into new markets and leverage the available media exposure – both local
                            and global – in order to drive sustainable business.
                           </p>
-
-                          <h4>how to Exhibit</h4>
+                          <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '31px' }}>How to Exhibit</span>
                           <hr />
-                          <h5>Get the facts</h5>
+                          <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '21px' }}>Get the facts</span>
+                        
                           <hr />
                           <br />
 
-                          <h6>
+                          <h5 >
                           Before submitting your application, please take some time to familiarise yourself with the following:
-                          </h6>
+                          </h5>
                           <ul>
-                            <li>*Criteria to Exhibit are set by Ugandan Tourism to ensure that products showcased at the exhibition are of the highest quality and broadly represented.</li>
-                            <li>*If you are considering sharing your space with other complimentary products, be sure to read through Managing Sharing Exhibitors. It is the responsibility of main stand holder to ensure that all requirements are met for those products on their stand.</li>
-                            <li>*Rates Schedule and Options available – we have some exciting booth options for Africa’s Travel Indaba to maximise your participation.</li>
-                            <li>*Floor Plans - the floor plans are available for you to view and accept your stand placement upon confirmation of exhibitor applications.</li>
-                            <li>*To maximize your participation, please clearly specify your stand request on your application.</li>
+                            <li style={{ fontWeight: 'lighter', fontSize: '20px' }}>*Criteria to Exhibit are set by Ugandan Tourism to ensure that products showcased at the exhibition are of the highest quality and broadly represented.</li>
+                            <li style={{ fontWeight: 'lighter', fontSize: '20px' }}>*If you are considering sharing your space with other complimentary products, be sure to read through Managing Sharing Exhibitors. It is the responsibility of main stand holder to ensure that all requirements are met for those products on their stand.</li>
+                            <li style={{ fontWeight: 'lighter', fontSize: '21px' }}>*Rates Schedule and Options available – we have some exciting booth options for Africa’s Travel Indaba to maximise your participation.</li>
+                            <li style={{ fontWeight: 'lighter', fontSize: '21px' }}>*Floor Plans - the floor plans are available for you to view and accept your stand placement upon confirmation of exhibitor applications.</li>
+                            <li style={{ fontWeight: 'lighter', fontSize: '21px' }}>*To maximize your participation, please clearly specify your stand request on your application.</li>
                             <li></li>
                           </ul>
                         </div>
