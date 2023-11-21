@@ -117,7 +117,7 @@ const Index2 = () => {
         </div>
       </section>
       <section className="partners-section black-dark-bg">
-        <div className="container">
+        <div className="cont">
         <img
                   src="assets/images/about/about-3.jpg"
                   alt="About image"
@@ -125,7 +125,7 @@ const Index2 = () => {
                     width: '120%', // Set the desired width
                     height: 'auto', // To maintain aspect ratio
                     borderRadius: '10px',
-                    marginLeft: '-44px',
+                    marginLeft: '-4px',
                     marginRight: '84px'// Set the curved border radius
                   }}
                 />
