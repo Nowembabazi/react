@@ -12,9 +12,26 @@ import Link from "next/link";
 import Slider from "react-slick";
 const Index2 = () => {
   return (
-    <Layout header={2} extraClass={"pt-160"}>
+  
+    <Layout  extraClass={"pt-160"}>
       {/*====== Start Hero Section ======*/}
-      <Home3Slider />
+      <section className="partners-section black-dark-bg">
+        <div className="cont">
+        <img
+                  src="assets/images/about/about-4.jpg"
+                  alt="About image"
+                  style={{
+                    width: '120%', // Set the desired width
+                    height: '400px', // To maintain aspect ratio
+                    borderRadius: '10px',
+                    marginLeft: '-4px',
+                    marginRight: '84px'// Set the curved border radius
+                  }}
+                />
+        </div>
+      </section>
+      { <header2/>}
+      {/* <Home3Slider /> */}
      
       
       <section className="booking-form-section">
@@ -676,7 +693,7 @@ the Ugandan capital, Kampala. <br/>
     
       <section
         className="cta-bg overlay bg_cover pt-150 pb-150"
-        style={{ backgroundImage: "url(assets/images/bg/cta-bg.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/about/about-5.jpg)" }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -860,6 +877,7 @@ the Ugandan capital, Kampala. <br/>
       <GallerySection />
       /*====== End Gallery Section ====== */}
     </Layout>
+  
   );
 };
 export default Index2;

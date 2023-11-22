@@ -5,7 +5,7 @@ import Link from "next/link";
 const Tour = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Explore Uganda With us"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section pb-100">
         {/* <div className="container-fluid">
@@ -71,7 +71,7 @@ const Tour = () => {
       <section className="places-section pb-100">
         
       
-        <span className="sub-title" style={{ marginLeft: '520px', marginRight: '20px', fontSize: '41px' }}>About Utalii</span>
+        <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>About Utalii</span>
         <hr/>
         <h5 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>Utalii Africa Tourism Expo is a one-of-a kind event scheduled to take place in June 2024 in
                  the Ugandan capital, Kampala. <br/>
@@ -105,7 +105,7 @@ const Tour = () => {
         </div>
         <br />
       
-          <span className="sub-title" style={{ marginLeft: '520px', marginRight: '20px', fontSize: '41px' }}>About The Hosting Country</span>
+          <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>About The Hosting Country</span>
         <hr/>
         <h5 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>
           UATE will be hosted in the bustling East Africa city of Kampala, where vibrant colour, a
@@ -126,7 +126,7 @@ const Tour = () => {
            </h5>
            <br />
            <hr />
-           <span className="sub-title" style={{ marginLeft: '520px', marginRight: '20px', fontSize: '41px' }}>Activities</span>
+           <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>Activities</span>
                   <h6 style={{ marginLeft: '18px', fontWeight: 'lighter', fontSize: '21px' }}>
                    Alot of activities are scheduled to take place during the 3 day expo. These are some of the many:
                   </h6>

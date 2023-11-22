@@ -3,8 +3,8 @@ import Link from "next/link";
 const PageBanner = ({ pageTitle }) => {
   return (
     <section
-      className="page-banner overlay pt-170 pb-220 bg_cover"
-      style={{ backgroundImage: "url(assets/images/bg/page-bg.jpg)" }}
+      className="page-banner pt-170 pb-220 bg_cover"
+      style={{ backgroundImage: "url(assets/images/about/about-3.jpg)" }}
     >
       <div className="container">
         <div className="row justify-content-center">
@@ -13,7 +13,7 @@ const PageBanner = ({ pageTitle }) => {
               <h1 className="page-title">{pageTitle}</h1>
               <ul className="breadcrumb-link text-white">
                 <li>
-                  <Link href="/">Home</Link>
+                  <Link href="/"></Link>
                 </li>
                 <li className="active">{pageTitle}</li>
               </ul>
