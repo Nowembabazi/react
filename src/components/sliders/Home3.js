@@ -38,7 +38,12 @@ export default class Home3Slider extends Component {
                 className="image-layer bg_cover"
                 style={{
                   backgroundImage:
-                    "url(assets/images/hero/hero-three_img-2.jpg)",
+                    "url(assets/images/hero/hero-three_img-1.jpg)",
+                    backgroundSize: "100% 100%",// Set the background size to cover the container
+                     width: "91%", // Set the width of the image
+                     height: "90%",
+                     marginLeft: "-5px",
+                     marginRight: "-55px" // Set the height of the image
                 }}
               />
               <div className="container">
@@ -47,8 +52,8 @@ export default class Home3Slider extends Component {
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
                       <span className="sub-title"></span>
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Utalii Africa Tourism Expo
+                      <h1 data-animation="fadeInDown" data-delay=".4s" style={{  fontWeight: 'lighter', fontSize: '200px' }}>
+                        ,
                       </h1>
                       <div
                         className="hero-button"

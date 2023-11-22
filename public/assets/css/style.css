@@ -170,12 +170,12 @@ h6 {
   font-family: "Prompt", sans-serif;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: 1200px) and (max-width: 768px) {
   h2 {
     font-size: 42px;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   h2 {
     font-size: 36px;
   }
@@ -230,7 +230,7 @@ body {
   padding-left: 70px;
   padding-right: 70px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: 1200px) and (max-width: 768px) {
   .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
@@ -247,7 +247,7 @@ body {
   margin-bottom: -130px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
   .plr-5p {
     padding-left: 5%;
     padding-right: 5%;
@@ -996,12 +996,12 @@ button {
   display: none;
   border-radius: 5px;
 }
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   .header-navigation .navbar-toggler {
     margin-left: 30px;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .header-navigation .navbar-toggler {
     margin-left: 15px;
   }

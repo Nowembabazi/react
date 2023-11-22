@@ -49,21 +49,18 @@ const ProductDetails = () => {
                         eventKey="descrptions"
                       >
                         <div className="content-box">
-                          <p>
-                            Sorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Tortor nulla id sit neque scelerisque
-                            pulvinar. amet interdum turpis consequat adipiscing.
-                            Elementum feugiat sed duis consectetur varius et
-                            cras mattis. Lobortis auctor sit in eu nisl fusce
-                            augue venenatis, dui. Phasellus eget sagittis
-                            mauris, nibh augue cursus Tristique amet
-                            sollicitudin sit nulla aliquam, imperdiet sed ut
-                            diam. Suspendisse ipsum rhoncus nulla lectus. Id
-                            neque in urna neque non amet. Tortor sed aliquam in
-                            faucibus enim, posuere. Sed etaccumsan neque posuere
-                            tempus in cras. Ornare lectus pretium est eget
-                            purus, enim quam purus netus.
-                          </p>
+                          <h5 style={{ fontWeight: 'lighter', fontSize: '21px'}}>
+                          Utalii Africa Tourism Expo is a one-of-a kind event scheduled to take place in June 2024 in
+the Ugandan capital, Kampala.
+Africa’s mega inaugural expo will, over the course of three days, provide a unique platform
+for African countries and global tourism stakeholders to showcase their products and
+services, build crucial networks with other players in the market, learn from one another
+and close lucrative business deals.
+Participants will have the collective opportunity to harness Africa’s rich, authentic, cultural
+and natural heritage and hold crucial conversations, with the goal of reigniting the tourism
+business in Africa and promoting inter-Africa travel and trade.
+                            
+                          </h5>
                           <p>
                             Dictum ultrices et suspendisse amet mattis in
                             pellentesque. Vulputate arcu, consectetur odio donec

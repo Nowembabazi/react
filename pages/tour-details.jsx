@@ -108,62 +108,64 @@ const TourDetails = () => {
                 {/*=== Place Content Wrap ===*/}
                 <div className="place-content-wrap pt-45 wow fadeInUp">
                   <h3 className="title">Explore The Expo.</h3>
-                  <p>
+                  
+                  <h6 style={{ fontWeight: 'lighter', fontSize: '21px' }}>
                   Utalii Africa Tourism Expo™ (UATE), is Africa’s biggest Expo that brings together all the 54 African countries and the global tourism stakeholders to showcase their tourism products and services and close business deals. Never before has the continent of Africa experienced such a big event where tourism professionals, entrepreneurs, academia, artists, among others, meet to close businesses and chart a way forward for tourism in Africa.
 UATE 2024 inaugural event will take place on Thursday 27th, Friday 28th & Saturday 29th June 2024 at Kololo Independence Grounds. Kampala, Uganda!
-                  </p>
-                  <h4>Advance Facilities</h4>
-                  <p>
-                    Neque porro quisquam est dolorem ipsum quia dolor si amet
-                    consectetur adipisci velit sed quian numquam eius tempora
-                    incidunt labore dolore magnam aliquam quaerat voluptatem.
-                  </p>
+                  </h6>
+                  <br/>
+                  <h4>Activities</h4>
+                  <h6 style={{ fontWeight: 'lighter', fontSize: '21px' }}>
+                   Alot of activities are scheduled to take place during the 3 day expo. These are some of the many:
+                  </h6>
+                  <br/>
                   <div className="row align-items-lg-center">
                     <div className="col-lg-5">
                       <ul className="check-list">
                         <li>
                           <i className="fas fa-badge-check" />
-                         Lorem ipsum dolor sit amet
+                         B2B Meetings
                           
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Lorem ipsum dolor sit amet
+                          Seminars
                          
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Lorem ipsum dolor sit amet
+                          Exhibitions
                          
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          lorem 
+                          Workshops 
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                         Lorem ipsum dolor sit amet
+                         Deal closing
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Lorem ipsum dolor sit amet
+                          FAM Trips
                         
                         </li>
                         <li>
                          
                           <i className="fas fa-badge-check" />
-                         Lorem ipsum dolor sit amet
+                         Scheduled Media Interviews
 
                         </li>
                       </ul>
+                      <br/>
                     </div>
-                    <div className="col-lg-7">
+                    {/* <div className="col-lg-7">
                       <img
                         src="assets/images/place/single-place-4.jpg"
                         className="mb-20 w-100"
                         alt="place image"
                       />
-                    </div>
+                    </div> */}
                   </div>
                  
                   <h4>
@@ -873,275 +875,7 @@ UATE 2024 inaugural event will take place on Thursday 27th, Friday 28th & Saturd
                   
                 </div>
               </div>
-              <div className="col-xl-4">
-                {/*=== Sidebar Widget Area ===*/}
-                <div className="sidebar-widget-area pt-60 pl-lg-30">
-                  {/*=== Booking Widget ===*/}
-                  <div className="sidebar-widget booking-form-widget wow fadeInUp mb-40">
-                    <h4 className="widget-title">Booking a stoll</h4>
-                    <form
-                      onSubmit={(e) => e.preventDefault()}
-                      className="sidebar-booking-form"
-                    >
-                      <div className="booking-date-time mb-20">
-                        <div className="booking-item">
-                          <label>Date</label>
-                          <div className="bk-item booking-time">
-                            <i className="far fa-calendar-alt" />
-                            <input
-                              type="text"
-                              placeholder="Select Date"
-                              className="datepicker"
-                            />
-                          </div>
-                        </div>
-                        <div className="booking-item">
-                          <label>Time</label>
-                          <div className="bk-item booking-date">
-                            <i className="far fa-calendar-alt" />
-                            <select className="wide">
-                              <option value={1}>12.00 Am</option>
-                              <option value={1}>01.00 Am</option>
-                              <option value={1}>02.00 Am</option>
-                              <option value={1}>03.00 Am</option>
-                              <option value={1}>04.00 Am</option>
-                              <option value={1}>05.00 Am</option>
-                              <option value={1}>06.00 Am</option>
-                              <option value={1}>07.00 Am</option>
-                              <option value={1}>08.00 Am</option>
-                              <option value={1}>09.00 Am</option>
-                              <option value={1}>10.00 Am</option>
-                              <option value={1}>11.00 Am</option>
-                              <option value={1}>12.00 Pm</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="booking-guest-box mb-20">
-                        <h6 className="mb-20">Rates for stolls</h6>
-                        <div className="booking-item">
-                          <label>Nationals $43</label>
-                          <div className="bk-item booking-user">
-                            <i className="far fa-user" />
-                            <select className="wide">
-                              <option value={1}>1</option>
-                              <option value={2}>2</option>
-                              <option value={3}>3</option>
-                              <option value={4}>4</option>
-                              <option value={5}>5</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div className="booking-item">
-                          <label>Foreign Traders $29</label>
-                          <div className="bk-item booking-user">
-                            <i className="far fa-user" />
-                            <select className="wide">
-                              <option value={1}>1</option>
-                              <option value={2}>2</option>
-                              <option value={3}>3</option>
-                              <option value={4}>4</option>
-                              <option value={5}>5</option>
-                            </select>
-                          </div>
-                        </div>
-                       
-                      </div>
-                      <div className="booking-extra mb-15 wow fadeInUp">
-                        <h6 className="mb-10">Aditional Services</h6>
-                        <div className="extra">
-                          <i className="fas fa-check-circle" />
-                          Service Per Boooking{" "}
-                          <span>
-                            <span className="currency">$</span>50
-                          </span>
-                        </div>
-                        <div className="extra">
-                          <i className="fas fa-check-circle" />
-                          Service Per Person{" "}
-                          <span>
-                            <span className="currency">$</span>20
-                          </span>
-                        </div>
-                      </div>
-                      <div className="booking-total mb-20">
-                        <div className="total">
-                          <label>Total</label>
-                          <span className="price">
-                            <span className="currency">$</span>70
-                          </span>
-                        </div>
-                      </div>
-                      <div className="submit-button">
-                        <button className="main-btn primary-btn">
-                          Booking Now
-                          <i className="far fa-paper-plane" />
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                  {/*=== Booking Info Widget ===*/}
-                  <div className="sidebar-widget booking-info-widget wow fadeInUp mb-40">
-                    <h4 className="widget-title">Tour Information</h4>
-                    <ul className="info-list">
-                      <li>
-                        <span>
-                          <i className="far fa-user-circle" />
-                          Max Guests<span>35</span>
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <i className="far fa-user-circle" />
-                          Minimum Age<span>12+</span>
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <i className="far fa-map-marker-alt" />
-                          Tour Location<span>Thailand</span>
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <i className="far fa-globe" />
-                          Language<span>English</span>
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  {/*=== Recent Place Widget ===*/}
-                  {/* <div className="sidebar-widget recent-place-widget mb-40 wow fadeInUp">
-                    <h4 className="widget-title">Last Minute Deals</h4>
-                    <ul className="recent-place-list">
-                      <li className="place-thumbnail-content">
-                        <img
-                          src="assets/images/place/thumb-1.jpg"
-                          alt="post thumb"
-                        />
-                        <div className="place-content">
-                          <ul className="ratings">
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="far fa-star" />
-                            </li>
-                          </ul>
-                          <h5>
-                            <Link legacyBehavior href="/tour-details">
-                              <a>Infinity Pool Nears Beach</a>
-                            </Link>
-                          </h5>
-                          <span className="price">
-                            <span className="text">From :</span>
-                            <span className="currency">$</span>45.23
-                          </span>
-                        </div>
-                      </li>
-                      <li className="place-thumbnail-content">
-                        <img
-                          src="assets/images/place/thumb-2.jpg"
-                          alt="post thumb"
-                        />
-                        <div className="place-content">
-                          <ul className="ratings">
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star-half-alt" />
-                            </li>
-                          </ul>
-                          <h5>
-                            <Link legacyBehavior href="/tour-details">
-                              <a>Infinity Pool Nears Beach</a>
-                            </Link>
-                          </h5>
-                          <span className="price">
-                            <span className="text">From :</span>
-                            <span className="currency">$</span>45.23
-                          </span>
-                        </div>
-                      </li>
-                      <li className="place-thumbnail-content">
-                        <img
-                          src="assets/images/place/thumb-3.jpg"
-                          alt="post thumb"
-                        />
-                        <div className="place-content">
-                          <ul className="ratings">
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <h5>
-                            <Link legacyBehavior href="/tour-details">
-                              <a>Infinity Pool Nears Beach</a>
-                            </Link>
-                          </h5>
-                          <span className="price">
-                            <span className="text">From :</span>
-                            <span className="currency">$</span>45.23
-                          </span>
-                        </div>
-                      </li>
-                    </ul>
-                  </div> */}
-                  {/*=== Banner Widget ===*/}
-                  {/* <div className="sidebar-widget sidebar-banner-widget wow fadeInUp mb-40">
-                    <div className="banner-widget-content">
-                      <div className="banner-img">
-                        <img
-                          src="assets/images/blog/banner-1.jpg"
-                          alt="Post Banner"
-                        />
-                        <div className="hover-overlay">
-                          <div className="hover-content">
-                            <h4 className="title">
-                              <a href="#">Swimming Pool</a>
-                            </h4>
-                            <p>
-                              <i className="fas fa-map-marker-alt" />
-                              Marrakesh, Morocco
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
