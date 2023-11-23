@@ -8,8 +8,12 @@ import {
   sliderActive3Item,
   sliderActive4Item,
 } from "@/src/sliderProps";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";
+const Counter = dynamic(() => import("@/src/components/Counter"), {
+  ssr: false,
+});
 const Index2 = () => {
   return (
   
@@ -22,7 +26,7 @@ const Index2 = () => {
                   alt="About image"
                   style={{
                     width: '120%', // Set the desired width
-                    height: '400px', // To maintain aspect ratio
+                    height: '500px', // To maintain aspect ratio
                     borderRadius: '10px',
                     marginLeft: '-4px',
                     marginRight: '84px'// Set the curved border radius
@@ -32,7 +36,9 @@ const Index2 = () => {
       </section>
       { <header2/>}
       {/* <Home3Slider /> */}
-     
+      <br />
+      <br />
+      <hr style={{ fontSize: '24px' }}/>
       
       <section className="booking-form-section">
      
@@ -101,39 +107,24 @@ const Index2 = () => {
     
       <section className="about-section pt-100 pb-50 mt-4">
         <div className="container">
-          <div className="row align-items-xl-center">
-            <div className="col-lg-6">
-             
-              <div className="about-two_content-box mb-35 wow fadeInLeft">
-                <div className="section-title mb-30">
-                  <span className="sub-title">About Company</span>
-                  <h2>
-                   About Utalii Tourism Expo 2024
-                  </h2>
-                </div>
-                <h3 style={{ fontWeight: 'lighter', fontSize: '24px' }}>
-                Utalii Tourism Expo is a three-day event that shall be held on: Thursday 27th, Friday 28th and Saturday
-                 29 th June 2024, Kololo Independence Grounds (Kololo Airstrip), Kampala-
-                Uganda.
-                </h3>
-                
-              </div>
-            </div>
-            <div className="col-lg-6">
-            
-              <div className="about-one_image-box mb-50 wow fadeInRight">
-                <img
-                  src="assets/images/about/about-1.jpg"
-                  className="radius-top-left-right-288"
-                  alt="About image"
-                />
-              </div>
-            </div>
-            
-          </div>
+          
+        <span className="sub-title" style={{ marginLeft: '0px', marginRight: '0px', fontSize: '60px' }}>The Utalii Africa Tourism Expo</span>
+        <hr/>
+        <h3 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '26px' }}>Utalii Africa Tourism Expo (UATE) is an unprecedented event that seeks to redefine Africa's tourism journey. Taking place over the course of three days in June 2024 in the Ugandan capital, Kampala, the event will bring together key industry players from all over the continent for crucial conversations about the future. <br/>
+         </h3>
+         <br />
+         <Link legacyBehavior href="/blog-details">
+                      <a className="main-btn filled-btn" style={{ fontSize: '20px' }}>
+                        African Tourism
+                        <br />
+                        Read More
+                        <i className="far fa-paper-plane" />
+                      </a>
+                    </Link>
         </div>
+         
       </section>
-      <section className="partners-section black-dark-bg">
+      {/* <section className="partners-section black-dark-bg">
         <div className="cont">
         <img
                   src="assets/images/about/about-3.jpg"
@@ -146,6 +137,93 @@ const Index2 = () => {
                     marginRight: '84px'// Set the curved border radius
                   }}
                 />
+        </div>
+      </section> */}
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+       <section className="fun-section">
+        <div className="container">
+          {/*=== Fun Wrapper ===*/}
+          <div
+            className="fun-wrapper pt-80 pb-40 bg_cover"
+            style={{ 
+              backgroundImage: "url(assets/images/bg/map.png)",
+              width: '110%',
+              marginLeft: '-40px',
+                      }}
+            
+          >
+            <div className="row">
+              <div className="col-lg-3 col-sm-6">
+                {/*=== Counter Item ===*/}
+                <div className="single-counter-item-two mb-30">
+                  <div className="inner-counter text-center">
+                    <div className="icon">
+                      <i className="flaticon-journey" />
+                    </div>
+                    <div className="content text-white">
+                      <h2 className="number">
+                        <Counter end={54} />
+                      </h2>
+                      <p>African Countries</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-sm-6">
+                {/*=== Counter Item ===*/}
+                <div className="single-counter-item-two mb-30">
+                  <div className="inner-counter text-center">
+                    <div className="icon">
+                      <i className="flaticon-tent-1" />
+                    </div>
+                    <div className="content text-white">
+                      <h2 className="number">
+                        <Counter end={100} />
+                      </h2>
+                      <p>Media</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-sm-6">
+                {/*=== Counter Item ===*/}
+                <div className="single-counter-item-two mb-30">
+                  <div className="inner-counter text-center">
+                    <div className="icon">
+                      <i className="flaticon-reviews" />
+                    </div>
+                    <div className="content text-white">
+                      <h2 className="number">
+                        <Counter end={80} />
+                      </h2>
+                      <p>Speakers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-sm-6">
+                {/*=== Counter Item ===*/}
+                <div className="single-counter-item-two mb-30">
+                  <div className="inner-counter text-center">
+                    <div className="icon">
+                      <i className="flaticon-award" />
+                    </div>
+                    <div className="content text-white">
+                      <h2 className="number">
+                        <Counter end={1000} />
+                        +
+                      </h2>
+                      <p>Exhibitors</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section className="who-we-section">
@@ -162,20 +240,19 @@ const Index2 = () => {
               </div>
             </div> */}
 
-            <div className="col-lg-6 order-1 order-lg-2">
+            <div className="col-lg-6 order-1 order-lg-2" >
+            
             
               <div className="we-one_content-box wow fadeInRight">
                 <div className="section-title mb-30">
                   <br/>
                   
-                  <span className="sub-title">Who We Are</span>
+                  <span className="sub-title" style={{ fontSize: '32px' }}>Insight</span>
                   
                   {/* <h2>this will talk about the sponsors &amp; and more</h2> */}
                 </div>
         
-        <h5 style={{ marginTop: '-24px', marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>Utalii Africa Tourism Expo is a one-of-a kind event scheduled to take place in June 2024 in
-the Ugandan capital, Kampala. <br/>
-<br/>
+        <h5 style={{ marginTop: '-24px', marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>
             Africa’s mega inaugural expo will, over the course of three days, provide a unique platform
               for African countries and global tourism stakeholders to showcase their products and
            services, build crucial networks with other players in the market, learn from one another
@@ -186,6 +263,8 @@ the Ugandan capital, Kampala. <br/>
            and natural heritage and hold crucial conversations, with the goal of reigniting the tourism
           business in Africa and promoting inter-Africa travel and trade.</h5>
 <br/>
+<br />
+<br />
                 {/* <div className="skill-wrapper">
                   <div className="single-skill-circle text-center">
                     <div className="inner-circle">
@@ -205,14 +284,16 @@ the Ugandan capital, Kampala. <br/>
               </div>
             </div>
             <hr/>
-            <div className="col-lg-6 order-1 order-lg-2" style={{ backgroundColor: '' }}>
+            <div className="col-lg-6 order-1 order-lg-2" style={{ backgroundColor: ' #DEDEDE',             
+                                                                  borderRadius: '18px', }}>
             
             <div className="we-one_content-box wow fadeInRight" >
               <div className="section-title mb-30">
-                <span className="sub-title">Activities</span>
+                <br />
+                <span className="sub-title" style={{ fontSize: '32px' }}>Activities</span>
                 
               </div>
-              <div className="col-lg-5">
+              <div className="col-lg-5" >
                       <ul className="check-list">
                         <li>
                           <i className="fas fa-badge-check" />
@@ -220,7 +301,7 @@ the Ugandan capital, Kampala. <br/>
                           
                         </li>
                         <li>
-                          <i className="fas fa-badge-check" />
+                          <i className="fas fa-badge-check"  style={{ }}/>
                           Seminars
                          
                         </li>
@@ -701,7 +782,7 @@ the Ugandan capital, Kampala. <br/>
             
               <div className="cta-content-box text-center text-white wow fadeInUp">
                 <h2 className="mb-35">
-                  Ready to Travel With Real Adventure and Enjoy Natural
+                Do not miss out on the expo!
                 </h2>
                 <Link legacyBehavior href="/about">
                   <a className="main-btn secondary-btn">
@@ -725,8 +806,8 @@ the Ugandan capital, Kampala. <br/>
                 <div className="section-title mb-30">
                   <span className="sub-title">News &amp; Blog</span>
                   <h2>
-                    Amazing News &amp; Lorem ipsum dolor sit amet, 
-                    &amp; Tips
+                  African Tourism set to happen
+                    &amp; in 2024
                   </h2>
                 </div>
                 <p className="mb-20">
@@ -755,7 +836,7 @@ the Ugandan capital, Kampala. <br/>
                     </span>
                     <h3 className="title">
                       <Link legacyBehavior href="/blog-details">
-                        <a>Lorem ipsum dolor sit amet, consectetur adip</a>
+                        <a>Welcome to The News Daily!</a>
                       </Link>
                     </h3>
                     <Link legacyBehavior href="/blog-details">
