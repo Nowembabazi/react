@@ -216,7 +216,7 @@ img {
 
 body {
   font-weight: normal;
-  font-style: normal;
+   font-style: normal;
   font-weight: 300;
   color: #484848;
   font-family: "Prompt", sans-serif;
@@ -236,7 +236,7 @@ body {
     padding-right: 15px;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
@@ -391,7 +391,7 @@ textarea.form_control {
 
 /*===== All Bg =====*/
 .black-dark-bg {
-  background-color:#622A0F;
+  background-color:#8a583e;
 }
 
 /*===== All Button Style =====*/
@@ -1047,7 +1047,7 @@ button {
 .nav-right-item .lang-dropdown {
   padding: 0 30px;
 }
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   .nav-right-item .lang-dropdown {
     padding-right: 0;
   }

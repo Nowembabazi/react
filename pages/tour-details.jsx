@@ -14,7 +14,7 @@ const TourDetails = () => {
       {/*====== Start Place Details Section ======*/}
       <section className="place-details-section">
         {/*=== Place Slider ===*/}
-        <PageBanner pageTitle={"About Us"} />
+        <PageBanner pageTitle={""} />
         
         <div className="container">
           {/*=== Tour Details Wrapper ===*/}

@@ -25,11 +25,11 @@ const Index2 = () => {
                   src="assets/images/about/about-4.jpg"
                   alt="About image"
                   style={{
-                    width: '120%', // Set the desired width
-                    height: '500px', // To maintain aspect ratio
+                    width: 'Auto', // Set the desired width
+                    height: '400px', // To maintain aspect ratio
                     borderRadius: '10px',
-                    marginLeft: '-4px',
-                    marginRight: '84px'// Set the curved border radius
+                    marginLeft: '0px',
+                    marginRight: '0px'// Set the curved border radius
                   }}
                 />
         </div>
@@ -108,13 +108,13 @@ const Index2 = () => {
       <section className="about-section pt-100 pb-50 mt-4">
         <div className="container">
           
-        <span className="sub-title" style={{ marginLeft: '0px', marginRight: '0px', fontSize: '60px' }}>The Utalii Africa Tourism Expo</span>
+        <span className="sub-title" style={{ marginLeft: '0px', marginRight: '0px', fontSize: '60px' }}>The Expo</span>
         <hr/>
         <h3 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '26px' }}>Utalii Africa Tourism Expo (UATE) is an unprecedented event that seeks to redefine Africa's tourism journey. Taking place over the course of three days in June 2024 in the Ugandan capital, Kampala, the event will bring together key industry players from all over the continent for crucial conversations about the future. <br/>
          </h3>
          <br />
          <Link legacyBehavior href="/blog-details">
-                      <a className="main-btn filled-btn" style={{ fontSize: '20px' }}>
+                      <a className="main-btn filled-btn" style={{ fontSize: '20px', }}>
                         African Tourism
                         <br />
                         Read More
@@ -253,7 +253,7 @@ const Index2 = () => {
                 </div>
         
         <h5 style={{ marginTop: '-24px', marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>
-            Africa’s mega inaugural expo will, over the course of three days, provide a unique platform
+            Africa’s mega inaugural expo will happen over the course of three days, provide a unique platform
               for African countries and global tourism stakeholders to showcase their products and
            services, build crucial networks with other players in the market, learn from one another
            and close lucrative business deals.
@@ -806,8 +806,9 @@ const Index2 = () => {
                 <div className="section-title mb-30">
                   <span className="sub-title">News &amp; Blog</span>
                   <h2>
-                  African Tourism set to happen
-                    &amp; in 2024
+                  Utalii Africa Tourism Expo 
+                  set to happen
+                  in 2024
                   </h2>
                 </div>
                 <p className="mb-20">
@@ -817,7 +818,7 @@ const Index2 = () => {
                 </p>
                 <Link legacyBehavior href="/blog-list">
                   <a className="btn-link">
-                    View More News <i className="far fa-long-arrow-right" />
+                    View More Details <i className="far fa-long-arrow-right" />
                   </a>
                 </Link>
               </div>

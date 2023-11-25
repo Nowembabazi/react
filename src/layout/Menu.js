@@ -43,7 +43,7 @@ const DeskTopMenu = () => {
                 <Link href="tour">About Utalii</Link>
               </li>
               <li>
-                <Link href="tour-details">UATE Details</Link>
+                <Link href="">UATE Details</Link>
               </li>
             </ul>
           </li>
@@ -58,9 +58,9 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="contact">Registration</Link>
               </li>
-              {/* <li>
-                <Link href="destination-details">Destination Details</Link>
-              </li> */}
+              <li>
+                <Link href="">Exhibitor Details</Link>
+              </li>
             </ul>
           </li>
           <li className="menu-item has-children">
@@ -74,9 +74,9 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="contact">Registration</Link>
               </li>
-              {/* <li>
-                <Link href="destination-details">Destination Details</Link>
-              </li> */}
+              <li>
+                <Link href="">Sponsor Details</Link>
+              </li>
             </ul>
           </li>
           <li className="menu-item has-children">
@@ -89,6 +89,9 @@ const DeskTopMenu = () => {
             <ul className="sub-menu">
               <li>
                 <Link href="contact">Registration</Link>
+              </li>
+              <li>
+                <Link href="contact">Details</Link>
               </li>
              
             </ul>
@@ -111,9 +114,9 @@ const DeskTopMenu = () => {
               {/* <li>
                 <Link href="events">Our Events</Link>
               </li> */}
-              {/* <li>
-                <Link href="shop">Our Shop</Link>
-              </li> */}
+              <li>
+                <Link href="">Media Details</Link>
+              </li>
              
               <li>
                 <Link href="contact">Registration</Link>
@@ -143,7 +146,7 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("home")}>
+          <ul className="sub-menu" style={activeLi("")}>
             {/* <li>
               <Link href="/">Home 01</Link>
             </li> */}
@@ -165,7 +168,7 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Tours")}>
+          <ul className="sub-menu" style={activeLi("")}>
             <li>
               <Link href="tour">About Utalii</Link>
             </li>
@@ -200,7 +203,7 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Blog")}>
+          <ul className="sub-menu" style={activeLi("")}>
             {/* <li>
               <Link href="blog-list">Blog List</Link>
             </li>
@@ -226,12 +229,12 @@ const MobileMenu = () => {
           
         <li className="menu-item has-children">
           <a href="#">
-            Pages
-            <span className="dd-trigger" onClick={() => activeMenuSet("Pages")}>
+            Media
+            <span className="dd-trigger" onClick={() => activeMenuSet("")}>
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Pages")}>
+          <ul className="sub-menu" style={activeLi("")}>
             <li>
               <Link href="product-details">Media</Link>
             </li>

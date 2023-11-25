@@ -68,7 +68,8 @@ const Tour = () => {
       </section>
       {/*====== End Booking Section ======*/}
       {/*====== Start Places Section ======*/}
-      <section className="places-section pb-100">
+      <section className="places-section pb-100" style={{ backgroundColor: ' #DEDEDE',             
+                                                                  borderRadius: '18px', }}>
         
       
         <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>About Utalii</span>
@@ -105,7 +106,7 @@ const Tour = () => {
         </div>
         <br />
       
-          <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>About The Hosting Country</span>
+          <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>The Hosting Country</span>
         <hr/>
         <h5 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>
           UATE will be hosted in the bustling East Africa city of Kampala, where vibrant colour, a

@@ -8,7 +8,7 @@ import Slider from "react-slick";
 const Traders = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Traders"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Shop Details Section ======*/}
       <section className="shop-details-section pt-100 pb-50">
         <div className="container">

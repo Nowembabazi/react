@@ -4,7 +4,12 @@ const PageBanner = ({ pageTitle }) => {
   return (
     <section
       className="page-banner pt-170 pb-220 bg_cover"
-      style={{ backgroundImage: "url(assets/images/about/about-3.jpg)" }}
+      style={{ backgroundImage: "url(assets/images/about/about-3.jpg)",
+      width: 'Auto', // Set the desired width
+      height: '350px', // To maintain aspect ratio
+      borderRadius: '10px',
+      marginLeft: '5px',
+          marginRight: '0px'}}
     >
       <div className="container">
         <div className="row justify-content-center">
