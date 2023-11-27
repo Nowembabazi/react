@@ -26,7 +26,7 @@ const Index = () => {
                   alt="About image"
                   style={{
                     width: '100%', // Set the desired width
-                    height: '400px', // To maintain aspect ratio
+                    height: '300px', // To maintain aspect ratio
                     borderRadius: '10px',
                     marginLeft: '0px',
                     marginRight: '0px'// Set the curved border radius

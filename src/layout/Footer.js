@@ -1,7 +1,7 @@
 const Footer = ({ bg, extraClass }) => {
   return (
     <footer
-      className={`main-footer ${bg ? bg : "gray"}-bg ${
+      className={`main-footer ${bg ? bg : "green"}-bg ${
         extraClass ? extraClass : ""
       }`}
     >

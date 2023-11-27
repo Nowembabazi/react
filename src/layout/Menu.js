@@ -140,7 +140,7 @@ const MobileMenu = () => {
     <nav className="main-menu d-block d-xl-none">
       <ul>
         <li className="menu-item has-children">
-          <a href="#">
+          <a href="index-2">
             Home
             <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
               <i className="far fa-angle-down" />
@@ -160,7 +160,7 @@ const MobileMenu = () => {
               <Link href="tour">About Utalii</Link>
             </li>
             <li>
-              <Link href="tour-details">UATE Details</Link>
+              <Link href="contact">UATE Details</Link>
             </li>
           </ul>
         </li>
