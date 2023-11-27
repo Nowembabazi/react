@@ -25,7 +25,7 @@ const Index2 = () => {
                   src="assets/images/about/about-4.jpg"
                   alt="About image"
                   style={{
-                    width: 'Auto', // Set the desired width
+                    width: '100%', // Set the desired width
                     height: '400px', // To maintain aspect ratio
                     borderRadius: '10px',
                     marginLeft: '0px',

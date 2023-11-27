@@ -23,7 +23,7 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">
-            <a href="index-2">
+            <a href="index-2" style={{ fontSize: '24px' }}>
               Home 
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -32,7 +32,7 @@ const DeskTopMenu = () => {
             
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="#" style={{ fontSize: '24px' }}>
               About UATE
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -48,7 +48,7 @@ const DeskTopMenu = () => {
             </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="exhibitors">
+            <a href="exhibitors" style={{ fontSize: '24px' }}>
               Exhibitors
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -64,7 +64,7 @@ const DeskTopMenu = () => {
             </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="sponsors">
+            <a href="sponsors" style={{ fontSize: '24px' }}>
               Sponsors
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -80,7 +80,7 @@ const DeskTopMenu = () => {
             </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="traders">
+            <a href="traders" style={{ fontSize: '24px' }}>
               Trader Visitors
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -98,7 +98,7 @@ const DeskTopMenu = () => {
           </li>
           
           <li className="menu-item has-children">
-            <a href="product-details">
+            <a href="product-details" style={{ fontSize: '24px' }}>
               Media
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
