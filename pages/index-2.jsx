@@ -14,7 +14,7 @@ import Slider from "react-slick";
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
-const Index2 = () => {
+const Index = () => {
   return (
   
     <Layout  extraClass={"pt-160"}>
@@ -962,4 +962,4 @@ const Index2 = () => {
   
   );
 };
-export default Index2;
+export default Index;
