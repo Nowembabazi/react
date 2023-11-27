@@ -146,20 +146,7 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("")}>
-            {/* <li>
-              <Link href="/">Home 01</Link>
-            </li> */}
-            <li>
-              <Link href="index-2">Home 02</Link>
-            </li>
-            {/* <li>
-              <Link href="index-3">Home 03</Link>
-            </li>
-            <li>
-              <Link href="index-4">Home 04</Link>
-            </li> */}
-          </ul>
+         
         </li>
         <li className="menu-item has-children">
           <a href="#">
