@@ -139,6 +139,7 @@ const Index = () => {
               backgroundImage: "url(assets/images/bg/map.png)",
               width: '100%',
               marginLeft: '0px',
+              height: 'Auto'
                       }}
             
           >
@@ -827,7 +828,7 @@ const Index = () => {
              
               <div className="single-blog-post-two mb-40 wow fadeInUp">
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/blog-4.jpg" alt="Blog Image" />
+                  <img src="assets/images/hero/hero-three_img-1.jpg" alt="Blog Image" />
                 </div>
                 <div className="entry-content">
                   <div className="post-meta">
@@ -852,7 +853,7 @@ const Index = () => {
             
               <div className="single-blog-post-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/blog-5.jpg" alt="Blog Image" />
+                  <img src="assets/images/hero/hero-two_img-1.jpg" alt="Blog Image" />
                 </div>
                 <div className="entry-content">
                   <div className="post-meta">
