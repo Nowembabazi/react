@@ -17,7 +17,7 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 const Index = () => {
   return (
  
-    <Layout  extraClass={"pt-160"}>
+    <Layout  extraClass={"pt-140"}>
       {/*====== Start Hero Section ======*/}
       <section className="partners-section black-dark-bg">
         <div className="cont">
@@ -42,9 +42,9 @@ const Index = () => {
       
       <section className="booking-form-section">
      
-      
+{/*       
       {/* <CounterTimer /> */}
-        {/* <div className="container-fluid">
+        <div className="container-fluid">
           <div className="booking-form-wrapper">
             <form className="booking-form-two">
               <div className="form_group">
@@ -100,7 +100,7 @@ const Index = () => {
               </div>
             </form>
           </div>
-        </div> */}
+        </div> */
       </section>
     
      

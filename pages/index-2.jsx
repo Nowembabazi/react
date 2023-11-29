@@ -17,7 +17,7 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 const Index = () => {
   return (
   
-    <Layout  extraClass={"pt-160"}>
+    <Layout  extraClass={"pt-140"}>
       {/*====== Start Hero Section ======*/}
       <section className="partners-section black-dark-bg">
         <div className="cont">
@@ -44,47 +44,47 @@ const Index = () => {
      
       
       {/* <CounterTimer /> */}
-        {/* <div className="container-fluid">
+        <div className="container-fluid">
           <div className="booking-form-wrapper">
             <form className="booking-form-two">
               <div className="form_group">
-                <span>Check In</span>
+                <span>Sponsors</span>
                 <label>
-                  <i className="far fa-calendar-alt" />
+                  <i className="far fa-user-alt" />
                 </label>
                 <input
                   type="text"
                   className="form_control datepicker"
-                  placeholder="Check In"
+                  placeholder="Register"
                 />
               </div>
               <div className="form_group">
-                <span>Check Out</span>
+                <span>Media</span>
                 <label>
-                  <i className="far fa-calendar-alt" />
+                  <i className="far fa-user-alt" />
                 </label>
                 <input
                   type="text"
                   className="form_control datepicker"
-                  placeholder="Check Out"
+                  placeholder="Register"
                 />
               </div>
               <div className="form_group">
-                <span>Guest</span>
+                <span>Exhibitors</span>
                 <label>
                   <i className="far fa-user-alt" />
                 </label>
                 <input
                   type="text"
                   className="form_control"
-                  placeholder="Guest"
+                  placeholder="Register"
                   name="text"
                 />
               </div>
-              <div className="form_group">
-                <span>Accommodations</span>
+              {/* <div className="form_group">
+                <span>Trade Visitors</span>
                 <select className="wide">
-                  <option data-display="Accommodations">Accommodations</option>
+                  <option data-display="Accommodations">Trade Visitors</option>
                   <option value={1}>Classic Tent</option>
                   <option value={1}>Forest Camping</option>
                   <option value={1}>Small Trailer</option>
@@ -92,7 +92,7 @@ const Index = () => {
                   <option value={1}>Tent Camping</option>
                   <option value={1}>Couple Tent</option>
                 </select>
-              </div>
+              </div> */}
               <div className="form_group">
                 <button className="booking-btn">
                   Check Availability <i className="far fa-angle-double-right" />
@@ -100,7 +100,7 @@ const Index = () => {
               </div>
             </form>
           </div>
-        </div> */}
+        </div>
       </section>
     
      
@@ -284,8 +284,8 @@ const Index = () => {
                         <li>
                           <i className="fas fa-badge-check" />
                          B2B Meetings
-                          
                         </li>
+                      
                         <li>
                           <i className="fas fa-badge-check"  style={{ }}/>
                           Seminars
@@ -816,7 +816,7 @@ const Index = () => {
         eleifend scelerisque, purus turpis malesuada urna, et euismod justo quam nec justo.
         Suspendisse potenti.
                 </p>
-                <Link legacyBehavior href="/blog-list">
+                <Link legacyBehavior href="#">
                   <a className="btn-link">
                     View More Details <i className="far fa-long-arrow-right" />
                   </a>
@@ -836,11 +836,11 @@ const Index = () => {
                       <a href="#">November 15, 2023</a>
                     </span>
                     <h3 className="title">
-                      <Link legacyBehavior href="/blog-details">
+                      <Link legacyBehavior href="#">
                         <a>Welcome to The News Daily!</a>
                       </Link>
                     </h3>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="#">
                       <a className="main-btn filled-btn">
                         Read More
                         <i className="far fa-paper-plane" />
