@@ -22,6 +22,7 @@ const DefaultHeader = () => {
                       borderRadius: '28px' // Set the curved border radius
                     }}
                   />
+                   
                   </a>
                 </Link>
               </div>
@@ -38,7 +39,9 @@ const DefaultHeader = () => {
                         </div>
                         <div className="info">
                           <span className="title">Office Address</span>
-                          <h5>kampala, UGANDA</h5>
+                          <p>Kampala, Uganda</p>
+                          <p>Willis Rd, Namirembe Hill</p>
+                         
                         </div>
                       </div>
                     </div>
@@ -51,11 +54,11 @@ const DefaultHeader = () => {
                         </div>
                         <div className="info">
                           <span className="title">Email Address</span>
-                          <h5>
+                          <p>
                             <a href="mailto:support@utalii.com">
-                              support@utalii.com
+                              contact@africatourismexpo.com
                             </a>
-                          </h5>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -68,9 +71,9 @@ const DefaultHeader = () => {
                         </div>
                         <div className="info">
                           <span className="title">Drop a Line</span>
-                          <h5>
-                            <a href="tel:+000(123)45688">+ (256) 00456 88</a>
-                          </h5>
+                          <p>
+                            <a href="tel:+000(123)45688">+ (256) 703747685</a>
+                          </p>
                         </div>
                       </div>
                     </div>

@@ -26,7 +26,7 @@ const Index = () => {
                 alt="About image"
                 style={{
                   width: '100%', // Set the desired width
-                  height: '300px', // To maintain aspect ratio
+                  height: '400px', // To maintain aspect ratio
                   borderRadius: '10px',
                   marginLeft: '0px',
                   marginRight: '0px'// Set the curved border radius
@@ -110,7 +110,7 @@ const Index = () => {
         
       <span className="sub-title" style={{ marginLeft: '0px', marginRight: '0px', fontSize: '60px' }}>The Expo</span>
       <hr/>
-      <h3 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '26px' }}>Utalii Africa Tourism Expo (UATE) is an unprecedented event that seeks to redefine Africa's tourism journey. Taking place over the course of three days in June 2024 in the Ugandan capital, Kampala, the event will bring together key industry players from all over the continent for crucial conversations about the future. <br/>
+      <h3 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>Utalii Africa Tourism Expo (UATE) is an unprecedented event that seeks to redefine Africa's tourism journey. Taking place over the course of three days in June 2024 in the Ugandan capital, Kampala, the event will bring together key industry players from all over the continent for crucial conversations about the future. <br/>
        </h3>
        <br />
        <Link legacyBehavior href="/blog-details">
@@ -388,8 +388,7 @@ const Index = () => {
                 <a href="#">Day 1 </a>
               </h3>
               <p>
-                Sit amet consectetur integer tincidunt nodalesry volutpat
-                neque ferme malesua da sceleris quecy massa lacus
+              All events happening on day one of the expo will be fed in here
               </p>
               <a href="#" className="btn-link">
                 Read More <i className="far fa-long-arrow-right" />
@@ -412,8 +411,7 @@ const Index = () => {
                 <a href="#">Day 2 </a>
               </h3>
               <p>
-                Sit amet consectetur integer tincidunt nodalesry volutpat
-                neque ferme malesua da sceleris quecy massa lacus
+              All events happening on day two of the expo will be fed in here
               </p>
               <a href="#" className="btn-link">
                 Read More <i className="far fa-long-arrow-right" />
@@ -436,8 +434,7 @@ const Index = () => {
                 <a href="#">Day 3 </a>
               </h3>
               <p>
-                Sit amet consectetur integer tincidunt nodalesry volutpat
-                neque ferme malesua da sceleris quecy massa lacus
+               All events happening on day three of the expo will be fed in here
               </p>
               <a href="#" className="btn-link">
                 Read More <i className="far fa-long-arrow-right" />
@@ -460,8 +457,7 @@ const Index = () => {
                 <a href="#"> Presentations</a>
               </h3>
               <p>
-                Sit amet consectetur integer tincidunt nodalesry volutpat
-                neque ferme malesua da sceleris quecy massa lacus
+                Speeches and presentations will be fed in here.
               </p>
               <a href="#" className="btn-link">
                 Read More <i className="far fa-long-arrow-right" />
@@ -484,8 +480,7 @@ const Index = () => {
                 <a href="#">News Corner </a>
               </h3>
               <p>
-                Sit amet consectetur integer tincidunt nodalesry volutpat
-                neque ferme malesua da sceleris quecy massa lacus
+                Every new set of information about UATE will be fed in here.
               </p>
               <a href="#" className="btn-link">
                 Read More <i className="far fa-long-arrow-right" />
@@ -515,11 +510,10 @@ const Index = () => {
                 <img src="assets/images/team/team-1.jpg" alt="Team Image" />
               </div>
               <div className="member-info">
-                <h4 className="title">Mr Nickson</h4>
-                <p className="position">Tech &amp; </p>
+                <h4 className="title">The board of UATE</h4>
+                <p className="position"> </p>
                 <p>
-                Sit amet consectetur integer tincidunt nodalesry volutpat
-                neque ferme malesua da sceleris quecy massa lacus
+                This section will have a brief word about the expo from the founders
               </p>
                 <ul className="social-link">
                   <li>
@@ -553,11 +547,10 @@ const Index = () => {
                 <img src="assets/images/team/team-2.jpg" alt="Team Image" />
               </div>
               <div className="member-info">
-                <h4 className="title">Mr Henry Mugabe</h4>
+                <h4 className="title">Speaker of Parliament</h4>
                 <p className="position">CEO</p>
                 <p>
-                Sit amet consectetur integer tincidunt nodalesry volutpat
-                neque ferme malesua da sceleris quecy massa lacus
+                This section will have a brief word about the expo from the founders and more
               </p>
                 <ul className="social-link">
                   <li>
@@ -594,8 +587,7 @@ const Index = () => {
                 <h4 className="title">Mr Francis</h4>
                 <p className="position">FOUNDER</p>
                 <p>
-                Sit amet consectetur integer tincidunt nodalesry volutpat
-                neque ferme malesua da sceleris quecy massa lacus
+                This section will have a brief word about the expo from the founders
               </p>
                 <ul className="social-link">
                   <li>
@@ -806,16 +798,14 @@ const Index = () => {
             
               <div className="section-title mb-30">
                 <span className="sub-title">News &amp; Blog</span>
-                <h2>
+                <h3>
                 Utalii Africa Tourism Expo 
                 set to happen
                 in 2024
-                </h2>
+                </h3>
               </div>
-              <p className="mb-20">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, erat sit amet
-      eleifend scelerisque, purus turpis malesuada urna, et euismod justo quam nec justo.
-      Suspendisse potenti.
+              <p className="mb-24">
+              Thia section will have live updates from kololo as they happen
               </p>
               <Link legacyBehavior href="#">
                 <a className="btn-link">
@@ -836,11 +826,11 @@ const Index = () => {
                     <i className="far fa-calendar-alt" />
                     <a href="#">November 15, 2023</a>
                   </span>
-                  <h3 className="title">
+                  <h4 className="title">
                     <Link legacyBehavior href="#">
                       <a>Welcome to The News Daily!</a>
                     </Link>
-                  </h3>
+                  </h4>
                   <Link legacyBehavior href="#">
                     <a className="main-btn filled-btn">
                       Read More
@@ -890,10 +880,11 @@ const Index = () => {
           <div className="single-partner-item">
             <div className="partner-img">
               <a href="#">
-                <img
+                {/* <img
                   src="assets/images/partner/partner-6.png"
                   alt="Partner Image"
-                />
+                /> */}
+                <h2>sponsor 1</h2>
               </a>
             </div>
           </div>
@@ -901,10 +892,11 @@ const Index = () => {
           <div className="single-partner-item">
             <div className="partner-img">
               <a href="#">
-                <img
+                {/* <img
                   src="assets/images/partner/partner-7.png"
                   alt="Partner Image"
-                />
+                /> */}
+                <h2>sponsor 2</h2>
               </a>
             </div>
           </div>
@@ -912,10 +904,11 @@ const Index = () => {
           <div className="single-partner-item">
             <div className="partner-img">
               <a href="#">
-                <img
+                {/* <img
                   src="assets/images/partner/partner-8.png"
                   alt="Partner Image"
-                />
+                /> */}
+                <h2>sponsor 3</h2>
               </a>
             </div>
           </div>
@@ -923,10 +916,11 @@ const Index = () => {
           <div className="single-partner-item">
             <div className="partner-img">
               <a href="#">
-                <img
+                {/* <img
                   src="assets/images/partner/partner-9.png"
                   alt="Partner Image"
-                />
+                /> */}
+                <h2>sponsor 4</h2>
               </a>
             </div>
           </div>
@@ -934,10 +928,11 @@ const Index = () => {
           <div className="single-partner-item">
             <div className="partner-img">
               <a href="#">
-                <img
+                {/* <img
                   src="assets/images/partner/partner-10.png"
                   alt="Partner Image"
-                />
+                /> */}
+                 <h2>sponsor 5</h2>
               </a>
             </div>
           </div>
@@ -945,10 +940,11 @@ const Index = () => {
           <div className="single-partner-item">
             <div className="partner-img">
               <a href="#">
-                <img
+                {/* <img
                   src="assets/images/partner/partner-7.png"
                   alt="Partner Image"
-                />
+                /> */}
+                 <h2>sponsor 6</h2>
               </a>
             </div>
           </div>
