@@ -7,7 +7,7 @@ const DefaultHeader = () => {
       <div className="header-top-bar pt-30 pb-30">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-3 d-none d-xl-block">
+            <div className="col-xl-1 d-none d-xl-block">
               {/*====== Site Branding ======*/}
               <div className="site-brading">
                 <Link legacyBehavior href="/index-3">
@@ -16,10 +16,31 @@ const DefaultHeader = () => {
                     src="assets/images/logo/logo-white.png"
                     alt="Site Logo"
                     style={{
-                      marginLeft: '34px',
-                      width: '120px', // Set the desired width
+                      marginLeft: 'px',
+                      width: '100px', // Set the desired width
                       height: 'auto', // To maintain aspect ratio
                       borderRadius: '28px' // Set the curved border radius
+                    }}
+                  />
+                
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-xl-2 d-none d-xl-block">
+              {/*====== Site Branding ======*/}
+              <div className="site-brading">
+                <Link legacyBehavior href="/index-3">
+                  <a className="brand-logo">
+                  <img
+                    src="assets/images/logo/logo-1.png"
+                    alt="Site Logo"
+                    style={{
+                      marginLeft: '3px',
+                      paddingLeft: '-43px',
+                      width: '120px', // Set the desired width
+                      height: 'auto', // To maintain aspect ratio
+                      borderRadius: '18px' // Set the curved border radius
                     }}
                   />
                    
@@ -27,7 +48,7 @@ const DefaultHeader = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-xl-9 col-lg-12">
+            <div className="col-xl-8 col-lg-6">
               {/*====== Information Wrapper ======*/}
               <div className="information-wrapper">
                 <div className="row">
@@ -39,17 +60,19 @@ const DefaultHeader = () => {
                         </div>
                         <div className="info">
                           <span className="title">Office Address</span>
+                         
+                          <p>Willis Rd, 
+                           Namirembe</p>
                           <p>Kampala, Uganda</p>
-                          <p>Willis Rd, Namirembe Hill</p>
                          
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-6" style={{ marginLeft: '18px' }}>
                     <div className="single-info-item-two">
                       <div className="inner-info">
-                        <div className="icon">
+                        <div className="icon"  >
                           <i className="far fa-envelope" />
                         </div>
                         <div className="info">
@@ -63,21 +86,21 @@ const DefaultHeader = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4">
+                  {/* <div className="col-lg-4">
                     <div className="single-info-item-two">
                       <div className="inner-info">
                         <div className="icon">
                           <i className="far fa-phone-plus" />
                         </div>
                         <div className="info">
-                          <span className="title">Drop a Line</span>
+                          <span className="title">Call</span>
                           <p>
                             <a href="tel:+000(123)45688">+ (256) 703747685</a>
                           </p>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -113,6 +136,21 @@ const DefaultHeader = () => {
                   <a className="brand-logo">
                   <img
                     src="assets/images/logo/logo-white.png"
+                    alt="Site Logo"
+                    style={{
+                      width: '120px', // Set the desired width
+                      height: 'auto', // To maintain aspect ratio
+                      borderRadius: '28px' // Set the curved border radius
+                    }}
+                  />
+                  </a>
+                </Link>
+              </div>
+              <div className="mobile-logo mb-30 d-block d-xl-none">
+                <Link legacyBehavior href="/">
+                  <a className="brand-logo">
+                  <img
+                    src="assets/images/logo/logo-1.png"
                     alt="Site Logo"
                     style={{
                       width: '120px', // Set the desired width
