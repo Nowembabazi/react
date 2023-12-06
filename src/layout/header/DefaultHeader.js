@@ -81,6 +81,9 @@ const DefaultHeader = () => {
                             <a href="mailto:support@utalii.com">
                               contact@africatourismexpo.com
                             </a>
+                            <p>
+                            <a href="tel:+000(123)45688">+ (256) 703747685</a>
+                          </p>
                           </p>
                         </div>
                       </div>
@@ -128,6 +131,21 @@ const DefaultHeader = () => {
                 </a>
               </Link>
             </div>
+            <div className="mobile-logo mb-30 d-block d-xl-none">
+                <Link legacyBehavior href="/">
+                  <a className="brand-logo">
+                  <img
+                    src="assets/images/logo/logo-1.png"
+                    alt="Site Logo"
+                    style={{
+                      width: '120px', // Set the desired width
+                      height: 'auto', // To maintain aspect ratio
+                      borderRadius: '18px' // Set the curved border radius
+                    }}
+                  />
+                  </a>
+                </Link>
+              </div>
             {/*====== Nav Menu ======*/}
             <div className="nav-menu">
               {/*====== Site Branding ======*/}
@@ -146,21 +164,7 @@ const DefaultHeader = () => {
                   </a>
                 </Link>
               </div>
-              <div className="mobile-logo mb-30 d-block d-xl-none">
-                <Link legacyBehavior href="/">
-                  <a className="brand-logo">
-                  <img
-                    src="assets/images/logo/logo-1.png"
-                    alt="Site Logo"
-                    style={{
-                      width: '120px', // Set the desired width
-                      height: 'auto', // To maintain aspect ratio
-                      borderRadius: '28px' // Set the curved border radius
-                    }}
-                  />
-                  </a>
-                </Link>
-              </div>
+              
               {/*=== Nav Search ===*/}
               <div className="nav-search mb-30 d-block d-xl-none ">
                 <form>

@@ -108,7 +108,7 @@ const Index = () => {
     <section className="about-section pt-100 pb-50 mt-4">
       <div className="container">
         
-      <span className="sub-title" style={{ marginLeft: '0px', marginRight: '0px', fontSize: '60px' }}>The Expo</span>
+      <span className="sub-title" style={{ marginLeft: '0px', marginRight: '0px', fontSize: '32px' }}>The Expo</span>
       <hr/>
       <h3 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>Utalii Africa Tourism Expo (UATE) is an unprecedented event that seeks to redefine Africa's tourism journey. Taking place over the course of three days in June 2024 in the Ugandan capital, Kampala, the event will bring together key industry players from all over the continent for crucial conversations about the future. <br/>
        </h3>
@@ -363,7 +363,7 @@ const Index = () => {
           
             <div className="section-title text-center text-white mb-50 wow fadeInDown">
               <span className="sub-title">Exibitors</span>
-              <h2>Daily Events as they happen.</h2>
+              <h2 style={{ fontSize: '32px' }}>Daily Events as they happen.</h2>
             </div>
           </div>
         </div>
