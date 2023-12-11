@@ -3,8 +3,13 @@ import Link from "next/link";
 const PageBanner = ({ pageTitle }) => {
   return (
     <section
-      className="page-banner pt-170 pb-220 bg_cover"
-      style={{ backgroundImage: "url(assets/images/about/about-3.jpg)" }}
+      className="page-banner pt-40 pb-40 bg_cover"
+      style={{ backgroundImage: "url(assets/images/about/about-3.jpg)",
+      width: 'auto', // Set the desired width
+      height: '350px', // To maintain aspect ratio
+      borderRadius: '10px',
+      marginLeft: '5px',
+          marginRight: '0px'}}
     >
       <div className="container">
         <div className="row justify-content-center">

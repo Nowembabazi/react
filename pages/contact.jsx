@@ -4,7 +4,7 @@ import Layout from "@/src/layout/Layout";
 const Contact = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Contact Us"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Info Section ======*/}
       <section className="contact-info-section pt-100 pb-60">
         <div className="container">
@@ -12,7 +12,7 @@ const Contact = () => {
             <div className="col-xl-8">
               {/*=== Section Title ===*/}
               <div className="section-title text-center mb-45 wow fadeInDown">
-                <span className="sub-title">Contact Us</span>
+                <span className="sub-title"></span>
                 <h2>
                   Ready to Get Our Best Services! Feel Free to Contact With Us
                 </h2>

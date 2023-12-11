@@ -41,7 +41,7 @@
 }
 
 .reviews-wrapper .reviews-inner-box .rating-value .rate-score, .black-bg .sub-title, .footer-newsletter-widget .footer-content form label, .comment-rating-ul li span i, .post-author-box .author-content ul.social-link li a:hover, .blog-post .entry-footer .social-share a:hover, .single-blog-post .entry-content h3.title:hover, .product-details-wrapper .product-info .product-meta li a:hover, .product-details-wrapper .product-info ul.ratings li a:hover, .destination-details-wrapper .destination-info .features-list li span i, .single-service-item-four .content .icon-btn, .single-service-item-three .content .meta span.rate i, .single-service-item-two .content .icon i, .ratings li i, .single-event-item .content p.location i, .single-activity-item .content .meta .rate i, .single-features-list .icon-inner .icon-check i, .about-two_content-box .card-list .card-item i {
-  color: #622A0F;
+  color: #0f7477;
 }
 
 .single-place-item .place-content .info .meta span a i, .single-place-item .place-content .info .meta span a, .header-navigation .main-menu ul > li > a {
@@ -53,7 +53,7 @@
 }
 
 .reviews-wrapper .reviews-inner-box .rating-value span.reviews, .fun-wrapper, ul.slick-dots li button::before, .footer-top .social-box ul.social-link li a:hover, .black-bg .footer-top .social-box ul.social-link li a:hover, .sidebar-widget-area .tag-cloud-widget a:hover, .blog-post .entry-footer .tag-links a:hover, .single-product-item .img-holder .tag span.off, .tour-area-nav .share-nav a:hover, .single-place-item-three:hover .place-content .meta .icon-btn, .booking-form-two .booking-btn:hover, .gowilds-pagination li a.active, .gowilds-pagination li a:hover, .single-info-item .icon, .single-cta-item .content .icon-btn, .single-counter-item:hover .icon, .fancy-icon-box-three:hover, .fancy-icon-box-two:hover .icon, .fancy-icon-box:hover .icon, .single-features-item-three:hover .content, .single-features-item .img-holder .text .icon-btn, .single-features-item .img-holder .text h4.title:before, .header-navigation.breakpoint-on .nav-menu .main-menu ul li .dd-trigger, .main-btn.filled-btn.filled-white:hover, .main-btn.filled-btn:hover, .main-btn.filled-btn i, .main-btn.secondary-btn:hover, .main-btn.primary-btn {
-  background-color: #63AB45;
+  background-color: #3c2b1d;
 }
 
 .hero-slider-two .slick-arrow:hover, .hero-slider-one .slick-arrow:hover, .blog-post .entry-content .block-quote span:before, .single-blog-post-four .entry-content .main-btn.filled-btn:hover, .single-blog-post-four .entry-content .main-btn.filled-btn i, .cat-btn, .description-wrapper .content-box ul.check-style-one li i, .product-details-wrapper .product-info ul.social-link li a:hover, .single-product-item .img-holder .tag span.feat, .single-place-item-two .place-img .tour-count, .single-gallery-item .gallery-img .icon-btn, .activity-nav-tab .nav-tabs li a.active, .single-service-item-four:hover .content .icon-btn, .single-service-item:hover .content .icon-btn, .ribbon, .single-progress-bar .progress .progress-bar, .single-cta-item:nth-child(2) .content .icon-btn, .back-to-top:hover, .back-to-top:focus, .main-btn.secondary-btn, .main-btn.primary-btn:hover {
@@ -216,7 +216,7 @@ img {
 
 body {
   font-weight: normal;
-  font-style: normal;
+   font-style: normal;
   font-weight: 300;
   color: #484848;
   font-family: "Prompt", sans-serif;
@@ -236,7 +236,7 @@ body {
     padding-right: 15px;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
@@ -391,7 +391,7 @@ textarea.form_control {
 
 /*===== All Bg =====*/
 .black-dark-bg {
-  background-color:#622A0F;
+  background-color:#116f69;
 }
 
 /*===== All Button Style =====*/
@@ -1047,7 +1047,7 @@ button {
 .nav-right-item .lang-dropdown {
   padding: 0 30px;
 }
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   .nav-right-item .lang-dropdown {
     padding-right: 0;
   }
