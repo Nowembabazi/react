@@ -13,7 +13,7 @@ const Contact = () => {
               {/*=== Section Title ===*/}
               <div className="section-title text-center mb-45 wow fadeInDown">
                 <span className="sub-title"></span>
-                <h2>
+                <h2 >
                   Ready to Get Our Best Services! Feel Free to Contact With Us
                 </h2>
               </div>
@@ -42,7 +42,8 @@ const Contact = () => {
                   <span className="title">Email Address</span>
                   <p>
                     <a href="contact@africatourismexpo.com">
-                     contact@africatourismexpo.com
+                     contact@africatourism
+                     <br /> expo.com
                     </a>
                   </p>
                   <p>
@@ -81,8 +82,8 @@ const Contact = () => {
           <div className="row justify-content-center">
             <div className="col-xl-6">
               <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">Get In Touch</span>
-                <h2>Send Us Message</h2>
+                <span className="" style={{ marginLeft: '12px', marginRight: '20px', fontSize: '28px' }} >Get In Touch</span>
+                <h2 style={{ marginLeft: '12px', marginRight: '20px', fontSize: '38px' }}>Send Us Message</h2>
               </div>
             </div>
           </div>

@@ -356,14 +356,15 @@ const Index = () => {
               />
       </div>
     </section> */}
-    <section className="services-section black-bg pt-100 pb-100">
+    <section className="services-section  pt-100 pb-100" style={{ backgroundColor: ' #DEDEDE',             
+                                                                borderRadius: '18px', }}>
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-xl-7">
           
             <div className="section-title text-center text-white mb-50 wow fadeInDown">
               <span className="sub-title">Exibitors</span>
-              <h2>Daily Events as they happen.</h2>
+              <h2  style={{ fontSize: '32px', color:'black' }} >Daily Events as they happen.</h2>
             </div>
           </div>
         </div>
@@ -498,7 +499,7 @@ const Index = () => {
          
             <div className="section-title text-center mb-50 wow fadeInDown">
               <span className="sub-title">Team Member</span>
-              <h2>A word from the keynote speakers</h2>
+              <h2  style={{ fontSize: '32px' }} >A word from the keynote speakers</h2>
             </div>
           </div>
         </div>

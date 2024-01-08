@@ -59,7 +59,7 @@ const DeskTopMenu = () => {
                 <Link href="contact">Registration</Link>
               </li>
               <li>
-                <Link href="">Exhibitor Details</Link>
+                <Link href="shop">Exhibitor Details</Link>
               </li>
             </ul>
           </li>
@@ -75,7 +75,7 @@ const DeskTopMenu = () => {
                 <Link href="contact">Registration</Link>
               </li>
               <li>
-                <Link href="">Sponsor Details</Link>
+                <Link href="traders">Sponsor Details</Link>
               </li>
             </ul>
           </li>
@@ -88,10 +88,10 @@ const DeskTopMenu = () => {
             </a>
             <ul className="sub-menu">
               <li>
-                <Link href="contact">Registration</Link>
+                <Link href="contact">Details</Link>
               </li>
               <li>
-                <Link href="contact">Details</Link>
+                <Link href="shop">shop</Link>
               </li>
              
             </ul>
@@ -119,7 +119,7 @@ const DeskTopMenu = () => {
               </li>
              
               <li>
-                <Link href="contact">Registration</Link>
+                <Link href="blog-list">Registration</Link>
               </li>
             </ul>
           </li>

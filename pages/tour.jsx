@@ -68,11 +68,11 @@ const Tour = () => {
       </section>
       {/*====== End Booking Section ======*/}
       {/*====== Start Places Section ======*/}
-      <section className="places-section pb-100" style={{ backgroundColor: ' #DEDEDE',             
+      <section className="places-section pb-100" style={{ backgroundColor: '',             
                                                                   borderRadius: '18px', }}>
         
       
-        <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>About Utalii</span>
+        <h2 className="" style={{ marginLeft: '12px', marginRight: '20px', fontSize: '28px' }}>About Utalii</h2>
         <hr/>
         <h5 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>Utalii Africa Tourism Expo is a one-of-a kind event scheduled to take place in June 2024 in
                  the Ugandan capital, Kampala. <br/>
@@ -88,25 +88,13 @@ const Tour = () => {
                 business in Africa and promoting inter-Africa travel and trade.</h5>
 
        <br />
-          <hr />
+        
            <br />
            
-        <div className="cont">
-        <img
-                  src="assets/images/about/about-3.jpg"
-                  alt="About image"
-                  style={{
-                    width: '100%', // Set the desired width
-                    height: 'auto', // To maintain aspect ratio
-                    borderRadius: '10px',
-                    marginLeft: '-4px',
-                    marginRight: '-84px'// Set the curved border radius
-                  }}
-                />
-        </div>
+       
         <br />
       
-          <h2 className="" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>The Hosting Country</h2>
+          <h2 className="" style={{ marginLeft: '12px', marginRight: '20px', fontSize: '28px' }}>The Hosting Country</h2>
         <hr/>
         <h5 style={{ marginLeft: '20px', marginRight: '20px', fontWeight: 'lighter', fontSize: '21px' }}>
           UATE will be hosted in the bustling East Africa city of Kampala, where vibrant colour, a
@@ -126,8 +114,9 @@ const Tour = () => {
            
            </h5>
            <br />
-           <hr />
-           <span className="sub-title" style={{ marginLeft: '0px', marginRight: '20px', fontSize: '41px' }}>Activities</span>
+           
+           <h2 className="" style={{ marginLeft: '12px', marginRight: '20px', fontSize: '28px' }}>Activities</h2>
+           <br />
                   <h6 style={{ marginLeft: '18px', fontWeight: 'lighter', fontSize: '21px' }}>
                    Alot of activities are scheduled to take place during the 3 day expo. These are some of the many:
                   </h6>
@@ -172,18 +161,12 @@ const Tour = () => {
                       </ul>
                       <br/>
                     </div>
-                    {/* <div className="col-lg-7">
-                      <img
-                        src="assets/images/place/single-place-4.jpg"
-                        className="mb-20 w-100"
-                        alt="place image"
-                      />
-                    </div> */}
+                    
                   </div>
       </section>
       {/*====== End Places Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      {/* <GallerySection /> */}
+      <GallerySection />
       {/*====== End Gallery Section ======*/}
     </Layout>
   );
