@@ -4,7 +4,7 @@ import Layout from "@/src/layout/Layout";
 const Contact = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Contact Us"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Info Section ======*/}
       <section className="contact-info-section pt-100 pb-60">
         <div className="container">
@@ -12,8 +12,8 @@ const Contact = () => {
             <div className="col-xl-8">
               {/*=== Section Title ===*/}
               <div className="section-title text-center mb-45 wow fadeInDown">
-                <span className="sub-title">Contact Us</span>
-                <h2>
+                <span className="sub-title"></span>
+                <h2 >
                   Ready to Get Our Best Services! Feel Free to Contact With Us
                 </h2>
               </div>
@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <div className="info">
                   <span className="title">Office Location</span>
-                  <p>55 Main Street, 2nd Floor New York City</p>
+                  <p>Kampala, Uganda.</p>
                 </div>
               </div>
             </div>
@@ -41,12 +41,13 @@ const Contact = () => {
                 <div className="info">
                   <span className="title">Email Address</span>
                   <p>
-                    <a href="mailto:supportinfo@gmail.com">
-                      supportinfo@gmail.com
+                    <a href="contact@africatourismexpo.com">
+                     contact@africatourism
+                     <br /> expo.com
                     </a>
                   </p>
                   <p>
-                    <a href="mailto:traveladventure.net">traveladventure.net</a>
+                    {/* <a href="mailto:traveladventure.net">traveladventure.net</a> */}
                   </p>
                 </div>
               </div>
@@ -60,7 +61,7 @@ const Contact = () => {
                 <div className="info">
                   <span className="title">Hotline</span>
                   <p>
-                    <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                    <a href="tel:+25600000">+25600000000</a>
                   </p>
                   <p>
                     <a href="tel:+8596320">+859 63 20</a>
@@ -73,12 +74,7 @@ const Contact = () => {
       </section>
       {/*====== End Info Section ======*/}
       {/*====== Start Contact Map Section ======*/}
-      <section className="contact-page-map pb-100 wow fadeInUp">
-        {/*=== Map Box ===*/}
-        <div className="map-box">
-          <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
-        </div>
-      </section>
+      
       {/*====== End Contact Map Section ======*/}
       {/*====== Start Contact Section ======*/}
       <section className="contact-section pb-100">
@@ -86,8 +82,8 @@ const Contact = () => {
           <div className="row justify-content-center">
             <div className="col-xl-6">
               <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">Get In Touch</span>
-                <h2>Send Us Message</h2>
+                <span className="" style={{ marginLeft: '12px', marginRight: '20px', fontSize: '28px' }} >Get In Touch</span>
+                <h2 style={{ marginLeft: '12px', marginRight: '20px', fontSize: '38px' }}>Send Us Message</h2>
               </div>
             </div>
           </div>
@@ -129,7 +125,7 @@ const Contact = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="form_group">
                         <input
                           type="url"
@@ -139,7 +135,7 @@ const Contact = () => {
                           required
                         />
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-12">
                       <div className="form_group">
                         <textarea

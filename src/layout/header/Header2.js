@@ -15,6 +15,11 @@ const Header2 = () => {
                   <img
                     src="assets/images/logo/logo-white.png"
                     alt="Site Logo"
+                    style={{
+                      width: '120px', // Set the desired width
+                      height: 'auto', // To maintain aspect ratio
+                      borderRadius: '28px' // Set the curved border radius
+                    }}
                   />
                 </a>
               </Link>
@@ -28,6 +33,11 @@ const Header2 = () => {
                     <img
                       src="assets/images/logo/logo-black.png"
                       alt="Site Logo"
+                      style={{
+                        width: '100px', // Set the desired width
+                        height: 'auto', // To maintain aspect ratio
+                        borderRadius: '10px' // Set the curved border radius
+                      }}
                     />
                   </a>
                 </Link>

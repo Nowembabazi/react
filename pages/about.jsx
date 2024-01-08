@@ -106,7 +106,7 @@ const About = () => {
         <div className="container">
           <div className="row align-items-xl-center">
             <div className="col-lg-6 order-2 order-lg-1">
-              {/*=== We Image Box ===*/}
+            
               <div className="we-image-box text-center text-lg-left wow fadeInDown">
                 <img
                   src="assets/images/gallery/we-1.jpg"
@@ -116,7 +116,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-6 order-1 order-lg-2">
-              {/*=== We Content Box ===*/}
+           
               <div className="we-one_content-box">
                 <div className="section-title mb-30 wow fadeInUp">
                   <span className="sub-title">Who We Are</span>
@@ -149,13 +149,12 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*====== End We Section ======*/}
-      {/*====== Start Team Section ======*/}
+    
       <section className="team-section pt-100 pb-70 gray-bg">
-        <div className="container">
+        {/* <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7">
-              {/*====== Section Title ======*/}
+           
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">Team Member</span>
                 <h2>We’ve Expert Team Members Meet With Team</h2>
@@ -164,7 +163,7 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+            
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-1.jpg" alt="Team Image" />
@@ -198,7 +197,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+          
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-2.jpg" alt="Team Image" />
@@ -232,7 +231,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+         
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-3.jpg" alt="Team Image" />
@@ -266,7 +265,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+           
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-4.jpg" alt="Team Image" />
@@ -300,7 +299,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+          
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-5.jpg" alt="Team Image" />
@@ -334,7 +333,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
+            
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
                   <img src="assets/images/team/team-6.jpg" alt="Team Image" />
@@ -370,8 +369,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*====== End Team Section ======*/}
-      {/*====== Start What We Section ======*/}
+     
       <section className="we-section pt-100 pb-50">
         <div className="container">
           <div className="row align-items-xl-center">
@@ -469,8 +467,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*====== End What We Section ======*/}
-      {/*====== Start CTA Section ======*/}
+    
       <section
         className="cta-bg overlay bg_cover pt-150 pb-150"
         style={{ backgroundImage: "url(assets/images/bg/cta-bg.jpg)" }}
@@ -478,7 +475,7 @@ const About = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8">
-              {/*=== CTA Content Box ===*/}
+             
               <div className="cta-content-box text-center text-white wow fadeInDown">
                 <h2 className="mb-35">
                   Ready to Travel With Real Adventure and Enjoy Natural
@@ -494,13 +491,12 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*====== End CTA Section ======*/}
-      {/*====== Start Testimonial Section ======*/}
+   
       <section className="testimonial-section pt-60 pb-60">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8">
-              {/*=== Section Title ===*/}
+         
               <div className="section-title text-center mb-60 wow fadeInDown">
                 <span className="sub-title">Testimonials</span>
                 <h2>What Our Traveler Say About Our Tour Services</h2>
@@ -509,7 +505,7 @@ const About = () => {
           </div>
           <div className="row align-items-xl-center">
             <div className="col-xl-5 col-lg-12 order-2 order-xl-1">
-              {/*=== Testimonial Image ===*/}
+            
               <div className="testimonial-one_image-box mb-40 wow fadeInLeft">
                 <img
                   src="assets/images/testimonial/testimonial-1.jpg"
@@ -518,12 +514,12 @@ const About = () => {
               </div>
             </div>
             <div className="col-xl-7 col-lg-12 order-1 order-xl-2">
-              {/*=== Testimonial Slider ===*/}
+         
               <Slider
                 {...testimonialSliderOne}
                 className="testimonial-slider-one pl-lg-55 mb-40 wow fadeInRight"
               >
-                {/*=== Testimonial Item ===*/}
+               
                 <div className="gw-testimonial-item">
                   <div className="testimonial-inner-content">
                     <div className="quote-rating-box">
@@ -573,7 +569,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                {/*=== Testimonial Item ===*/}
+              
                 <div className="gw-testimonial-item">
                   <div className="testimonial-inner-content">
                     <div className="quote-rating-box">
@@ -623,7 +619,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                {/*=== Testimonial Item ===*/}
+          
                 <div className="gw-testimonial-item">
                   <div className="testimonial-inner-content">
                     <div className="quote-rating-box">
@@ -676,18 +672,17 @@ const About = () => {
               </Slider>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
-      {/*====== End Testimonial Section ======*/}
-      {/*====== Start Partners Section ======*/}
+   
       <section className="partners-section">
         <div className="container">
-          {/*=== Partners Slider ===*/}
+        
           <Slider
             {...partnerSliderOne}
             className="partner-slider-one pt-80 pb-70 wow fadeInUp"
           >
-            {/*=== Partner Item ===*/}
+           
             <div className="single-partner-item">
               <div className="partner-img">
                 <a href="#">
@@ -698,7 +693,7 @@ const About = () => {
                 </a>
               </div>
             </div>
-            {/*=== Partner Item ===*/}
+          
             <div className="single-partner-item">
               <div className="partner-img">
                 <a href="#">
@@ -709,7 +704,7 @@ const About = () => {
                 </a>
               </div>
             </div>
-            {/*=== Partner Item ===*/}
+          
             <div className="single-partner-item">
               <div className="partner-img">
                 <a href="#">
@@ -720,7 +715,7 @@ const About = () => {
                 </a>
               </div>
             </div>
-            {/*=== Partner Item ===*/}
+          
             <div className="single-partner-item">
               <div className="partner-img">
                 <a href="#">
@@ -731,7 +726,7 @@ const About = () => {
                 </a>
               </div>
             </div>
-            {/*=== Partner Item ===*/}
+      
             <div className="single-partner-item">
               <div className="partner-img">
                 <a href="#">
@@ -742,7 +737,7 @@ const About = () => {
                 </a>
               </div>
             </div>
-            {/*=== Partner Item ===*/}
+           
             <div className="single-partner-item">
               <div className="partner-img">
                 <a href="#">

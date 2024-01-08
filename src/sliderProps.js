@@ -17,6 +17,7 @@ export const home1Slider = {
   slidesToScroll: 1,
   prevArrow: <Arrow extraClass={"prev"} icon={"fal fa-arrow-left"} />,
   nextArrow: <Arrow extraClass={"next"} icon={"fal fa-arrow-right"} />,
+  
   responsive: [
     {
       breakpoint: 1200,
@@ -38,6 +39,9 @@ export const home2Slider = {
   slidesToScroll: 1,
   prevArrow: <Arrow extraClass={"prev"} icon={"fal fa-arrow-left"} />,
   nextArrow: <Arrow extraClass={"next"} icon={"fal fa-arrow-right"} />,
+  style: {
+    height: "80%", // Set the desired height here
+  },
   responsive: [
     {
       breakpoint: 1024,
