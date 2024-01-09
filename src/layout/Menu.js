@@ -111,13 +111,12 @@ const DeskTopMenu = () => {
               {/* <li>
                 <Link href="gallery">Our Gallery</Link>
               </li> */}
-              {/* <li>
-                <Link href="events">Our Events</Link>
-              </li> */}
               <li>
-                <Link href="">Media Details</Link>
+                <Link href="events">Media Details</Link>
               </li>
-             
+              <li>
+                <Link href="events">Newsletter</Link>
+              </li>
               <li>
                 <Link href="blog-list">Registration</Link>
               </li>
@@ -222,9 +221,16 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("")}>
+           
             <li>
-              <Link href="product-details">Media</Link>
-            </li>
+                <Link href="events">Media Details</Link>
+              </li>
+              <li>
+                <Link href="events">Newsletter</Link>
+              </li>
+              <li>
+                <Link href="blog-list">Registration</Link>
+              </li>
             {/* <li>
               <Link href="gallery">Our Gallery</Link>
             </li> */}

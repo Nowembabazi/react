@@ -4,7 +4,7 @@ import Layout from "@/src/layout/Layout";
 const Events = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Events"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section">
         {/* <div className="container-fluid">
@@ -353,7 +353,7 @@ const Events = () => {
       </section>
       {/*====== End Events Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
     </Layout>
   );

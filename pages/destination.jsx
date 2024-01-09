@@ -5,7 +5,7 @@ import Link from "next/link";
 const Destination = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"About Us"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section pb-100">
         {/* <div className="container-fluid">

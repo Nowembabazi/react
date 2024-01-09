@@ -356,14 +356,15 @@ const Index = () => {
               />
       </div>
     </section> */}
-    <section className="services-section black-bg pt-100 pb-100">
+    <section className="services-section  pt-100 pb-100" style={{ backgroundColor: ' #DEDEDE',             
+                                                                borderRadius: '18px', }}>
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-xl-7">
           
             <div className="section-title text-center text-white mb-50 wow fadeInDown">
               <span className="sub-title">Exibitors</span>
-              <h2 style={{ fontSize: '32px' }}>Daily Events as they happen.</h2>
+              <h2  style={{ fontSize: '32px', color:'black' }} >Daily Events as they happen.</h2>
             </div>
           </div>
         </div>
@@ -490,7 +491,109 @@ const Index = () => {
         </Slider>
       </div>
     </section>
- 
+    <section className="events-section pt-100 pb-1000">
+        <div className="container">
+          {/*====== Products Filter ======*/}
+          <div className="page-item-filter mb-40 wow fadeInUp">
+            <div className="row align-items-center justify-content-center">
+              <div className="col-md-7">
+                {/*====== Show Text ======*/}
+                <div className="show-text mb-20">
+                  <h4>The News Corner</h4>
+                </div>
+              </div>
+              <div className="col-md-5">
+                {/*====== Product Dropdown ======*/}
+                <div className="product-dropdown float-md-end">
+                  <span className="title">Sort By</span>
+                  <select className="wide">
+                    <option data-display="Default">Default</option>
+                    <option value={1}>Best Event</option>
+                    <option value={2}>New Events</option>
+                    <option value={3}>Upcoming Event</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="single-event-item mb-30 wow fadeInUp">
+                <div className="img-holder">
+                  <img
+                    src="assets/images/event/event-1.jpg"
+                    alt="Event Image"
+                  />
+                </div>
+                <div className="content">
+                  <div className="meta">
+                    <span>
+                      <i className="far fa-calendar-alt" />
+                      <a href="#">September 25, 2022</a>
+                    </span>
+                    <h3 className="title">
+                      <a href="#">Keep upto date with the Expo</a>
+                    </h3>
+                    <p className="location">
+                      <i className="far fa-map-marker-alt" /> kololo
+                      Kampala , Uganda
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="single-event-item mb-30 wow fadeInUp">
+                <div className="img-holder">
+                  <img
+                    src="assets/images/event/event-2.jpg"
+                    alt="Event Image"
+                  />
+                </div>
+                <div className="content">
+                  <div className="meta">
+                    <span>
+                      <i className="far fa-calendar-alt" />
+                      <a href="#">September 25, 2024</a>
+                    </span>
+                    <h3 className="title">
+                      <a href="#">Keep upto date with the Expo</a>
+                    </h3>
+                    <p className="location">
+                      <i className="far fa-map-marker-alt" /> kololo Kampala, Uganda
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="single-event-item mb-30 wow fadeInUp">
+                <div className="img-holder">
+                  <img
+                    src="assets/images/event/event-3.jpg"
+                    alt="Event Image"
+                  />
+                </div>
+                <div className="content">
+                  <div className="meta">
+                    <span>
+                      <i className="far fa-calendar-alt" />
+                      <a href="#">September 25, 2024</a>
+                    </span>
+                    <h3 className="title">
+                      <a href="#">Keep upto date with the Expo</a>
+                    </h3>
+                    <p className="location">
+                      <i className="far fa-map-marker-alt" /> kololo Kampala, Uganda
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <section className="team-section pt-100 pb-70">
       <div className="container">
         <div className="row justify-content-center">
@@ -498,7 +601,7 @@ const Index = () => {
          
             <div className="section-title text-center mb-50 wow fadeInDown">
               <span className="sub-title">Team Member</span>
-              <h2>A word from the keynote speakers</h2>
+              <h2  style={{ fontSize: '32px' }} >A word from the keynote speakers</h2>
             </div>
           </div>
         </div>

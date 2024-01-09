@@ -5,7 +5,7 @@ import Link from "next/link";
 const Shop = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Shop"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Products Section ======*/}
       <section className="products-section pt-100 pb-90">
         <div className="container">

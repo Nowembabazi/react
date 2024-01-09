@@ -59,6 +59,7 @@ const Traders = () => {
                         eventKey="descrptions"
                       >
                         <div className="content-box">
+                          <h4>Why be a Sponsor?</h4>
                           <p>
                             Sorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Tortor nulla id sit neque scelerisque
@@ -143,68 +144,7 @@ const Traders = () => {
                       </Tab.Pane> */}
                     </Tab.Content>
                     {/*=== Review Form ===*/}
-                    {/* <div className="review-form-area wow fadeInUp mt-50 mb-40">
-                      <h3 className="title">Send Us Reviews</h3>
-                      <p>
-                        We have 3k+ 5star Reviews
-                        <img src="assets/images/shop/rate.png" alt />
-                      </p>
-                      <form className="review-form">
-                        <div className="row">
-                          <div className="col-lg-6">
-                            <div className="form_group">
-                              <input
-                                type="text"
-                                className="form_control"
-                                placeholder="Full Name"
-                                name="name"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-6">
-                            <div className="form_group">
-                              <input
-                                type="text"
-                                className="form_control"
-                                placeholder="Email Address"
-                                name="email"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="form_group">
-                              <input
-                                type="url"
-                                className="form_control"
-                                placeholder="Website"
-                                name="website"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="form_group">
-                              <textarea
-                                name="message"
-                                className="form_control"
-                                placeholder="Write Message"
-                                defaultValue={""}
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="form_group">
-                              <button className="main-btn primary-btn">
-                                Send Reviews
-                                <i className="fas fa-paper-plane" />
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                    </div> */}
+                    
                   </div>
                 </Tab.Container>
               </div>
@@ -237,99 +177,7 @@ const Traders = () => {
       
       {/*====== End Recent Product Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      {/* <section className="gallery-section mbm-150">
-        <div className="container-fluid">
-          <Slider
-            {...sliderActive5Item}
-            className="slider-active-5-item fadeInUp"
-          >
-  
-            <div className="single-gallery-item">
-              <div className="gallery-img">
-                <img src="assets/images/gallery/gl-1.jpg" alt="Gallery Image" />
-                <div className="hover-overlay">
-                  <a
-                    href="assets/images/gallery/gl-1.jpg"
-                    className="icon-btn img-popup"
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="single-gallery-item">
-              <div className="gallery-img">
-                <img src="assets/images/gallery/gl-2.jpg" alt="Gallery Image" />
-                <div className="hover-overlay">
-                  <a
-                    href="assets/images/gallery/gl-2.jpg"
-                    className="icon-btn img-popup"
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="single-gallery-item">
-              <div className="gallery-img">
-                <img src="assets/images/gallery/gl-3.jpg" alt="Gallery Image" />
-                <div className="hover-overlay">
-                  <a
-                    href="assets/images/gallery/gl-3.jpg"
-                    className="icon-btn img-popup"
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-           
-            <div className="single-gallery-item">
-              <div className="gallery-img">
-                <img src="assets/images/gallery/gl-4.jpg" alt="Gallery Image" />
-                <div className="hover-overlay">
-                  <a
-                    href="assets/images/gallery/gl-4.jpg"
-                    className="icon-btn img-popup"
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="single-gallery-item">
-              <div className="gallery-img">
-                <img src="assets/images/gallery/gl-5.jpg" alt="Gallery Image" />
-                <div className="hover-overlay">
-                  <a
-                    href="assets/images/gallery/gl-5.jpg"
-                    className="icon-btn img-popup"
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-    
-            <div className="single-gallery-item">
-              <div className="gallery-img">
-                <img src="assets/images/gallery/gl-3.jpg" alt="Gallery Image" />
-                <div className="hover-overlay">
-                  <a
-                    href="assets/images/gallery/gl-3.jpg"
-                    className="icon-btn img-popup"
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section> */}
+     
       {/*====== End Gallery Section ======*/}
     </Layout>
   );
