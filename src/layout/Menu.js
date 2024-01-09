@@ -59,7 +59,7 @@ const DeskTopMenu = () => {
                 <Link href="contact">Registration</Link>
               </li>
               <li>
-                <Link href="shop">Exhibitor Details</Link>
+                <Link href="rates">Exhibitor Rates</Link>
               </li>
             </ul>
           </li>
@@ -112,7 +112,7 @@ const DeskTopMenu = () => {
                 <Link href="gallery">Our Gallery</Link>
               </li> */}
               <li>
-                <Link href="events">Media Details</Link>
+                <Link href="events">Media details</Link>
               </li>
               <li>
                 <Link href="events">Newsletter</Link>

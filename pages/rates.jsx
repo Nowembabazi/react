@@ -60,109 +60,20 @@ const Traders = () => {
                       >
                         <div className="content-box">
                         <img
-                                  src="./assets/images/hero/White and Green Sponsorship Poster - Made with PosterMyWall (1).jpg"
+                                  src="./assets/images/hero/Screenshot from 2024-01-09 15-10-53.png"
                                     alt="Description of the image"
                                   className="image-style"
                                   style={{
                                    // Set the desired width
-                                    height: '800px',// To maintain aspect ratio
+                                    height: '750px',// To maintain aspect ratio
                                     borderRadius: '10px',
                                     marginBottom: '80px',
                                     marginRight: '-20px'// Set the curved border radius
                                   }}
                                     />
 
-                           <h4>Benefits of being a Sponsor?</h4> 
-                           <br></br>
+                           
 
-                           <h4 className="sub-title">Ordinary Tier</h4> 
-                           <br></br>
-                           <h6>Benefits</h6>
-                           
-                           <li>
-                           Recognition, branding and speaking opportunity in major show events
-(opening ceremony, cocktail)
-</li>
-<li>
-Ample branding at the show (venue, partner appreciation boards and
-catalogue)
-</li>
-<li>
-Opportunity to include a branded merchandise in the delegates bags
-</li>
-<li>
-Panelist opportunity at the seminars
-</li>
-<li>
-Online presence across all platforms; social media, mailers, home page,
-match making page
-</li>
-<li>
-6x6 Exhibition booth
-</li>
-<li>
-X5 event access passes
-</li>
-<br></br>
-<h4 className="sub-title">Silver Tier</h4> 
-                           <br></br>
-                           <h6>Benefits</h6>
-                           
-                           <li>
-                           Recognition, branding and speaking opportunity in major show events
-(opening ceremony, cocktail)
-</li>
-<li>
-Ample branding at the show (venue, partner appreciation boards and
-catalogue)
-</li>
-<li>
-Opportunity to include a branded merchandise in the delegates bags
-</li>
-<li>
-Panelist opportunity at the seminars
-</li>
-<li>
-Online presence across all platforms; social media, mailers, home page,
-match making page
-</li>
-<li>
-6x6 Exhibition booth
-</li>
-<li>
-X5 event access passes
-</li>
-
-<br></br>
-<h4 className="sub-title">Gold Tier</h4> 
-                           <br></br>
-                           <h6>Benefits</h6>
-                           
-                           <li>
-                           Recognition, branding and speaking opportunity in major show events
-(opening ceremony, cocktail)
-</li>
-<li>
-Ample branding at the show (venue, partner appreciation boards and
-catalogue)
-</li>
-<li>
-Opportunity to include a branded merchandise in the delegates bags
-</li>
-<li>
-Panelist opportunity at the seminars
-</li>
-<li>
-Online presence across all platforms; social media, mailers, home page,
-match making page
-</li>
-<li>
-6x6 Exhibition booth
-</li>
-<li>
-X5 event access passes
-</li>
- <br></br>
  <h4 className="sub-title">Platinum Tier</h4> 
                            <br></br>
                            <h6>Benefits</h6>

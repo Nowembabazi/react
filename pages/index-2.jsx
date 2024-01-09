@@ -320,42 +320,13 @@ const Index = () => {
                     <br/>
                   </div>
            
-            {/* <div className="skill-wrapper">
-              <div className="single-skill-circle text-center">
-                <div className="inner-circle">
-                  <div className="line" />
-                  <span className="number">60%</span>
-                </div>
-                <h5>Saticfied Clients</h5>
-              </div>
-              <div className="single-skill-circle text-center">
-                <div className="inner-circle">
-                  <div className="line" />
-                  <span className="number">93%</span>
-                </div>
-                <h5>Success Rate</h5>
-              </div>
-            </div> */}
+          
           </div>
         </div>
         </div>
       </div>
     </section>
-    {/* <section className="partners-section black-dark-bg">
-      <div className="cont">
-      <img
-                src="assets/images/about/about-3.jpg"
-                alt="About image"
-                style={{
-                  width: '120%', // Set the desired width
-                  height: 'auto', // To maintain aspect ratio
-                  borderRadius: '10px',
-                  marginLeft: '-4px',
-                  marginRight: '84px'// Set the curved border radius
-                }}
-              />
-      </div>
-    </section> */}
+  
     <section className="services-section  pt-100 pb-100" style={{ backgroundColor: ' #DEDEDE',             
                                                                 borderRadius: '18px', }}>
       <div className="container-fluid">
@@ -722,152 +693,7 @@ const Index = () => {
       </div>
     </section>
    
-    {/* <section className="activity-section pb-60">
-      <div className="container-fluid">
-       
-        <Slider
-          {...sliderActive3Item}
-          className="slider-active-3-item wow fadeInUp"
-        >
-          
-          <div className="single-activity-item mb-40">
-            <div className="img-holder">
-              <img src="assets/images/gallery/act-1.jpg" alt="Image" />
-            </div>
-            <div className="content">
-              <div className="meta">
-                <ul>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-blanket" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-cat" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-tent" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-fire" />
-                    </span>
-                  </li>
-                </ul>
-                <div className="rate">
-                  <i className="fas fa-star" />
-                  4.9
-                </div>
-              </div>
-              <h3 className="title">Classic Tents</h3>
-              <p>
-                Quis autem veleum reprehenderit voluptate velit esse quame
-                nihile molestiae consequatur veillum dolorem eumy
-              </p>
-              <a href="#" className="main-btn filled-btn">
-                Check Now
-                <i className="fas fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-        
-          <div className="single-activity-item mb-40">
-            <div className="img-holder">
-              <img src="assets/images/gallery/act-2.jpg" alt="Image" />
-            </div>
-            <div className="content">
-              <div className="meta">
-                <ul>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-blanket" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-cat" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-tent" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-fire" />
-                    </span>
-                  </li>
-                </ul>
-                <div className="rate">
-                  <i className="fas fa-star" />
-                  4.9
-                </div>
-              </div>
-              <h3 className="title">Small Cabin Wood</h3>
-              <p>
-                Quis autem veleum reprehenderit voluptate velit esse quame
-                nihile molestiae consequatur veillum dolorem eumy
-              </p>
-              <a href="#" className="main-btn filled-btn">
-                Check Now
-                <i className="fas fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-         
-          <div className="single-activity-item mb-40">
-            <div className="img-holder">
-              <img src="assets/images/gallery/act-3.jpg" alt="Image" />
-            </div>
-            <div className="content">
-              <div className="meta">
-                <ul>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-blanket" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-cat" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-tent" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-fire" />
-                    </span>
-                  </li>
-                </ul>
-                <div className="rate">
-                  <i className="fas fa-star" />
-                  4.9
-                </div>
-              </div>
-              <h3 className="title">RV Caravan Trailer</h3>
-              <p>
-                Quis autem veleum reprehenderit voluptate velit esse quame
-                nihile molestiae consequatur veillum dolorem eumy
-              </p>
-              <a href="#" className="main-btn filled-btn">
-                Check Now
-                <i className="fas fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-        </Slider>
-      </div>
-    </section> */}
-  
+   
     <section
       className="cta-bg overlay bg_cover pt-150 pb-150"
       style={{ backgroundImage: "url(assets/images/about/about-5.jpg)" }}
