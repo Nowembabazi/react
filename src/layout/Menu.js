@@ -117,9 +117,9 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="events">Newsletter</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="blog-list">Registration</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
         

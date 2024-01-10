@@ -8,7 +8,7 @@ import Slider from "react-slick";
 const ProductDetails = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Media Details"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Shop Details Section ======*/}
       <section className="shop-details-section pt-100 pb-50">
         <div className="container">
@@ -30,7 +30,7 @@ const ProductDetails = () => {
                             Description
                           </Nav.Link>
                         </Nav.Item>
-                        <Nav.Item as={"li"} className="nav-item">
+                        {/* <Nav.Item as={"li"} className="nav-item">
                           <Nav.Link
                             as={"a"}
                             className="nav-link"
@@ -39,7 +39,7 @@ const ProductDetails = () => {
                           >
                             Additional Information
                           </Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                         
                       </Nav>
                     </div>
@@ -59,48 +59,12 @@ and close lucrative business deals.
 Participants will have the collective opportunity to harness Africa’s rich, authentic, cultural
 and natural heritage and hold crucial conversations, with the goal of reigniting the tourism
 business in Africa and promoting inter-Africa travel and trade.
+        </h5>
                             
-                          </h5>
-                          <p>
-                            Dictum ultrices et suspendisse amet mattis in
-                            pellentesque. Vulputate arcu, consectetur odio donec
-                            nec duis ultrices facilisi. Mauris cursus elit diam,
-                            urna suspendisse et, amet. Vitae ligula ultrices
-                            nulla justo, enim lorem duis. Volutpat sit et neque
-                            aliquam diam at at neque acus augue
-                          </p>
+                          
                         </div>
                       </Tab.Pane>
-                      <Tab.Pane
-                        className="tab-pane fade"
-                        eventKey="information"
-                      >
-                        <div className="content-box">
-                          <p>
-                            Sorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Tortor nulla id sit neque scelerisque
-                            pulvinar. amet interdum turpis consequat adipiscing.
-                            Elementum feugiat sed duis consectetur varius et
-                            cras mattis. Lobortis auctor sit in eu nisl fusce
-                            augue venenatis, dui. Phasellus eget sagittis
-                            mauris, nibh augue cursus Tristique amet
-                            sollicitudin sit nulla aliquam, imperdiet sed ut
-                            diam. Suspendisse ipsum rhoncus nulla lectus. Id
-                            neque in urna neque non amet. Tortor sed aliquam in
-                            faucibus enim, posuere. Sed etaccumsan neque posuere
-                            tempus in cras. Ornare lectus pretium est eget
-                            purus, enim quam purus netus.
-                          </p>
-                          <p>
-                            Dictum ultrices et suspendisse amet mattis in
-                            pellentesque. Vulputate arcu, consectetur odio donec
-                            nec duis ultrices facilisi. Mauris cursus elit diam,
-                            urna suspendisse et, amet. Vitae ligula ultrices
-                            nulla justo, enim lorem duis. Volutpat sit et neque
-                            aliquam diam at at neque acus augue
-                          </p>
-                        </div>
-                      </Tab.Pane>
+                     
                      
                     </Tab.Content>
                     {/*=== Review Form ===*/}
