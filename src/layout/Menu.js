@@ -190,12 +190,7 @@ const MobileMenu = () => {
           <li>
                 <Link href="traders">Sponsor Details</Link>
           </li>
-            {/* <li>
-              <Link href="blog-list">Blog List</Link>
-            </li>
-            <li>
-              <Link href="blog-details">Blog Details</Link>
-            </li> */}
+           
           </ul>
         </li>
         <li className="menu-item has-children">
@@ -205,7 +200,7 @@ const MobileMenu = () => {
                 <i className="far fa-angle-down" />
               </span>
             </a>
-            <ul className="sub-menu">
+            <ul className="sub-menu" style ={activeLi("")} >
             <li>
                 <Link href="contact">Details</Link>
               </li>
