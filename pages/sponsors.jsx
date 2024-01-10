@@ -30,7 +30,7 @@ const ProductDetails = () => {
                             Description
                           </Nav.Link>
                         </Nav.Item>
-                        <Nav.Item as={"li"} className="nav-item">
+                        {/* <Nav.Item as={"li"} className="nav-item">
                           <Nav.Link
                             as={"a"}
                             className="nav-link"
@@ -39,7 +39,7 @@ const ProductDetails = () => {
                           >
                             Additional Information
                           </Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                         {/* <Nav.Item as={"li"} className="nav-item">
                           <Nav.Link
                             as={"a"}
@@ -66,7 +66,18 @@ const ProductDetails = () => {
                           partnerships, tap into new markets and leverage the available media exposure – both local
                            and global – in order to drive sustainable business.
                           </p>
-                          
+                          <img
+                                  src="./assets/images/hero/White and Green Sponsorship Poster - Made with PosterMyWall (1).jpg"
+                                    alt="Description of the image"
+                                  className="image-style"
+                                  style={{
+                                   // Set the desired width
+                                    height: '800px',// To maintain aspect ratio
+                                    borderRadius: '10px',
+                                    marginBottom: '80px',
+                                    marginRight: '-20px'// Set the curved border radius
+                                  }}
+                                    />
                         </div>
                       </Tab.Pane>
                       <Tab.Pane
@@ -97,99 +108,25 @@ const ProductDetails = () => {
                             nulla justo, enim lorem duis. Volutpat sit et neque
                             aliquam diam at at neque acus augue
                           </p>
+                          <br></br>
+                          <img
+                                  src="./assets/images/hero/White and Green Sponsorship Poster - Made with PosterMyWall (1).jpg"
+                                    alt="Description of the image"
+                                  className="image-style"
+                                  style={{
+                                   // Set the desired width
+                                    height: '800px',// To maintain aspect ratio
+                                    borderRadius: '10px',
+                                    marginBottom: '80px',
+                                    marginRight: '-20px'// Set the curved border radius
+                                  }}
+                                    />
                         </div>
                       </Tab.Pane>
-                      {/* <Tab.Pane className="tab-pane fade" eventKey="reviews">
-                        <div className="content-box">
-                          <p>
-                            Sorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Tortor nulla id sit neque scelerisque
-                            pulvinar. amet interdum turpis consequat adipiscing.
-                            Elementum feugiat sed duis consectetur varius et
-                            cras mattis. Lobortis auctor sit in eu nisl fusce
-                            augue venenatis, dui. Phasellus eget sagittis
-                            mauris, nibh augue cursus Tristique amet
-                            sollicitudin sit nulla aliquam, imperdiet sed ut
-                            diam. Suspendisse ipsum rhoncus nulla lectus. Id
-                            neque in urna neque non amet. Tortor sed aliquam in
-                            faucibus enim, posuere. Sed etaccumsan neque posuere
-                            tempus in cras. Ornare lectus pretium est eget
-                            purus, enim quam purus netus.
-                          </p>
-                          <p>
-                            Dictum ultrices et suspendisse amet mattis in
-                            pellentesque. Vulputate arcu, consectetur odio donec
-                            nec duis ultrices facilisi. Mauris cursus elit diam,
-                            urna suspendisse et, amet. Vitae ligula ultrices
-                            nulla justo, enim lorem duis. Volutpat sit et neque
-                            aliquam diam at at neque acus augue
-                          </p>
-                        </div>
-                      </Tab.Pane> */}
+                     
                     </Tab.Content>
                     {/*=== Review Form ===*/}
-                    {/* <div className="review-form-area wow fadeInUp mt-50 mb-40">
-                      <h3 className="title">Send Us Reviews</h3>
-                      <p>
-                        We have 3k+ 5star Reviews
-                        <img src="assets/images/shop/rate.png" alt />
-                      </p>
-                      <form className="review-form">
-                        <div className="row">
-                          <div className="col-lg-6">
-                            <div className="form_group">
-                              <input
-                                type="text"
-                                className="form_control"
-                                placeholder="Full Name"
-                                name="name"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-6">
-                            <div className="form_group">
-                              <input
-                                type="text"
-                                className="form_control"
-                                placeholder="Email Address"
-                                name="email"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="form_group">
-                              <input
-                                type="url"
-                                className="form_control"
-                                placeholder="Website"
-                                name="website"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="form_group">
-                              <textarea
-                                name="message"
-                                className="form_control"
-                                placeholder="Write Message"
-                                defaultValue={""}
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="form_group">
-                              <button className="main-btn primary-btn">
-                                Send Reviews
-                                <i className="fas fa-paper-plane" />
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                    </div> */}
+                    
                   </div>
                 </Tab.Container>
               </div>
