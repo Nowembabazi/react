@@ -734,7 +734,7 @@ const Index = () => {
                   src="assets/images/partner/partner-6.png"
                   alt="Partner Image"
                 /> */}
-                <h2>sponsor 1</h2>
+                <h2>Sponsor 1</h2>
               </a>
             </div>
           </div>
