@@ -24,9 +24,9 @@ const Shop = () => {
                   <span className="title">Sort By</span>
                   <select className="wide">
                     <option data-display="Default">Default</option>
-                    <option value={1}>Best Products</option>
-                    <option value={2}>Highest Price</option>
-                    <option value={3}>Lowest Price</option>
+                  
+                    <option value={1}>Highest Price</option>
+                    <option value={2}>Lowest Price</option>
                   </select>
                 </div>
               </div>
