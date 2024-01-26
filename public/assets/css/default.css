@@ -5,6 +5,12 @@
 .mt-5 {
   margin-top: 5px; }
 
+li {
+    font-size: 16px;
+    font-weight: lighter;
+}
+  
+
 .mt-10 {
   margin-top: 10px; }
 

@@ -4,7 +4,7 @@ import Layout from "@/src/layout/Layout";
 const Events = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Events"} />
+      <PageBanner pageTitle={""} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section">
         {/* <div className="container-fluid">
@@ -105,14 +105,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 28, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">Enjoy the Expo</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -130,14 +130,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 29, 2024</a>
                     </span>
                     <h3 className="title">
                       <a href="#">Great Advice For Build Awesome Mintality</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -155,14 +155,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 28, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">The Tourism Expo</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -180,14 +180,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 27, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">How To Enjoy you stay in Uganda</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo 
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -205,14 +205,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 27, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">Grocery &amp; Specialty For Food West</a>
+                      <a href="#"> The Pearl Of Africa</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -230,14 +230,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 27, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">Vancouver International Travel Expo</a>
+                      <a href="#">International Tourism Expo</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo
+                      Kampala, Uganda.
                     </p>
                   </div>
                 </div>
@@ -255,14 +255,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 27, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">Daily Events</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -280,14 +280,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 28, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">EXPO Presentations</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -305,14 +305,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">June 27, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">Happening Now</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Kololo
+                      Kampala, Uganda
                     </p>
                   </div>
                 </div>
@@ -335,12 +335,7 @@ const Events = () => {
                 <li>
                   <a href="#">02</a>
                 </li>
-                <li>
-                  <a href="#">03</a>
-                </li>
-                <li>
-                  <a href="#">04</a>
-                </li>
+                
                 <li>
                   <a href="#">
                     <i className="far fa-arrow-right" />
@@ -353,7 +348,7 @@ const Events = () => {
       </section>
       {/*====== End Events Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
     </Layout>
   );

@@ -192,6 +192,11 @@ ul, ol {
   list-style-type: none;
 }
 
+li {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
 p {
   margin: 0px;
 }

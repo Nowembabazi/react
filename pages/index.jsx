@@ -320,50 +320,22 @@ const Index = () => {
                     <br/>
                   </div>
            
-            {/* <div className="skill-wrapper">
-              <div className="single-skill-circle text-center">
-                <div className="inner-circle">
-                  <div className="line" />
-                  <span className="number">60%</span>
-                </div>
-                <h5>Saticfied Clients</h5>
-              </div>
-              <div className="single-skill-circle text-center">
-                <div className="inner-circle">
-                  <div className="line" />
-                  <span className="number">93%</span>
-                </div>
-                <h5>Success Rate</h5>
-              </div>
-            </div> */}
+          
           </div>
         </div>
         </div>
       </div>
     </section>
-    {/* <section className="partners-section black-dark-bg">
-      <div className="cont">
-      <img
-                src="assets/images/about/about-3.jpg"
-                alt="About image"
-                style={{
-                  width: '120%', // Set the desired width
-                  height: 'auto', // To maintain aspect ratio
-                  borderRadius: '10px',
-                  marginLeft: '-4px',
-                  marginRight: '84px'// Set the curved border radius
-                }}
-              />
-      </div>
-    </section> */}
-    <section className="services-section black-bg pt-100 pb-100">
+  
+    <section className="services-section  pt-100 pb-100" style={{ backgroundColor: ' #DEDEDE',             
+                                                                borderRadius: '18px', }}>
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-xl-7">
           
             <div className="section-title text-center text-white mb-50 wow fadeInDown">
               <span className="sub-title">Exibitors</span>
-              <h2 style={{ fontSize: '32px' }}>Daily Events as they happen.</h2>
+              <h2  style={{ fontSize: '32px', color:'black' }} >Daily Events as they happen.</h2>
             </div>
           </div>
         </div>
@@ -490,7 +462,109 @@ const Index = () => {
         </Slider>
       </div>
     </section>
- 
+    <section className="events-section pt-100 pb-1000">
+        <div className="container">
+          {/*====== Products Filter ======*/}
+          <div className="page-item-filter mb-40 wow fadeInUp">
+            <div className="row align-items-center justify-content-center">
+              <div className="col-md-7">
+                {/*====== Show Text ======*/}
+                <div className="show-text mb-20">
+                  <h4>The News Corner</h4>
+                </div>
+              </div>
+              <div className="col-md-5">
+                {/*====== Product Dropdown ======*/}
+                <div className="product-dropdown float-md-end">
+                  <span className="title">Sort By</span>
+                  <select className="wide">
+                    <option data-display="Default">Default</option>
+                    <option value={1}>Best Event</option>
+                    <option value={2}>New Events</option>
+                    <option value={3}>Upcoming Event</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="single-event-item mb-30 wow fadeInUp">
+                <div className="img-holder">
+                  <img
+                    src="assets/images/event/event-1.jpg"
+                    alt="Event Image"
+                  />
+                </div>
+                <div className="content">
+                  <div className="meta">
+                    <span>
+                      <i className="far fa-calendar-alt" />
+                      <a href="#">September 25, 2022</a>
+                    </span>
+                    <h3 className="title">
+                      <a href="#">Keep upto date with the Expo</a>
+                    </h3>
+                    <p className="location">
+                      <i className="far fa-map-marker-alt" /> kololo
+                      Kampala , Uganda
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="single-event-item mb-30 wow fadeInUp">
+                <div className="img-holder">
+                  <img
+                    src="assets/images/event/event-2.jpg"
+                    alt="Event Image"
+                  />
+                </div>
+                <div className="content">
+                  <div className="meta">
+                    <span>
+                      <i className="far fa-calendar-alt" />
+                      <a href="#">September 25, 2024</a>
+                    </span>
+                    <h3 className="title">
+                      <a href="#">Keep upto date with the Expo</a>
+                    </h3>
+                    <p className="location">
+                      <i className="far fa-map-marker-alt" /> kololo Kampala, Uganda
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="single-event-item mb-30 wow fadeInUp">
+                <div className="img-holder">
+                  <img
+                    src="assets/images/event/event-3.jpg"
+                    alt="Event Image"
+                  />
+                </div>
+                <div className="content">
+                  <div className="meta">
+                    <span>
+                      <i className="far fa-calendar-alt" />
+                      <a href="#">September 25, 2024</a>
+                    </span>
+                    <h3 className="title">
+                      <a href="#">Keep upto date with the Expo</a>
+                    </h3>
+                    <p className="location">
+                      <i className="far fa-map-marker-alt" /> kololo Kampala, Uganda
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <section className="team-section pt-100 pb-70">
       <div className="container">
         <div className="row justify-content-center">
@@ -498,7 +572,7 @@ const Index = () => {
          
             <div className="section-title text-center mb-50 wow fadeInDown">
               <span className="sub-title">Team Member</span>
-              <h2>A word from the keynote speakers</h2>
+              <h2  style={{ fontSize: '32px' }} >A word from the keynote speakers</h2>
             </div>
           </div>
         </div>
@@ -619,152 +693,7 @@ const Index = () => {
       </div>
     </section>
    
-    {/* <section className="activity-section pb-60">
-      <div className="container-fluid">
-       
-        <Slider
-          {...sliderActive3Item}
-          className="slider-active-3-item wow fadeInUp"
-        >
-          
-          <div className="single-activity-item mb-40">
-            <div className="img-holder">
-              <img src="assets/images/gallery/act-1.jpg" alt="Image" />
-            </div>
-            <div className="content">
-              <div className="meta">
-                <ul>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-blanket" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-cat" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-tent" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-fire" />
-                    </span>
-                  </li>
-                </ul>
-                <div className="rate">
-                  <i className="fas fa-star" />
-                  4.9
-                </div>
-              </div>
-              <h3 className="title">Classic Tents</h3>
-              <p>
-                Quis autem veleum reprehenderit voluptate velit esse quame
-                nihile molestiae consequatur veillum dolorem eumy
-              </p>
-              <a href="#" className="main-btn filled-btn">
-                Check Now
-                <i className="fas fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-        
-          <div className="single-activity-item mb-40">
-            <div className="img-holder">
-              <img src="assets/images/gallery/act-2.jpg" alt="Image" />
-            </div>
-            <div className="content">
-              <div className="meta">
-                <ul>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-blanket" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-cat" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-tent" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-fire" />
-                    </span>
-                  </li>
-                </ul>
-                <div className="rate">
-                  <i className="fas fa-star" />
-                  4.9
-                </div>
-              </div>
-              <h3 className="title">Small Cabin Wood</h3>
-              <p>
-                Quis autem veleum reprehenderit voluptate velit esse quame
-                nihile molestiae consequatur veillum dolorem eumy
-              </p>
-              <a href="#" className="main-btn filled-btn">
-                Check Now
-                <i className="fas fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-         
-          <div className="single-activity-item mb-40">
-            <div className="img-holder">
-              <img src="assets/images/gallery/act-3.jpg" alt="Image" />
-            </div>
-            <div className="content">
-              <div className="meta">
-                <ul>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-blanket" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-cat" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-tent" />
-                    </span>
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="flaticon-fire" />
-                    </span>
-                  </li>
-                </ul>
-                <div className="rate">
-                  <i className="fas fa-star" />
-                  4.9
-                </div>
-              </div>
-              <h3 className="title">RV Caravan Trailer</h3>
-              <p>
-                Quis autem veleum reprehenderit voluptate velit esse quame
-                nihile molestiae consequatur veillum dolorem eumy
-              </p>
-              <a href="#" className="main-btn filled-btn">
-                Check Now
-                <i className="fas fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-        </Slider>
-      </div>
-    </section> */}
-  
+   
     <section
       className="cta-bg overlay bg_cover pt-150 pb-150"
       style={{ backgroundImage: "url(assets/images/about/about-5.jpg)" }}
@@ -789,86 +718,7 @@ const Index = () => {
       </div>
     </section>
    
-    <section className="blog-section pt-100 pb-60">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-xl-6">
-          
-            <div className="blog-content-box mb-40 wow fadeInLeft">
-            
-              <div className="section-title mb-30">
-                <span className="sub-title">News &amp; Blog</span>
-                <h3>
-                Utalii Africa Tourism Expo 
-                set to happen
-                in 2024
-                </h3>
-              </div>
-              <p className="mb-24">
-              Thia section will have live updates from kololo as they happen
-              </p>
-              <Link legacyBehavior href="#">
-                <a className="btn-link">
-                  View More Details <i className="far fa-long-arrow-right" />
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="col-xl-6">
-           
-            <div className="single-blog-post-two mb-40 wow fadeInUp">
-              <div className="post-thumbnail">
-                <img src="assets/images/hero/hero-three_img-1.jpg" alt="Blog Image" />
-              </div>
-              <div className="entry-content">
-                <div className="post-meta">
-                  <span>
-                    <i className="far fa-calendar-alt" />
-                    <a href="#">November 15, 2023</a>
-                  </span>
-                  <h4 className="title">
-                    <Link legacyBehavior href="#">
-                      <a>Welcome to The News Daily!</a>
-                    </Link>
-                  </h4>
-                  <Link legacyBehavior href="#">
-                    <a className="main-btn filled-btn">
-                      Read More
-                      <i className="far fa-paper-plane" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          
-            <div className="single-blog-post-two mb-40 wow fadeInDown">
-              <div className="post-thumbnail">
-                <img src="assets/images/hero/hero-two_img-1.jpg" alt="Blog Image" />
-              </div>
-              <div className="entry-content">
-                <div className="post-meta">
-                  <span>
-                    <i className="far fa-calendar-alt" />
-                    <a href="#">November 4, 2023</a>
-                  </span>
-                  <h3 className="title">
-                    <Link legacyBehavior href="/blog-details">
-                      <a>Meet the brains behind the expo</a>
-                    </Link>
-                  </h3>
-                  <Link legacyBehavior href="/blog-details">
-                    <a className="main-btn filled-btn">
-                      Read More
-                      <i className="far fa-paper-plane" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> 
+    
     <section className="partners-section black-dark-bg" style={{ marginBottom: '-180px', color: 'lightgreen' }}>
       <div className="container">
         {/*=== Partners Slider ===*/}
@@ -884,7 +734,7 @@ const Index = () => {
                   src="assets/images/partner/partner-6.png"
                   alt="Partner Image"
                 /> */}
-                <h2>sponsor 1</h2>
+                <h2>Sponsor 1</h2>
               </a>
             </div>
           </div>
