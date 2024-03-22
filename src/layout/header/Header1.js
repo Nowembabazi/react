@@ -5,7 +5,7 @@ const Header1 = () => {
   return (
     <header className="header-area header-one transparent-header">
       {/*====== Header Navigation ======*/}
-      <div className="header-navigation navigation-white">
+      <div className="header-navigation navigation-white" style={{ backgroundColor: '#D2691E', color: 'grey' }}>
         <div className="nav-overlay" />
         <div className="container-fluid">
           <div className="primary-menu">
@@ -14,8 +14,8 @@ const Header1 = () => {
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
-                    src="assets/images/logo/logo-white.png"
-                    alt="Site Logo"
+                    // src="assets/images/logo/logo-white.png"
+                    // alt="Site Logo"
                   />
                 </a>
               </Link>
@@ -27,8 +27,8 @@ const Header1 = () => {
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
                     <img
-                      src="assets/images/logo/logo-black.png"
-                      alt="Site Logo"
+                      // src="assets/images/logo/logo-black.png"
+                      // alt="Site Logo"
                     />
                   </a>
                 </Link>

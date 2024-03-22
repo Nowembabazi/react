@@ -1,48 +1,13 @@
 const Footer = ({ bg, extraClass }) => {
   return (
     <footer
-      className={`main-footer ${bg ? bg : "black"}-bg ${
+      className={`main-footer ${bg ? bg : "Brown"}-bg ${
         extraClass ? extraClass : ""
       }`}
     >
       <div className="container">
         {/*=== Footer CTA ===*/}
-        <div className="footer-cta pt-80 pb-40">
-          <div className="row">
-            <div className="col-lg-6">
-              {/*=== Single CTA Item ===*/}
-              <div className="single-cta-item pr-lg-60 mb-40">
-                <div className="icon">
-                  <img src="assets/images/icon/support.png" alt="Icon" />
-                </div>
-                <div className="content">
-                  <h3 className="title">
-                    Need Any Support For Tour &amp; Travels ?
-                  </h3>
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              {/*=== Single CTA Item ===*/}
-              <div className="single-cta-item pl-lg-60 mb-40">
-                <div className="icon">
-                  <img src="assets/images/icon/travel.png" alt="Icon" />
-                </div>
-                <div className="content">
-                  <h3 className="title">
-                    Ready to Get Started With Vacations!
-                  </h3>
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
         {/*=== Footer Widget ===*/}
         <div className="footer-widget-area pt-75 pb-30">
           <div className="row">
@@ -52,8 +17,7 @@ const Footer = ({ bg, extraClass }) => {
                 <h4 className="widget-title">About</h4>
                 <div className="footer-content">
                   <p>
-                    To take trivial example which us ever undertakes laborious
-                    physica exercise except obsome
+                   More text will be typed in here
                   </p>
                   <a href="#" className="footer-logo">
                     <img
@@ -63,6 +27,11 @@ const Footer = ({ bg, extraClass }) => {
                           : "assets/images/logo/logo-white.png"
                       }
                       alt="Site Logo"
+                      style={{
+                        width: '120px', // Set the desired width
+                        height: 'auto', // To maintain aspect ratio
+                        borderRadius: '28px' // Set the curved border radius
+                      }}
                     />
                   </a>
                 </div>
@@ -75,20 +44,15 @@ const Footer = ({ bg, extraClass }) => {
                 <div className="footer-content">
                   <ul className="footer-widget-nav">
                     <li>
-                      <a href="#">Caravan Soler Tent</a>
+                      <a href="#">Expo</a>
                     </li>
                     <li>
-                      <a href="#">Family Tent Camping</a>
+                      <a href="#">Expo</a>
                     </li>
                     <li>
-                      <a href="#">Classic Tent Camping</a>
+                      <a href="#">Expo</a>
                     </li>
-                    <li>
-                      <a href="#">Wild Tent Camping</a>
-                    </li>
-                    <li>
-                      <a href="#">Small Cabin Wood</a>
-                    </li>
+                    
                   </ul>
                   <ul className="footer-widget-nav">
                     <li>
@@ -113,8 +77,7 @@ const Footer = ({ bg, extraClass }) => {
                 <h4 className="widget-title">Newsletter</h4>
                 <div className="footer-content">
                   <p>
-                    Which of us ever undertake laborious physical exercise
-                    except obtain
+                  WE WILL HAVE TEXT IN HERE.
                   </p>
                   <form>
                     <div className="form_group">
@@ -142,7 +105,7 @@ const Footer = ({ bg, extraClass }) => {
               {/*=== Footer Text ===*/}
               <div className="footer-text">
                 <p>
-                  Copy@ 2023 <span style={{ color: "#F7921E" }}>GoWilds</span>,
+                  Copy@ 2024 <span style={{ color: "#F7921E" }}>UATE</span>,
                   All Right Reserved
                 </p>
               </div>
@@ -154,9 +117,7 @@ const Footer = ({ bg, extraClass }) => {
                   <li>
                     <a href="#">Setting &amp; privacy</a>
                   </li>
-                  <li>
-                    <a href="#">Faqs</a>
-                  </li>
+                 
                   <li>
                     <a href="#">Support</a>
                   </li>

@@ -8,6 +8,7 @@ const DestinationDetails = () => {
   return (
     <Layout extraClass={"pt-160"}>
       <PageBanner pageTitle={"Destination Details"} />
+      
       {/*====== Start Destination Details Section ======*/}
       <section className="destination-details-section pt-100 pb-70">
         <div className="container">
